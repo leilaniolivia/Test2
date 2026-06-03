@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 270,
+    "build": 269,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -526,7 +526,13 @@
         {
           "name": "attributeTracker",
           "type": "structure",
-          "children": []
+          "children": [
+            {
+              "name": "childVariable",
+              "type": "number",
+              "value": 0
+            }
+          ]
         },
         {
           "name": "groupCount",
@@ -1722,87 +1728,81 @@
                 ""
               ]
             }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Blob",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "DistanceBetweenPositions(\n    Blob.X(),\n    Blob.Y(),\n    Variable(startX),\n    Variable(startY))",
-                "<=",
-                "Variable(radius)"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringObjectVariable"
-              },
-              "parameters": [
-                "Blob",
-                "inGroup",
-                "=",
-                "\"1\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Blob",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "DistanceBetweenPositions(\n Blob.X(),\n Blob.Y(),\n Variable(startX),\n Variable(startY)\n)",
-                ">",
-                "Variable(radius)"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringObjectVariable"
-              },
-              "parameters": [
-                "Blob",
-                "inGroup",
-                "=",
-                "\"0\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "groupText",
-                "startX",
-                "startY",
-                ""
-              ]
-            }
           ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Blob",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "DistanceBetweenPositions(\n    Blob.X(),\n    Blob.Y(),\n    Variable(startX),\n    Variable(startY))",
+                    "<=",
+                    "Variable(radius)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Blob",
+                    "inGroup",
+                    "=",
+                    "\"1\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Blob",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "DistanceBetweenPositions(\n Blob.X(),\n Blob.Y(),\n Variable(startX),\n Variable(startY)\n)",
+                    ">",
+                    "Variable(radius)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Blob",
+                    "inGroup",
+                    "=",
+                    "\"0\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Blob",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -1835,6 +1835,18 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "groupText",
+                "startX",
+                "startY",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
@@ -1932,10 +1944,32 @@
                     "+",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "attributeTracker[Blob.VariableString(color)]",
+                    "+",
+                    "1"
+                  ]
                 }
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Find highest tally"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
