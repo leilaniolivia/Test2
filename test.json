@@ -252,6 +252,30 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/NewPanelSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewPanelSprite.png\"}",
+        "name": "NewPanelSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewPanelSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewPanelSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite9.png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -408,52 +432,46 @@
     },
     {
       "assetStoreId": "",
-      "name": "circlePreview",
-      "persistentUuid": "6e08bfdf-51fa-413e-b372-80dc21e58d46",
-      "type": "PrimitiveDrawing::Drawer",
+      "bold": false,
+      "italic": false,
+      "name": "groupText",
+      "persistentUuid": "1aec0dd0-5bab-40e2-86de-3ca1fd2e917d",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "fillOpacity": 0,
-      "outlineSize": 1,
-      "outlineOpacity": 255,
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": false,
-      "antialiasing": "none",
-      "fillColor": {
-        "r": 255,
-        "g": 255,
-        "b": 255
-      },
-      "outlineColor": {
-        "r": 74,
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 226,
         "g": 144,
-        "b": 226
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "drawnCircle",
-      "persistentUuid": "3a4b1e91-a32d-40bb-bdc6-1aa4f0b47428",
-      "type": "PrimitiveDrawing::Drawer",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "fillOpacity": 0,
-      "outlineSize": 3,
-      "outlineOpacity": 130,
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": false,
-      "antialiasing": "none",
-      "fillColor": {
-        "r": 255,
-        "g": 255,
-        "b": 255
+        "r": 74
       },
-      "outlineColor": {
-        "r": 74,
-        "g": 144,
-        "b": 226
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "74;144;226"
       }
     }
   ],
@@ -464,10 +482,7 @@
         "objectName": "Blob"
       },
       {
-        "objectName": "circlePreview"
-      },
-      {
-        "objectName": "drawnCircle"
+        "objectName": "groupText"
       }
     ]
   },
@@ -509,12 +524,12 @@
           "value": false
         },
         {
-          "name": "startX",
+          "name": "lassoCenterX",
           "type": "number",
           "value": 0
         },
         {
-          "name": "startY",
+          "name": "lassoCenterY",
           "type": "number",
           "value": 0
         },
@@ -526,13 +541,7 @@
         {
           "name": "attributeTracker",
           "type": "structure",
-          "children": [
-            {
-              "name": "childVariable",
-              "type": "number",
-              "value": 0
-            }
-          ]
+          "children": []
         },
         {
           "name": "groupCount",
@@ -546,6 +555,16 @@
         },
         {
           "name": "totalBlobsInCircle",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "currentChildValue",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "lassoHits",
           "type": "number",
           "value": 0
         }
@@ -646,91 +665,77 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "drawnCircle",
-          "persistentUuid": "53cd42f1-485a-4e1c-b9f5-bae26e2bd9b5",
-          "width": 0,
-          "x": 1171,
-          "y": 365,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "circlePreview",
-          "persistentUuid": "2d810bcf-9b79-4832-8e73-710cdad48a0d",
-          "width": 0,
-          "x": 1140,
-          "y": 318,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "groupText",
-          "persistentUuid": "1aec0dd0-5bab-40e2-86de-3ca1fd2e917d",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
+          "name": "lassoPoint",
+          "persistentUuid": "87686f58-57e9-444e-ba16-68ed81f0949e",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Text",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
-          "color": {
-            "b": 226,
-            "g": 144,
-            "r": 74
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Text",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 20,
-            "lineHeight": 0,
-            "color": "74;144;226"
-          }
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30.5,
+                            "y": 27.5
+                          },
+                          {
+                            "x": 33.5,
+                            "y": 27.5
+                          },
+                          {
+                            "x": 33.5,
+                            "y": 30.5
+                          },
+                          {
+                            "x": 30.5,
+                            "y": 30.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "groupText"
+            "objectName": "lassoPoint"
           }
         ]
       },
@@ -1269,7 +1274,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Circle Drawing",
+          "name": "Lasso Drawing",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
@@ -1300,210 +1305,34 @@
               ]
             }
           ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "groupText",
-                    "Text"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::Drawer::ClearShapes"
-                  },
-                  "parameters": [
-                    "drawnCircle"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "isDrawing",
-                    "True",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "startX",
-                    "=",
-                    "MouseX(\"Scene\")"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "startY",
-                    "=",
-                    "MouseY(\"Scene\")"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::Drawer::ClearShapes"
-                  },
-                  "parameters": [
-                    "circlePreview"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Mouse held"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "isDrawing",
-                "True",
-                ""
-              ]
-            }
-          ],
           "actions": [
             {
               "type": {
-                "value": "PrimitiveDrawing::Drawer::ClearShapes"
+                "value": "Delete"
               },
               "parameters": [
-                "circlePreview"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetX"
-              },
-              "parameters": [
-                "circlePreview",
-                "=",
-                "startX"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetY"
-              },
-              "parameters": [
-                "circlePreview",
-                "=",
-                "startY"
-              ]
-            },
-            {
-              "type": {
-                "value": "PrimitiveDrawing::Circle"
-              },
-              "parameters": [
-                "circlePreview",
-                "Variable(startX)",
-                "Variable(startY)",
-                "DistanceBetweenPositions(Variable(startX), Variable(startY), MouseX(\"Scene\"), MouseY(\"Scene\"))"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCenterX"
-              },
-              "parameters": [
-                "circlePreview",
-                "=",
-                "startX"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCenterY"
-              },
-              "parameters": [
-                "circlePreview",
-                "=",
-                "startY"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Mouse released"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "isDrawing",
-                "True",
+                "groupText",
                 ""
               ]
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "groupCount",
+                "lassoCenterX",
                 "=",
-                "0"
+                "MouseX()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "lassoCenterY",
+                "=",
+                "MouseY()"
               ]
             },
             {
@@ -1512,71 +1341,48 @@
               },
               "parameters": [
                 "",
-                "drawnCircle",
-                "startX",
-                "startY",
+                "lassoPoint",
+                "MouseX()",
+                "MouseY()",
                 ""
               ]
             },
             {
               "type": {
-                "value": "PrimitiveDrawing::Circle"
+                "value": "Create"
               },
               "parameters": [
-                "drawnCircle",
-                "Variable(startX)",
-                "Variable(startY)",
-                "DistanceBetweenPositions(Variable(startX), Variable(startY), MouseX(\"Scene\"), MouseY(\"Scene\")) "
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCenterX"
-              },
-              "parameters": [
-                "drawnCircle",
-                "=",
-                "startX"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCenterY"
-              },
-              "parameters": [
-                "drawnCircle",
-                "=",
-                "startY"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "isDrawing",
-                "False",
+                "",
+                "groupText",
+                "MouseX()",
+                "MouseY()",
                 ""
               ]
             },
             {
               "type": {
-                "value": "PrimitiveDrawing::Drawer::ClearShapes"
-              },
-              "parameters": [
-                "circlePreview"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
                 "groupText",
-                "Text"
+                "Text",
+                "=",
+                "\"Number of Blobs in group: \" + totalBlobsInCircle"
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Calculate center of lasso"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -1587,9 +1393,127 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "radius",
+                "lassoCenterX",
                 "=",
-                "DistanceBetweenPositions(\nVariable(startX),\nVariable(startY),\nMouseX(\"Scene\"),\nMouseY(\"Scene\")\n)"
+                "lassoPoint.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "lassoCenterY",
+                "=",
+                "lassoPoint.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Inside/Outside test"
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Blob",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "lassoHits",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Raycast"
+                  },
+                  "parameters": [
+                    "lassoPoint",
+                    "Blob.X()",
+                    "Blob.Y()",
+                    "AngleBetweenPositions(Blob.X(), Blob.Y(), Variable(lassoCenterX), Variable(lassoCenterY))",
+                    "DistanceBetweenPositions(Blob.X(), Blob.Y(), Variable(lassoCenterX), Variable(lassoCenterY))",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Blob",
+                    "inGroup",
+                    "=",
+                    "\n\"0\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Raycast"
+                  },
+                  "parameters": [
+                    "lassoPoint",
+                    "Blob.X()",
+                    "Blob.Y()",
+                    "AngleBetweenPositions(Blob.X(), Blob.Y(), Variable(lassoCenterX), Variable(lassoCenterY))",
+                    "DistanceBetweenPositions(Blob.X(), Blob.Y(), Variable(lassoCenterX), Variable(lassoCenterY))",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Blob",
+                    "inGroup",
+                    "=",
+                    "\n\"1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "groupCount",
+                    "+",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
@@ -1606,6 +1530,7 @@
           "parameters": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -1634,6 +1559,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Blob",
           "conditions": [],
@@ -1641,32 +1567,8 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "drawnCircle",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
+              "conditions": [],
               "actions": [
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "inGroup",
-                    "=",
-                    "drawnCircle.VariableString(Name)"
-                  ]
-                },
                 {
                   "type": {
                     "value": "EffectCapability::EffectBehavior::EnableEffect"
@@ -1739,7 +1641,7 @@
                     "value": "BuiltinCommonInstructions::CompareNumbers"
                   },
                   "parameters": [
-                    "DistanceBetweenPositions(\n    Blob.X(),\n    Blob.Y(),\n    Variable(startX),\n    Variable(startY))",
+                    "DistanceBetweenPositions(Blob.X(), Blob.Y(), Variable(lassoCenterX), Variable(lassoCenterY))",
                     "<=",
                     "Variable(radius)"
                   ]
@@ -1768,7 +1670,7 @@
                     "value": "BuiltinCommonInstructions::CompareNumbers"
                   },
                   "parameters": [
-                    "DistanceBetweenPositions(\n Blob.X(),\n Blob.Y(),\n Variable(startX),\n Variable(startY)\n)",
+                    "DistanceBetweenPositions(Blob.X(), Blob.Y(), Variable(lassoCenterX), Variable(lassoCenterY))",
                     ">",
                     "Variable(radius)"
                   ]
@@ -1842,8 +1744,8 @@
               "parameters": [
                 "",
                 "groupText",
-                "startX",
-                "startY",
+                "lassoCenterX",
+                "lassoCenterY",
                 ""
               ]
             },
@@ -1956,20 +1858,89 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Find highest Tally"
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEachChildVariable",
+              "iterableVariableName": "attributeTracker",
+              "valueIteratorVariableName": "currentChildValue",
+              "keyIteratorVariableName": "",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "currentChildValue",
+                    ">",
+                    "Variable(maxAttributeCount)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "maxAttributeCount",
+                    "=",
+                    "Variable(currentChildValue)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "totalBlobsInCircle",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drawnCircle",
+                    "harmonyScore",
+                    "=",
+                    "(Variable(maxAttributeCount) / Variable(totalBlobsInCircle)) * 100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "groupText",
+                    "Text",
+                    "=",
+                    "\"Blobs in group: \" + ToString(Variable(groupCount)) + \" | Harmony: \" + ToString(drawnCircle.Variable(harmonyScore)) + \"%\""
+                  ]
+                }
+              ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Find highest tally"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -2201,6 +2172,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
