@@ -524,14 +524,24 @@
           "value": 0
         },
         {
+          "name": "attributeTracker",
+          "type": "structure",
+          "children": []
+        },
+        {
           "name": "groupCount",
           "type": "number",
           "value": 0
         },
         {
-          "name": "attributeTracker",
-          "type": "structure",
-          "children": []
+          "name": "maxAttributeCount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "totalBlobsInCircle",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -1869,12 +1879,60 @@
           "actions": [
             {
               "type": {
+                "value": "ClearVariableChildren"
+              },
+              "parameters": [
+                "attributeTracker"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "attributeTracker",
+                "maxAttributeCount",
                 "=",
-                ""
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "totalBlobsInCircle",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Blob",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "DistanceBetweenPositions(Blob.X(), Blob.Y(), drawnCircle.X(), drawnCircle.Y())",
+                    "<=",
+                    "drawnCircle.Variable(radius)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "totalBlobsInCircle",
+                    "+",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
