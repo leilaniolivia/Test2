@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 270,
+    "build": 269,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -276,6 +276,14 @@
         "name": "NewSprite6",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/currentCircle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "currentCircle",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -309,9 +317,9 @@
           "value": 0
         },
         {
-          "name": "inGroup",
-          "type": "string",
-          "value": "\"\""
+          "name": "currentCircleId",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [
@@ -490,15 +498,15 @@
   "variables": [],
   "layouts": [
     {
-      "b": 255,
+      "b": 32,
       "disableInputWhenNotFocused": true,
       "mangledName": "Gameplay",
       "name": "Gameplay",
-      "r": 255,
+      "r": 1,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 255,
+      "v": 50,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -511,7 +519,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3111974942445203,
+        "zoomFactor": 0.546875,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -524,32 +532,7 @@
           "value": false
         },
         {
-          "name": "lassoCenterX",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "lassoCenterY",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "radius",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "attributeTracker",
-          "type": "structure",
-          "children": []
-        },
-        {
           "name": "groupCount",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "maxAttributeCount",
           "type": "number",
           "value": 0
         },
@@ -559,12 +542,17 @@
           "value": 0
         },
         {
-          "name": "currentChildValue",
+          "name": "centerX",
           "type": "number",
           "value": 0
         },
         {
-          "name": "lassoHits",
+          "name": "centerY",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "circleCounter",
           "type": "number",
           "value": 0
         }
@@ -577,11 +565,107 @@
           "keepRatio": true,
           "layer": "",
           "name": "Blob",
+          "persistentUuid": "85e56372-2814-4775-a646-baa2dda73bb9",
+          "width": 0,
+          "x": 137,
+          "y": 222,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Blob",
+          "persistentUuid": "2231c494-4a56-4fc1-aaef-31e45bb3b5b6",
+          "width": 0,
+          "x": 943,
+          "y": 53,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Blob",
+          "persistentUuid": "bbcf8960-06c8-4771-886c-86d6799fb3cb",
+          "width": 0,
+          "x": 488,
+          "y": 362,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Blob",
+          "persistentUuid": "aa2a8587-96f9-474d-ad1c-2e0e1035e9aa",
+          "width": 0,
+          "x": 477,
+          "y": 133,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Blob",
+          "persistentUuid": "a77a78f0-4685-45a5-8b01-c5d27f00d994",
+          "width": 0,
+          "x": 881,
+          "y": 387,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Blob",
           "persistentUuid": "e91364a4-b7f2-4c36-b57f-e17730ba4d6d",
           "width": 0,
-          "x": 170,
-          "y": 178,
+          "x": 190,
+          "y": 472,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "circleVisual",
+          "persistentUuid": "d4abe37f-a26a-425a-bc56-e006d14f2fcb",
+          "width": 0,
+          "x": 1151,
+          "y": 322,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -589,10 +673,41 @@
       ],
       "objects": [
         {
+          "assetStoreId": "",
+          "name": "circleVisual",
+          "persistentUuid": "5a364302-65ec-4d32-bad3-940449f424b1",
+          "type": "PrimitiveDrawing::Drawer",
+          "variables": [
+            {
+              "name": "radius",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "fillOpacity": 0,
+          "outlineSize": 2,
+          "outlineOpacity": 255,
+          "absoluteCoordinates": true,
+          "clearBetweenFrames": true,
+          "antialiasing": "none",
+          "fillColor": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "outlineColor": {
+            "r": 168,
+            "g": 247,
+            "b": 243
+          }
+        },
+        {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "lassoPoint",
-          "persistentUuid": "87686f58-57e9-444e-ba16-68ed81f0949e",
+          "name": "finalCircle",
+          "persistentUuid": "b202845e-64a1-48c8-bae1-88af6b166e26",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -600,7 +715,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "currentCircle",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -610,12 +725,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite6",
+                      "image": "currentCircle",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 32,
-                        "y": 32
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -626,20 +741,80 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 30.5,
-                            "y": 27.5
+                            "x": 19,
+                            "y": 22.5
                           },
                           {
-                            "x": 33.5,
-                            "y": 27.5
+                            "x": 22.5,
+                            "y": 18.5
                           },
                           {
-                            "x": 33.5,
-                            "y": 30.5
+                            "x": 27.5,
+                            "y": 16.5
                           },
                           {
-                            "x": 30.5,
-                            "y": 30.5
+                            "x": 32,
+                            "y": 16
+                          },
+                          {
+                            "x": 37.5,
+                            "y": 17
+                          },
+                          {
+                            "x": 42,
+                            "y": 19
+                          },
+                          {
+                            "x": 44.5,
+                            "y": 22
+                          },
+                          {
+                            "x": 46.5,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 48.5,
+                            "y": 30
+                          },
+                          {
+                            "x": 47.5,
+                            "y": 35
+                          },
+                          {
+                            "x": 45.5,
+                            "y": 40
+                          },
+                          {
+                            "x": 41,
+                            "y": 44.5
+                          },
+                          {
+                            "x": 35,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 28.5,
+                            "y": 46.5
+                          },
+                          {
+                            "x": 25,
+                            "y": 45.5
+                          },
+                          {
+                            "x": 21.5,
+                            "y": 43.5
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 40
+                          },
+                          {
+                            "x": 16.5,
+                            "y": 35
+                          },
+                          {
+                            "x": 16,
+                            "y": 28
                           }
                         ]
                       ]
@@ -655,7 +830,10 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "lassoPoint"
+            "objectName": "circleVisual"
+          },
+          {
+            "objectName": "finalCircle"
           }
         ]
       },
@@ -1070,7 +1248,7 @@
               "parameters": [
                 "Blob",
                 "=",
-                "5"
+                "6"
               ]
             }
           ]
@@ -1108,7 +1286,7 @@
               "parameters": [
                 "Blob",
                 "=",
-                "SceneWindowWidth() - Blob.Width() - 6"
+                "SceneWindowWidth() - Blob.Width() - 7"
               ]
             }
           ]
@@ -1225,6 +1403,163 @@
               ]
             }
           ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "isDrawing",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "circleVisual",
+                    "MouseX()",
+                    "MouseY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "centerX",
+                    "=",
+                    "MouseX()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "centerY",
+                    "=",
+                    "MouseY()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "isDrawing",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "circleVisual",
+                    "radius",
+                    "=",
+                    "sqrt(pow(circleVisual.X() - MouseX(), 2) + pow(circleVisual.Y() - MouseY(), 2))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::Circle"
+                  },
+                  "parameters": [
+                    "circleVisual",
+                    "Variable(centerX)",
+                    "Variable(centerY)",
+                    "sqrt(pow(Variable(centerX) - MouseX(), 2) + pow(Variable(centerY) - MouseY(), 2))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "finalCircle",
+                    "centerX",
+                    "centerY",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "finalCircle",
+                    "Resizable",
+                    "=",
+                    "sqrt(pow(Variable(centerX) - MouseX(), 2) + pow(Variable(centerY) - MouseY(), 2)) *2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "finalCircle",
+                    "Resizable",
+                    "=",
+                    "sqrt(pow(Variable(centerX) - MouseX(), 2) + pow(Variable(centerY) - MouseY(), 2)) *2"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Mouse released"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -1237,206 +1572,20 @@
             },
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "lassoCenterX",
-                "=",
-                "MouseX()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "lassoCenterY",
-                "=",
-                "MouseY()"
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "lassoPoint",
-                "MouseX()",
-                "MouseY()",
+                "isDrawing",
+                "False",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "groupText",
-                "MouseX()",
-                "MouseY()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "groupText",
-                "Text",
-                "=",
-                "\"Number of Blobs in group: \" + totalBlobsInCircle"
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Calculate center of lasso"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "lassoCenterX",
-                "=",
-                "lassoPoint.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "lassoCenterY",
-                "=",
-                "lassoPoint.Y()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Inside/Outside test"
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Blob",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "lassoHits",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Raycast"
-                  },
-                  "parameters": [
-                    "lassoPoint",
-                    "Blob.X()",
-                    "Blob.Y()",
-                    "AngleBetweenPositions(Blob.X(), Blob.Y(), Variable(lassoCenterX), Variable(lassoCenterY))",
-                    "DistanceBetweenPositions(Blob.X(), Blob.Y(), Variable(lassoCenterX), Variable(lassoCenterY))",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "inGroup",
-                    "=",
-                    "\n\"0\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "Raycast"
-                  },
-                  "parameters": [
-                    "lassoPoint",
-                    "Blob.X()",
-                    "Blob.Y()",
-                    "AngleBetweenPositions(Blob.X(), Blob.Y(), Variable(lassoCenterX), Variable(lassoCenterY))",
-                    "DistanceBetweenPositions(Blob.X(), Blob.Y(), Variable(lassoCenterX), Variable(lassoCenterY))",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "inGroup",
-                    "=",
-                    "\n\"1\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "groupCount",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            }
-          ]
+          "actions": []
         },
         {
           "colorB": 228,
@@ -1450,54 +1599,43 @@
           "parameters": []
         },
         {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringObjectVariable"
-              },
-              "parameters": [
-                "Blob",
-                "inGroup",
-                "=",
-                "\"none\""
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "Blob",
-                "Effect",
-                "\"BlobGlow\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Blob",
+          "object": "circleVisual",
           "conditions": [],
           "actions": [],
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Blob",
               "conditions": [],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "EffectCapability::EffectBehavior::EnableEffect"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "Effect",
-                    "\"BlobGlow\"",
-                    "yes"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "DistanceBetweenPositions(Blob.X(), Blob.Y(), circleVisual.Variable(CenterX), circleVisual.Variable(CenterY))",
+                        "<=",
+                        "circleVisual.Variable(radius)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "currentCircleId",
+                        "=",
+                        "circleVisual.ID()"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1528,161 +1666,6 @@
           "comment": "Counting number of blobs in each group"
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "groupCount",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "groupText",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Blob",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "DistanceBetweenPositions(Blob.X(), Blob.Y(), Variable(lassoCenterX), Variable(lassoCenterY))",
-                    "<=",
-                    "Variable(radius)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "inGroup",
-                    "=",
-                    "\"1\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Blob",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "DistanceBetweenPositions(Blob.X(), Blob.Y(), Variable(lassoCenterX), Variable(lassoCenterY))",
-                    ">",
-                    "Variable(radius)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "inGroup",
-                    "=",
-                    "\"0\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Blob",
-          "conditions": [],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "inGroup",
-                    "=",
-                    "\"1\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "groupCount",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "groupText",
-                "lassoCenterX",
-                "lassoCenterY",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "groupText",
-                "Text",
-                "=",
-                "\n\"Blobs in group: \" + ToString(Variable(groupCount))"
-              ]
-            }
-          ]
-        },
-        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -1705,162 +1688,6 @@
             "textR": 0
           },
           "comment": "Reset and Tally"
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "drawnCircle",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ClearVariableChildren"
-              },
-              "parameters": [
-                "attributeTracker"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "maxAttributeCount",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "totalBlobsInCircle",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Blob",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "DistanceBetweenPositions(Blob.X(), Blob.Y(), drawnCircle.X(), drawnCircle.Y())",
-                    "<=",
-                    "drawnCircle.Variable(radius)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "totalBlobsInCircle",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "attributeTracker[Blob.VariableString(color)]",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Find highest Tally"
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEachChildVariable",
-              "iterableVariableName": "attributeTracker",
-              "valueIteratorVariableName": "currentChildValue",
-              "keyIteratorVariableName": "",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "currentChildValue",
-                    ">",
-                    "Variable(maxAttributeCount)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "maxAttributeCount",
-                    "=",
-                    "Variable(currentChildValue)"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "totalBlobsInCircle",
-                    ">",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "drawnCircle",
-                    "harmonyScore",
-                    "=",
-                    "(Variable(maxAttributeCount) / Variable(totalBlobsInCircle)) * 100"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "groupText",
-                    "Text",
-                    "=",
-                    "\"Blobs in group: \" + ToString(Variable(groupCount)) + \" | Harmony: \" + ToString(drawnCircle.Variable(harmonyScore)) + \"%\""
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
