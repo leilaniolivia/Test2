@@ -560,7 +560,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6455105703311492,
+        "zoomFactor": 0.6244537826600003,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -618,55 +618,6 @@
           "x": -4,
           "y": -2,
           "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 79,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Blob",
-          "persistentUuid": "b316cedf-e65f-4c69-966d-4978dfd7ddfc",
-          "width": 84,
-          "x": 390,
-          "y": 404,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Blob",
-          "persistentUuid": "031d73fc-0ba0-4332-b186-9d78d32f8354",
-          "width": 0,
-          "x": 616,
-          "y": 192,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Blob",
-          "persistentUuid": "d8e70d53-0ec6-429d-9083-d96807b6c08b",
-          "width": 0,
-          "x": 111,
-          "y": 203,
-          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2335,6 +2286,34 @@
           "comment": "blob creation"
         },
         {
+          "type": "BuiltinCommonInstructions::Repeat",
+          "repeatExpression": "8",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Blob",
+                "RandomInRange(100, 800)",
+                "RandomInRange(160, 500)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2524,7 +2503,7 @@
                     "Blob",
                     "Scale",
                     "=",
-                    "0.25"
+                    "0.10"
                   ]
                 }
               ]
@@ -2553,7 +2532,7 @@
                     "Blob",
                     "Scale",
                     "=",
-                    "0.5"
+                    "0.20"
                   ]
                 }
               ]
@@ -2582,7 +2561,7 @@
                     "Blob",
                     "Scale",
                     "=",
-                    "0.75"
+                    "0.35"
                   ]
                 }
               ]
@@ -2603,7 +2582,19 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Blob",
+                "currentCircleId",
+                "=",
+                "0"
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -2650,6 +2641,17 @@
                 "\"wander\"",
                 ">",
                 "RandomInRange(0.5,1)"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Blob",
+                "currentCircleId",
+                "=",
+                "0"
               ]
             }
           ],
@@ -2710,7 +2712,7 @@
               "parameters": [
                 "Blob",
                 "<=",
-                "0"
+                "83"
               ]
             }
           ],
@@ -2733,7 +2735,7 @@
               "parameters": [
                 "Blob",
                 "=",
-                "5"
+                "85"
               ]
             }
           ]
@@ -2760,7 +2762,7 @@
               "parameters": [
                 "Blob",
                 ">=",
-                "SceneWindowWidth() - Blob.Width()"
+                "868 - Blob.Width()"
               ]
             }
           ],
@@ -2783,7 +2785,7 @@
               "parameters": [
                 "Blob",
                 "=",
-                "SceneWindowWidth() - Blob.Width() - 6"
+                "865 - Blob.Width()"
               ]
             }
           ]
@@ -2810,7 +2812,7 @@
               "parameters": [
                 "Blob",
                 "<=",
-                "0"
+                "140"
               ]
             }
           ],
@@ -2823,7 +2825,7 @@
                 "Blob",
                 "direction",
                 "=",
-                "- Blob.Variable(direction)"
+                "360 - Blob.Variable(direction)"
               ]
             },
             {
@@ -2833,7 +2835,7 @@
               "parameters": [
                 "Blob",
                 "=",
-                "6"
+                "148"
               ]
             }
           ]
@@ -2860,7 +2862,7 @@
               "parameters": [
                 "Blob",
                 ">=",
-                "SceneWindowHeight() - Blob.Height()"
+                "564 - Blob.Height()"
               ]
             }
           ],
@@ -2883,7 +2885,7 @@
               "parameters": [
                 "Blob",
                 "=",
-                "SceneWindowHeight() - Blob.Height() - 6"
+                "562 - Blob.Height()"
               ]
             }
           ]
@@ -3293,7 +3295,6 @@
           "parameters": []
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -3319,7 +3320,6 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -3493,162 +3493,6 @@
             "textR": 0
           },
           "comment": "Reset and Tally"
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "drawnCircle",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ClearVariableChildren"
-              },
-              "parameters": [
-                "attributeTracker"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "maxAttributeCount",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "totalBlobsInCircle",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Blob",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "DistanceBetweenPositions(Blob.X(), Blob.Y(), drawnCircle.X(), drawnCircle.Y())",
-                    "<=",
-                    "drawnCircle.Variable(radius)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "totalBlobsInCircle",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "attributeTracker[Blob.VariableString(color)]",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Find highest Tally"
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEachChildVariable",
-              "iterableVariableName": "attributeTracker",
-              "valueIteratorVariableName": "currentChildValue",
-              "keyIteratorVariableName": "",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "currentChildValue",
-                    ">",
-                    "Variable(maxAttributeCount)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "maxAttributeCount",
-                    "=",
-                    "Variable(currentChildValue)"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "totalBlobsInCircle",
-                    ">",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "drawnCircle",
-                    "harmonyScore",
-                    "=",
-                    "(Variable(maxAttributeCount) / Variable(totalBlobsInCircle)) * 100"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "groupText",
-                    "Text",
-                    "=",
-                    "\"Blobs in group: \" + ToString(Variable(groupCount)) + \" | Harmony: \" + ToString(drawnCircle.Variable(harmonyScore)) + \"%\""
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
