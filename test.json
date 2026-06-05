@@ -591,6 +591,16 @@
           "name": "currentRadius",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "maxCount",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -638,8 +648,8 @@
           "name": "Blob",
           "persistentUuid": "031d73fc-0ba0-4332-b186-9d78d32f8354",
           "width": 0,
-          "x": 526,
-          "y": 187,
+          "x": 616,
+          "y": 192,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -2195,20 +2205,20 @@
           "effects": [],
           "behaviors": [],
           "fillOpacity": 0,
-          "outlineSize": 1,
+          "outlineSize": 2,
           "outlineOpacity": 255,
           "absoluteCoordinates": true,
           "clearBetweenFrames": true,
           "antialiasing": "none",
           "fillColor": {
-            "r": 74,
-            "g": 144,
-            "b": 226
+            "r": 136,
+            "g": 193,
+            "b": 255
           },
           "outlineColor": {
-            "r": 74,
-            "g": 144,
-            "b": 226
+            "r": 130,
+            "g": 228,
+            "b": 249
           }
         }
       ],
@@ -2679,6 +2689,18 @@
           "comment": "wall detection"
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "left wall"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2715,6 +2737,18 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "right wall"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -2755,6 +2789,18 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "top wall"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2791,6 +2837,18 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "bottom wall"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -3174,54 +3232,49 @@
           "parameters": []
         },
         {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "finalizedCircle",
           "conditions": [],
           "actions": [
             {
               "type": {
-                "value": "SetStringObjectVariable"
+                "value": "SetNumberObjectVariable"
               },
               "parameters": [
                 "Blob",
-                "inGroup",
+                "currentCircleId",
                 "=",
-                "\"none\""
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "Blob",
-                "Effect",
-                "\"BlobGlow\"",
-                ""
+                "0"
               ]
             }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Blob",
-          "conditions": [],
-          "actions": [],
+          ],
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Blob",
+              "conditions": [
                 {
                   "type": {
-                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                    "value": "Distance"
                   },
                   "parameters": [
                     "Blob",
-                    "Effect",
-                    "\"BlobGlow\"",
-                    "yes"
+                    "finalizedCircle",
+                    "finalizedCircle.Variable(radius)",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Blob",
+                    "currentCircleId",
+                    "=",
+                    "finalizedCircle.Variable(id)"
                   ]
                 }
               ]
@@ -3240,18 +3293,7 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Counting number of blobs in each group"
-        },
-        {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -3274,110 +3316,10 @@
                 ""
               ]
             }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Blob",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "DistanceBetweenPositions(Blob.X(), Blob.Y(), Variable(lassoCenterX), Variable(lassoCenterY))",
-                    "<=",
-                    "Variable(radius)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "inGroup",
-                    "=",
-                    "\"1\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Blob",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "DistanceBetweenPositions(Blob.X(), Blob.Y(), Variable(lassoCenterX), Variable(lassoCenterY))",
-                    ">",
-                    "Variable(radius)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "inGroup",
-                    "=",
-                    "\"0\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            }
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Blob",
-          "conditions": [],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "inGroup",
-                    "=",
-                    "\"1\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "groupCount",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -3388,8 +3330,8 @@
               "parameters": [
                 "",
                 "groupText",
-                "lassoCenterX",
-                "lassoCenterY",
+                "MouseX()",
+                "MouseY()",
                 ""
               ]
             },
@@ -3407,16 +3349,138 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Harmony Score:"
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "finalizedCircle",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ObjectVariableClearChildren"
+              },
+              "parameters": [
+                "finalizedCircle",
+                "counts"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "maxCount",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "totalBlobsInCircle",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Blob",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Blob.Variable(currentCircleId)",
+                    "=",
+                    "finalizedCircle.Variable(id)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "totalBlobsInCircle",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "finalizedCircle",
+                    "counts[Blob.VariableString(Color)]",
+                    "+",
+                    "1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "finalizedCircle.Variable(Counts[Blob.VariableString(Color)])",
+                        ">",
+                        "Variable(maxCount)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "maxCount",
+                        "=",
+                        "finalizedCircle.Variable(counts[Blob.VariableString(Color)])"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "totalBlobsInCircle",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "finalizedCircle",
+                "harmonyScore",
+                "=",
+                "Variable(MaxCount) / Variable(TotalBlobsInCircle)"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
