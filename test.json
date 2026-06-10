@@ -1248,12 +1248,7 @@
           "value": 0
         },
         {
-          "name": "harmonyScore",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "previewHarmonyPoints",
+          "name": "liveHarmonyScore",
           "type": "number",
           "value": 0
         },
@@ -1263,27 +1258,77 @@
           "value": 0
         },
         {
-          "name": "previewTraits",
-          "type": "structure",
-          "children": []
-        },
-        {
-          "name": "previewCount",
+          "name": "smallCount",
           "type": "number",
           "value": 0
         },
         {
-          "name": "traitName",
+          "name": "mediumCount",
           "type": "number",
           "value": 0
         },
         {
-          "name": "livePreviewScore",
+          "name": "largeCount",
           "type": "number",
           "value": 0
         },
         {
-          "name": "previewMaxPoints",
+          "name": "slowCount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "fastCount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "pinkCount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "blueCount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "totalHarmonyScore",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "completedCircles",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "averageHarmonyScore",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "sizeScore",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "speedScore",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "colorScore",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "remainingTime",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "isPaused",
           "type": "number",
           "value": 0
         }
@@ -1292,14 +1337,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 723,
+          "depth": 1.0689388071262589,
+          "height": 772.8427575522849,
           "keepRatio": true,
           "layer": "",
           "locked": true,
           "name": "GameScene_Background",
           "persistentUuid": "686bee23-f61d-4f4f-85df-6752cac784e9",
-          "width": 1291,
+          "width": 1380,
           "x": -4,
           "y": -2,
           "zOrder": 7,
@@ -1345,7 +1390,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Time_Countdown",
+          "name": "countdownText",
           "persistentUuid": "d88e7863-9144-4117-8b3e-024dd80fb8a9",
           "width": 0,
           "x": 435,
@@ -1364,8 +1409,8 @@
           "name": "ScoreText",
           "persistentUuid": "c01aefd3-9766-4902-be5a-87f5534bc050",
           "width": 0,
-          "x": 547,
-          "y": 33,
+          "x": 596,
+          "y": 41,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -1380,8 +1425,8 @@
           "name": "Score_Points",
           "persistentUuid": "3f40a693-17e7-49d8-a776-643bd4d5c435",
           "width": 0,
-          "x": 605,
-          "y": 61,
+          "x": 651,
+          "y": 71,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -1396,8 +1441,8 @@
           "name": "RoundText",
           "persistentUuid": "175d2220-c0f5-4843-98a9-043af7e61598",
           "width": 0,
-          "x": 786,
-          "y": 35,
+          "x": 828,
+          "y": 42,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -1412,8 +1457,8 @@
           "name": "RoundNumbers",
           "persistentUuid": "3142bd3b-41d7-4708-91bd-c5210d7c503b",
           "width": 0,
-          "x": 790,
-          "y": 64,
+          "x": 837,
+          "y": 68,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -1429,8 +1474,8 @@
           "name": "MenuText",
           "persistentUuid": "6ad27b2a-b074-4c9b-af9c-a31f4c7bd5c3",
           "width": 74,
-          "x": 1170,
-          "y": 41,
+          "x": 1255,
+          "y": 45,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -1671,8 +1716,8 @@
           "name": "pauseButton",
           "persistentUuid": "25e11984-5d15-473f-9d78-d61900d806ad",
           "width": 65,
-          "x": 1144,
-          "y": 57,
+          "x": 1227,
+          "y": 62,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -1731,23 +1776,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 72,
-          "keepRatio": true,
-          "layer": "MenuLayer",
-          "name": "playButton",
-          "persistentUuid": "38915f16-9e4e-479d-998b-f8b3ea9308f3",
-          "width": 79,
-          "x": 347,
-          "y": 311,
-          "zOrder": 42,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 73,
           "keepRatio": true,
           "layer": "Start Level Layer",
@@ -1757,6 +1785,23 @@
           "x": 366,
           "y": 326,
           "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 71,
+          "keepRatio": true,
+          "layer": "MenuLayer",
+          "name": "resumeButton",
+          "persistentUuid": "860551f5-0156-4003-a34b-14e3b38f7a22",
+          "width": 78,
+          "x": 347,
+          "y": 313,
+          "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1871,7 +1916,7 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "Time_Countdown",
+          "name": "countdownText",
           "persistentUuid": "8ab85f26-3263-4b86-aa15-d32d5c0cf987",
           "smoothed": true,
           "type": "TextObject::Text",
@@ -1879,7 +1924,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "60",
+          "string": "30",
           "font": "",
           "textAlignment": "left",
           "characterSize": 20,
@@ -1902,7 +1947,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "60",
+            "text": "30",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -2004,6 +2049,7 @@
           "bold": false,
           "italic": false,
           "name": "RoundText",
+          "persistentUuid": "0099d7ca-4078-45a8-ba7a-15860eb3f151",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
@@ -2047,6 +2093,7 @@
           "bold": false,
           "italic": false,
           "name": "RoundNumbers",
+          "persistentUuid": "101d5ea1-eb4e-4257-b6a6-bc95c8cc9c15",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
@@ -3090,6 +3137,50 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "persistentUuid": "a4e3e228-6c46-4ef1-8cad-c4949d1a5d84",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -3110,7 +3201,7 @@
             "objectName": "Hint"
           },
           {
-            "objectName": "Time_Countdown"
+            "objectName": "countdownText"
           },
           {
             "objectName": "GameLogo"
@@ -3183,6 +3274,9 @@
           },
           {
             "objectName": "mainMenuText"
+          },
+          {
+            "objectName": "NewText"
           }
         ]
       },
@@ -3237,6 +3331,26 @@
               "parameters": [
                 "",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "isPaused",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "remainingTime",
+                "=",
+                "30"
               ]
             }
           ]
@@ -3300,6 +3414,49 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "isPaused",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "remainingTime",
+                "-",
+                "TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "countdownText",
+                "Text",
+                "=",
+                "ToString(ceil(Variable(remainingTime)))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "colorB": 228,
@@ -3375,11 +3532,12 @@
             },
             {
               "type": {
-                "value": "PauseTimer"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "",
-                "\"levelTimer\""
+                "isPaused",
+                "=",
+                "1"
               ]
             }
           ]
@@ -3389,7 +3547,7 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
@@ -3417,15 +3575,6 @@
           "actions": [
             {
               "type": {
-                "value": "ChangeTimeScale"
-              },
-              "parameters": [
-                "",
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "HideLayer"
               },
               "parameters": [
@@ -3435,11 +3584,21 @@
             },
             {
               "type": {
-                "value": "UnPauseTimer"
+                "value": "ChangeTimeScale"
               },
               "parameters": [
                 "",
-                "\"levelTimer\""
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "isPaused",
+                "=",
+                "0"
               ]
             }
           ]
@@ -3469,7 +3628,7 @@
         },
         {
           "type": "BuiltinCommonInstructions::Repeat",
-          "repeatExpression": "8",
+          "repeatExpression": "16",
           "conditions": [
             {
               "type": {
@@ -3516,7 +3675,7 @@
                 "Blob",
                 "colorId",
                 "=",
-                "RandomInRange(0,4)"
+                "RandomInRange(0,1)"
               ]
             },
             {
@@ -3558,7 +3717,16 @@
               },
               "parameters": [
                 "Blob",
-                "\"wander\""
+                "\"wanderSlow\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Blob",
+                "\"wanderFast\""
               ]
             }
           ],
@@ -3587,7 +3755,7 @@
                     "Blob",
                     "speed",
                     "=",
-                    "5"
+                    "10"
                   ]
                 }
               ]
@@ -3616,7 +3784,7 @@
                     "Blob",
                     "speed",
                     "=",
-                    "60"
+                    "80"
                   ]
                 }
               ]
@@ -3800,6 +3968,43 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Blob",
+                "currentCircleId",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ClearForces"
+              },
+              "parameters": [
+                "Blob"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Blob",
+                "Blob.Variable(direction)",
+                "Blob.Variable(speed)",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -3820,9 +4025,80 @@
               },
               "parameters": [
                 "Blob",
-                "\"wander\"",
+                "\"wanderSlow\"",
                 ">",
-                "RandomInRange(0.5,1)"
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Blob",
+                "currentCircleId",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Blob",
+                "speed",
+                "=",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Blob",
+                "direction",
+                "=",
+                "RandomInRange(0,360)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Blob",
+                "\"wanderSlow\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Blob",
+                "\"wanderFast\"",
+                ">",
+                "0.4"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Blob",
+                "speed",
+                "=",
+                "80"
               ]
             },
             {
@@ -3855,10 +4131,15 @@
               },
               "parameters": [
                 "Blob",
-                "\"wander\""
+                "\"wanderFast\""
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -3944,7 +4225,7 @@
               "parameters": [
                 "Blob",
                 ">=",
-                "868 - Blob.Width()"
+                "940 - Blob.Width()"
               ]
             }
           ],
@@ -3967,7 +4248,7 @@
               "parameters": [
                 "Blob",
                 "=",
-                "865 - Blob.Width()"
+                "935 - Blob.Width()"
               ]
             }
           ]
@@ -4044,7 +4325,7 @@
               "parameters": [
                 "Blob",
                 ">=",
-                "564 - Blob.Height()"
+                "610 - Blob.Height()"
               ]
             }
           ],
@@ -4067,7 +4348,7 @@
               "parameters": [
                 "Blob",
                 "=",
-                "562 - Blob.Height()"
+                "608 - Blob.Height()"
               ]
             }
           ]
@@ -4269,22 +4550,6 @@
                 "circleVisual.Variable(CenterY)",
                 "currentRadius"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "previewHarmonyPoints",
-                "=",
-                "0"
-              ]
             },
             {
               "type": {
@@ -4298,10 +4563,72 @@
             },
             {
               "type": {
-                "value": "ClearVariableChildren"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "previewTraits"
+                "slowCount",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "fastCount",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "smallCount",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "mediumCount",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "largeCount",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pinkCount",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "blueCount",
+                "=",
+                "0"
               ]
             }
           ],
@@ -4317,7 +4644,7 @@
                   "parameters": [
                     "Blob",
                     "circleVisual",
-                    "Variable(currentRadius)",
+                    "currentRadius",
                     ""
                   ]
                 }
@@ -4332,89 +4659,21 @@
                     "+",
                     "1"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "previewTraits[Blob.VariableString(size)]",
-                    "=",
-                    "previewTraits[Blob.VariableString(size)] + 1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "previewTraits[Blob.VariableString(speed)]",
-                    "=",
-                    "previewTraits[Blob.VariableString(speed)] + 1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "previewTraits[Blob.VariableString(color)]",
-                    "=",
-                    "previewTraits[Blob.VariableString(color)] + 1"
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "groupText",
-                    "Text",
-                    "=",
-                    "\"Selecting: \" + VariableString(totalBlobsInCircle) + \" Blobs\""
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "folded": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "totalBlobsInCircle",
-                    "=",
-                    "0"
-                  ]
                 }
               ],
               "events": [
                 {
-                  "disabled": true,
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Blob",
+                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "Distance"
+                        "value": "NumberObjectVariable"
                       },
                       "parameters": [
                         "Blob",
-                        "circleVisual",
-                        "Variable(currentRadius)",
-                        ""
+                        "speed",
+                        "=",
+                        "0"
                       ]
                     }
                   ],
@@ -4424,7 +4683,175 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "totalBlobsInCircle",
+                        "slowCount",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "speed",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "fastCount",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "size",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "smallCount",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "size",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "mediumCount",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "size",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "largeCount",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "colorId",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "pinkCount",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "size",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "blueCount",
                         "+",
                         "1"
                       ]
@@ -4432,50 +4859,18 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "previewBlobsCounted",
-                ">",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "previewMaxPoints",
-                "=",
-                "(Variable(previewBlobsCounted) ) * 3"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::ForEachChildVariable",
-              "iterableVariableName": "previewTraits",
-              "valueIteratorVariableName": "previewCount",
-              "keyIteratorVariableName": "traitName",
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "previewCount",
-                    ">",
-                    "1"
+                    "previewBlobsCounted",
+                    "<=",
+                    "2"
                   ]
                 }
               ],
@@ -4485,38 +4880,79 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "previewHarmonyPoints",
-                    "+",
-                    "Variable(previewCount) - 1"
+                    "liveHarmonyScore",
+                    "=",
+                    "0"
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "livePreviewScore",
-                "=",
-                "(Variable(previewHarmonyPoints) / Variable(previewMaxPoints)) * 100"
-              ]
             },
             {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "groupText",
-                "Text",
-                "=",
-                "\"Blobs: \" + ToString(Variable(previewBlobsCounted)) + \" | Points: \" + ToString(Variable(previewHarmonyPoints)) + \" | Max: \" + ToString(Variable(previewMaxPoints)) + \" | Score: \" + ToString(Variable(livePreviewScore)) + \"%\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "previewBlobsCounted",
+                    ">",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "speedScore",
+                    "=",
+                    "max(slowCount, fastCount) / previewBlobsCounted"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "sizeScore",
+                    "=",
+                    "max(smallCount, max(mediumCount, largeCount)) / previewBlobsCounted"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "colorScore",
+                    "=",
+                    "max(pinkCount, blueCount) / previewBlobsCounted"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "liveHarmonyScore",
+                    "=",
+                    "((sizeScore\n+\nspeedScore\n+\ncolorScore\n)\n/\n3\n)\n*\n100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "groupText",
+                    "Text",
+                    "=",
+                    "\"Blobs: \" + ToString(Variable(previewBlobsCounted)) + \" | Points: \" + ToString(Variable(previewHarmonyPoints)) + \" | Max: \" + ToString(Variable(previewMaxPoints)) + \" | Score: \" + ToString(trunc(Variable(liveHarmonyScore))) + \"%\""
+                  ]
+                }
               ]
             }
           ]
@@ -4668,6 +5104,76 @@
                 "Blob",
                 "\"deleteCircle\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "totalHarmonyScore",
+                "=",
+                "totalHarmonyScore + liveHarmonyScore"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "totalBlobsInCircle",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "previewBlobsCounted",
+                    ">",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "completedCircles",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "averageHarmonyScore",
+                    "=",
+                    "totalHarmonyScore\n/\ncompletedCircles"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Score_Points",
+                    "Text",
+                    "=",
+                    "ToString(trunc(Variable(averageHarmonyScore))) + \"%\""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4768,17 +5274,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "currentCircleId",
-                    "=",
-                    "finalizedCircle.Variable(id)"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -4786,20 +5281,10 @@
                     "+",
                     "1"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "\"destroyCountdown\""
-                  ]
                 }
               ]
             },
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4808,34 +5293,59 @@
                   },
                   "parameters": [
                     "totalBlobsInCircle",
-                    ">",
-                    "0"
+                    ">=",
+                    "3"
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "harmonyScore",
-                    "=",
-                    "(Variable(dominantCount) / Variable(totalBlobsInCircle)) * 100"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Score_Points",
-                    "Text",
-                    "=",
-                    "VariableString(harmonyScore) + \"%\""
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Blob",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "finalizedCircle",
+                        "finalizedCircle.Variable(radius)",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "currentCircleId",
+                        "=",
+                        "finalizedCircle.Variable(id)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "\"destroyCountdown\""
+                      ]
+                    }
                   ]
                 }
               ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
         },
@@ -4914,6 +5424,7 @@
           "parameters": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -4925,65 +5436,6 @@
                 "groupCount",
                 "=",
                 "0"
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "groupText",
-                "MouseX()",
-                "MouseY()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "groupText",
-                "Text",
-                "=",
-                "\n\"Blobs in group: \" + totalBlobsInCircle"
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "totalBlobsInCircle",
-                ">",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "finalizedCircle",
-                "harmonyScore",
-                "=",
-                "Variable(MaxCount) / Variable(TotalBlobsInCircle)"
               ]
             }
           ]
@@ -5005,24 +5457,21 @@
           "conditions": [
             {
               "type": {
-                "value": "CompareTimer"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "",
-                "\"levelTimer\"",
-                ">",
-                "30"
+                "remainingTime",
+                "<=",
+                "0"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "Quit"
               },
               "parameters": [
-                "",
-                "",
                 ""
               ]
             }
@@ -5109,7 +5558,7 @@
           "isLocked": false,
           "name": "MenuLayer",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -5163,7 +5612,61 @@
           "isLocked": false,
           "name": "Start Level Layer",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "End Round Layer",
+          "renderingType": "",
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
