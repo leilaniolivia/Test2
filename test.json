@@ -5826,6 +5826,78 @@
                 "",
                 "\"Reasoning Prompt Layer\""
               ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectBooleanParameter"
+              },
+              "parameters": [
+                "colorButton",
+                "Effect",
+                "\"green\"",
+                "\"color\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectBooleanParameter"
+              },
+              "parameters": [
+                "colorButton",
+                "Effect",
+                "\"red\"",
+                "\"color\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectBooleanParameter"
+              },
+              "parameters": [
+                "sizeButton",
+                "Effect",
+                "\"green\"",
+                "\"color\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectBooleanParameter"
+              },
+              "parameters": [
+                "sizeButton",
+                "Effect",
+                "\"red\"",
+                "\"color\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectBooleanParameter"
+              },
+              "parameters": [
+                "speedButton",
+                "Effect",
+                "\"green\"",
+                "\"color\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectBooleanParameter"
+              },
+              "parameters": [
+                "speedButton",
+                "Effect",
+                "\"red\"",
+                "\"color\"",
+                "no"
+              ]
             }
           ],
           "events": [
