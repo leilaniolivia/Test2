@@ -1346,6 +1346,16 @@
           "name": "playerChoice",
           "type": "string",
           "value": ""
+        },
+        {
+          "name": "reasoningTime",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "logicChoice",
+          "type": "string",
+          "value": ""
         }
       ],
       "instances": [
@@ -1834,9 +1844,25 @@
           "name": "speedButton",
           "persistentUuid": "aa6e00e0-e841-433a-8b6a-05ab71d85d5e",
           "width": 0,
-          "x": 1075,
-          "y": 359,
+          "x": 1072,
+          "y": 358,
           "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Reasoning Prompt Layer",
+          "name": "reasoningPromptText",
+          "persistentUuid": "57c11aed-a254-4a21-b85e-0413606e8092",
+          "width": 0,
+          "x": 1130,
+          "y": 152,
+          "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3367,8 +3393,46 @@
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variant": "Small Blue Button",
           "variables": [],
-          "effects": [],
-          "behaviors": [],
+          "effects": [
+            {
+              "disabled": true,
+              "effectType": "Outline",
+              "name": "green",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "126;211;33"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "disabled": true,
+              "effectType": "Outline",
+              "name": "red",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "208;2;27"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
           "content": {
             "LabelText": "Color",
             "PressedLabelOffsetY": 2
@@ -3381,7 +3445,34 @@
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variant": "Small Blue Button",
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "disabled": true,
+              "effectType": "Outline",
+              "name": "green",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "126;211;33"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "disabled": true,
+              "effectType": "Outline",
+              "name": "red",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "208;2;27"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
           "content": {
             "LabelText": "Size",
@@ -3395,11 +3486,82 @@
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variant": "Small Blue Button",
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "disabled": true,
+              "effectType": "Outline",
+              "name": "green",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "126;211;33"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "disabled": true,
+              "effectType": "Outline",
+              "name": "red",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "208;2;27"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
           "content": {
             "LabelText": "Speed",
             "PressedLabelOffsetY": 2
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "reasoningPromptText",
+          "persistentUuid": "96e996b4-1ddf-4eec-9c42-cdbeda11f542",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 25,
+            "lineHeight": 0,
+            "color": "0;0;0"
           }
         }
       ],
@@ -3518,6 +3680,9 @@
           },
           {
             "objectName": "speedButton"
+          },
+          {
+            "objectName": "reasoningPromptText"
           }
         ]
       },
@@ -3576,6 +3741,24 @@
             },
             {
               "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Next Round Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Reasoning Prompt Layer\""
+              ]
+            },
+            {
+              "type": {
                 "value": "ChangeTimeScale"
               },
               "parameters": [
@@ -3590,7 +3773,7 @@
               "parameters": [
                 "isPaused",
                 "=",
-                "0"
+                "1"
               ]
             },
             {
@@ -3632,15 +3815,6 @@
                 "Text",
                 "=",
                 "uncountedBlobs"
-              ]
-            },
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"Next Round Layer\""
               ]
             }
           ]
@@ -3696,11 +3870,12 @@
             },
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "",
-                "\"levelTimer\""
+                "isPaused",
+                "=",
+                "0"
               ]
             }
           ]
@@ -3715,6 +3890,16 @@
               "parameters": [
                 "isPaused",
                 "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "remainingTime",
+                ">",
                 "0"
               ]
             }
@@ -3742,11 +3927,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "colorB": 228,
@@ -5243,6 +5423,89 @@
                     "\"Blobs: \" + ToString(Variable(previewBlobsCounted)) + \" | Points: \" + ToString(Variable(previewHarmonyPoints)) + \" | Max: \" + ToString(Variable(previewMaxPoints)) + \" | Score: \" + ToString(trunc(Variable(liveHarmonyScore))) + \"%\""
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "speedScore",
+                        ">=",
+                        "max(colorScore, sizeScore)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "logicChoice",
+                        "=",
+                        "\"speed\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "colorScore",
+                        ">=",
+                        "max(speedScore, sizeScore)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "logicChoice",
+                        "=",
+                        "\"color\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "sizeScore",
+                        ">=",
+                        "max(colorScore, speedScore)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "logicChoice",
+                        "=",
+                        "\"size\""
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -5483,6 +5746,461 @@
                     "=",
                     "uncountedBlobs"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "reasoningTime",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Reasoning Prompt"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "reasoningTime",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "isPaused",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "reasoningPromptText",
+                "Text",
+                "=",
+                "\"How did you group the Blobs?\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Reasoning Prompt Layer\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "colorButton",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "playerChoice",
+                    "=",
+                    "\"color\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "playerChoice",
+                        "=",
+                        "logicChoice"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "colorButton",
+                        "Effect",
+                        "\"green\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "averageHarmonyScore",
+                        "+",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "reasoningTime",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Score_Points",
+                        "Text",
+                        "=",
+                        "ToString(trunc(Variable(averageHarmonyScore))) + \"%\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "playerChoice",
+                        "!=",
+                        "logicChoice"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "colorButton",
+                        "Effect",
+                        "\"red\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "reasoningTime",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "sizeButton",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "playerChoice",
+                    "=",
+                    "\"size\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "playerChoice",
+                        "=",
+                        "logicChoice"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "sizeButton",
+                        "Effect",
+                        "\"green\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "averageHarmonyScore",
+                        "+",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "reasoningTime",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Score_Points",
+                        "Text",
+                        "=",
+                        "ToString(trunc(Variable(averageHarmonyScore))) + \"%\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "playerChoice",
+                        "!=",
+                        "logicChoice"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "sizeButton",
+                        "Effect",
+                        "\"red\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "reasoningTime",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "speedButton",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "playerChoice",
+                    "=",
+                    "\"speed\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "playerChoice",
+                        "=",
+                        "logicChoice"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "speedButton",
+                        "Effect",
+                        "\"green\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "averageHarmonyScore",
+                        "+",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "reasoningTime",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Score_Points",
+                        "Text",
+                        "=",
+                        "ToString(trunc(Variable(averageHarmonyScore))) + \"%\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "playerChoice",
+                        "!=",
+                        "logicChoice"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "speedButton",
+                        "Effect",
+                        "\"red\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "reasoningTime",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -5511,6 +6229,51 @@
               "parameters": [
                 "finalizedCircle",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "reasoningTime",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Reasoning Prompt Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "isPaused",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "1"
               ]
             }
           ]
@@ -6098,7 +6861,7 @@
           "isLocked": false,
           "name": "End Round Layer",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -6191,12 +6954,70 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Reasoning Prompt Layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
         },
         {
           "name": "Effect",
