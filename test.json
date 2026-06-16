@@ -1,7 +1,7 @@
 {
   "firstLayout": "Gameplay",
   "gdVersion": {
-    "build": 269,
+    "build": 271,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -502,6 +502,142 @@
         "name": "Start button2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Purple Blob (1).png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Purple Blob (1).png\",\"extension\":\".png\"}",
+        "name": "Purple Blob (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Purple Blob (2).png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Purple Blob (2).png\",\"extension\":\".png\"}",
+        "name": "Purple Blob (2).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Purple Blob (2)2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Purple Blob (2)2.png\",\"extension\":\".png\"}",
+        "name": "Purple Blob (2)2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Purple Blob (2)3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Blob (2)3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Purple Blob (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Blob (3).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Pink Blob (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pink Blob (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Pink Blob (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pink Blob (2).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Pink Blob (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pink Blob (3).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Orange Blob (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange Blob (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Orange Blob (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange Blob (2).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Orange Blob (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange Blob (3).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Green Blob (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Blob (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Green Blob (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Blob (2).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Green Blob (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Blob (3).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Blob Blob (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blob Blob (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Blue Blob (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Blob (2).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Blue Blob (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Blob (3).png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -573,7 +709,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Purple_Blob_-removebg-preview",
+                  "image": "Purple Blob (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -720,7 +856,7 @@
           ]
         },
         {
-          "name": "blueBlob",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -729,7 +865,2035 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Blue_Blob_-removebg-preview.png",
+                  "image": "Purple Blob (2)3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 219,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 218,
+                        "y": 169.5
+                      },
+                      {
+                        "x": 46.5,
+                        "y": 169.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 107.5,
+                        "y": 10
+                      },
+                      {
+                        "x": 156,
+                        "y": 10
+                      },
+                      {
+                        "x": 157,
+                        "y": 198.5
+                      },
+                      {
+                        "x": 107.5,
+                        "y": 199
+                      }
+                    ],
+                    [
+                      {
+                        "x": 76,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 187,
+                        "y": 19
+                      },
+                      {
+                        "x": 188,
+                        "y": 188.5
+                      },
+                      {
+                        "x": 76.5,
+                        "y": 189.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 66.5,
+                        "y": 28.5
+                      },
+                      {
+                        "x": 198,
+                        "y": 29
+                      },
+                      {
+                        "x": 198,
+                        "y": 179.5
+                      },
+                      {
+                        "x": 66,
+                        "y": 179.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 227.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 229,
+                        "y": 160
+                      },
+                      {
+                        "x": 36,
+                        "y": 160
+                      }
+                    ],
+                    [
+                      {
+                        "x": 25.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 237.5,
+                        "y": 57
+                      },
+                      {
+                        "x": 238,
+                        "y": 151
+                      },
+                      {
+                        "x": 26,
+                        "y": 151
+                      }
+                    ],
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 76.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 131
+                      },
+                      {
+                        "x": 16,
+                        "y": 132.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Purple Blob (3).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 219,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 218,
+                        "y": 169.5
+                      },
+                      {
+                        "x": 46.5,
+                        "y": 169.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 107.5,
+                        "y": 10
+                      },
+                      {
+                        "x": 156,
+                        "y": 10
+                      },
+                      {
+                        "x": 157,
+                        "y": 198.5
+                      },
+                      {
+                        "x": 107.5,
+                        "y": 199
+                      }
+                    ],
+                    [
+                      {
+                        "x": 76,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 187,
+                        "y": 19
+                      },
+                      {
+                        "x": 188,
+                        "y": 188.5
+                      },
+                      {
+                        "x": 76.5,
+                        "y": 189.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 66.5,
+                        "y": 28.5
+                      },
+                      {
+                        "x": 198,
+                        "y": 29
+                      },
+                      {
+                        "x": 198,
+                        "y": 179.5
+                      },
+                      {
+                        "x": 66,
+                        "y": 179.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 227.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 229,
+                        "y": 160
+                      },
+                      {
+                        "x": 36,
+                        "y": 160
+                      }
+                    ],
+                    [
+                      {
+                        "x": 25.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 237.5,
+                        "y": 57
+                      },
+                      {
+                        "x": 238,
+                        "y": 151
+                      },
+                      {
+                        "x": 26,
+                        "y": 151
+                      }
+                    ],
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 76.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 131
+                      },
+                      {
+                        "x": 16,
+                        "y": 132.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pink Blob (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 219,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 218,
+                        "y": 169.5
+                      },
+                      {
+                        "x": 46.5,
+                        "y": 169.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 107.5,
+                        "y": 10
+                      },
+                      {
+                        "x": 156,
+                        "y": 10
+                      },
+                      {
+                        "x": 157,
+                        "y": 198.5
+                      },
+                      {
+                        "x": 107.5,
+                        "y": 199
+                      }
+                    ],
+                    [
+                      {
+                        "x": 76,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 187,
+                        "y": 19
+                      },
+                      {
+                        "x": 188,
+                        "y": 188.5
+                      },
+                      {
+                        "x": 76.5,
+                        "y": 189.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 66.5,
+                        "y": 28.5
+                      },
+                      {
+                        "x": 198,
+                        "y": 29
+                      },
+                      {
+                        "x": 198,
+                        "y": 179.5
+                      },
+                      {
+                        "x": 66,
+                        "y": 179.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 227.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 229,
+                        "y": 160
+                      },
+                      {
+                        "x": 36,
+                        "y": 160
+                      }
+                    ],
+                    [
+                      {
+                        "x": 25.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 237.5,
+                        "y": 57
+                      },
+                      {
+                        "x": 238,
+                        "y": 151
+                      },
+                      {
+                        "x": 26,
+                        "y": 151
+                      }
+                    ],
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 76.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 131
+                      },
+                      {
+                        "x": 16,
+                        "y": 132.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pink Blob (2).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 219,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 218,
+                        "y": 169.5
+                      },
+                      {
+                        "x": 46.5,
+                        "y": 169.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 107.5,
+                        "y": 10
+                      },
+                      {
+                        "x": 156,
+                        "y": 10
+                      },
+                      {
+                        "x": 157,
+                        "y": 198.5
+                      },
+                      {
+                        "x": 107.5,
+                        "y": 199
+                      }
+                    ],
+                    [
+                      {
+                        "x": 76,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 187,
+                        "y": 19
+                      },
+                      {
+                        "x": 188,
+                        "y": 188.5
+                      },
+                      {
+                        "x": 76.5,
+                        "y": 189.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 66.5,
+                        "y": 28.5
+                      },
+                      {
+                        "x": 198,
+                        "y": 29
+                      },
+                      {
+                        "x": 198,
+                        "y": 179.5
+                      },
+                      {
+                        "x": 66,
+                        "y": 179.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 227.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 229,
+                        "y": 160
+                      },
+                      {
+                        "x": 36,
+                        "y": 160
+                      }
+                    ],
+                    [
+                      {
+                        "x": 25.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 237.5,
+                        "y": 57
+                      },
+                      {
+                        "x": 238,
+                        "y": 151
+                      },
+                      {
+                        "x": 26,
+                        "y": 151
+                      }
+                    ],
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 76.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 131
+                      },
+                      {
+                        "x": 16,
+                        "y": 132.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pink Blob (3).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 219,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 218,
+                        "y": 169.5
+                      },
+                      {
+                        "x": 46.5,
+                        "y": 169.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 107.5,
+                        "y": 10
+                      },
+                      {
+                        "x": 156,
+                        "y": 10
+                      },
+                      {
+                        "x": 157,
+                        "y": 198.5
+                      },
+                      {
+                        "x": 107.5,
+                        "y": 199
+                      }
+                    ],
+                    [
+                      {
+                        "x": 76,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 187,
+                        "y": 19
+                      },
+                      {
+                        "x": 188,
+                        "y": 188.5
+                      },
+                      {
+                        "x": 76.5,
+                        "y": 189.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 66.5,
+                        "y": 28.5
+                      },
+                      {
+                        "x": 198,
+                        "y": 29
+                      },
+                      {
+                        "x": 198,
+                        "y": 179.5
+                      },
+                      {
+                        "x": 66,
+                        "y": 179.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 227.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 229,
+                        "y": 160
+                      },
+                      {
+                        "x": 36,
+                        "y": 160
+                      }
+                    ],
+                    [
+                      {
+                        "x": 25.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 237.5,
+                        "y": 57
+                      },
+                      {
+                        "x": 238,
+                        "y": 151
+                      },
+                      {
+                        "x": 26,
+                        "y": 151
+                      }
+                    ],
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 76.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 131
+                      },
+                      {
+                        "x": 16,
+                        "y": 132.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orange Blob (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 219,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 218,
+                        "y": 169.5
+                      },
+                      {
+                        "x": 46.5,
+                        "y": 169.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 107.5,
+                        "y": 10
+                      },
+                      {
+                        "x": 156,
+                        "y": 10
+                      },
+                      {
+                        "x": 157,
+                        "y": 198.5
+                      },
+                      {
+                        "x": 107.5,
+                        "y": 199
+                      }
+                    ],
+                    [
+                      {
+                        "x": 76,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 187,
+                        "y": 19
+                      },
+                      {
+                        "x": 188,
+                        "y": 188.5
+                      },
+                      {
+                        "x": 76.5,
+                        "y": 189.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 66.5,
+                        "y": 28.5
+                      },
+                      {
+                        "x": 198,
+                        "y": 29
+                      },
+                      {
+                        "x": 198,
+                        "y": 179.5
+                      },
+                      {
+                        "x": 66,
+                        "y": 179.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 227.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 229,
+                        "y": 160
+                      },
+                      {
+                        "x": 36,
+                        "y": 160
+                      }
+                    ],
+                    [
+                      {
+                        "x": 25.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 237.5,
+                        "y": 57
+                      },
+                      {
+                        "x": 238,
+                        "y": 151
+                      },
+                      {
+                        "x": 26,
+                        "y": 151
+                      }
+                    ],
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 76.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 131
+                      },
+                      {
+                        "x": 16,
+                        "y": 132.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orange Blob (2).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 219,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 218,
+                        "y": 169.5
+                      },
+                      {
+                        "x": 46.5,
+                        "y": 169.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 107.5,
+                        "y": 10
+                      },
+                      {
+                        "x": 156,
+                        "y": 10
+                      },
+                      {
+                        "x": 157,
+                        "y": 198.5
+                      },
+                      {
+                        "x": 107.5,
+                        "y": 199
+                      }
+                    ],
+                    [
+                      {
+                        "x": 76,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 187,
+                        "y": 19
+                      },
+                      {
+                        "x": 188,
+                        "y": 188.5
+                      },
+                      {
+                        "x": 76.5,
+                        "y": 189.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 66.5,
+                        "y": 28.5
+                      },
+                      {
+                        "x": 198,
+                        "y": 29
+                      },
+                      {
+                        "x": 198,
+                        "y": 179.5
+                      },
+                      {
+                        "x": 66,
+                        "y": 179.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 227.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 229,
+                        "y": 160
+                      },
+                      {
+                        "x": 36,
+                        "y": 160
+                      }
+                    ],
+                    [
+                      {
+                        "x": 25.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 237.5,
+                        "y": 57
+                      },
+                      {
+                        "x": 238,
+                        "y": 151
+                      },
+                      {
+                        "x": 26,
+                        "y": 151
+                      }
+                    ],
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 76.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 131
+                      },
+                      {
+                        "x": 16,
+                        "y": 132.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Orange Blob (3).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 219,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 218,
+                        "y": 169.5
+                      },
+                      {
+                        "x": 46.5,
+                        "y": 169.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 107.5,
+                        "y": 10
+                      },
+                      {
+                        "x": 156,
+                        "y": 10
+                      },
+                      {
+                        "x": 157,
+                        "y": 198.5
+                      },
+                      {
+                        "x": 107.5,
+                        "y": 199
+                      }
+                    ],
+                    [
+                      {
+                        "x": 76,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 187,
+                        "y": 19
+                      },
+                      {
+                        "x": 188,
+                        "y": 188.5
+                      },
+                      {
+                        "x": 76.5,
+                        "y": 189.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 66.5,
+                        "y": 28.5
+                      },
+                      {
+                        "x": 198,
+                        "y": 29
+                      },
+                      {
+                        "x": 198,
+                        "y": 179.5
+                      },
+                      {
+                        "x": 66,
+                        "y": 179.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 227.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 229,
+                        "y": 160
+                      },
+                      {
+                        "x": 36,
+                        "y": 160
+                      }
+                    ],
+                    [
+                      {
+                        "x": 25.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 237.5,
+                        "y": 57
+                      },
+                      {
+                        "x": 238,
+                        "y": 151
+                      },
+                      {
+                        "x": 26,
+                        "y": 151
+                      }
+                    ],
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 76.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 131
+                      },
+                      {
+                        "x": 16,
+                        "y": 132.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green Blob (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 219,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 218,
+                        "y": 169.5
+                      },
+                      {
+                        "x": 46.5,
+                        "y": 169.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 107.5,
+                        "y": 10
+                      },
+                      {
+                        "x": 156,
+                        "y": 10
+                      },
+                      {
+                        "x": 157,
+                        "y": 198.5
+                      },
+                      {
+                        "x": 107.5,
+                        "y": 199
+                      }
+                    ],
+                    [
+                      {
+                        "x": 76,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 187,
+                        "y": 19
+                      },
+                      {
+                        "x": 188,
+                        "y": 188.5
+                      },
+                      {
+                        "x": 76.5,
+                        "y": 189.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 66.5,
+                        "y": 28.5
+                      },
+                      {
+                        "x": 198,
+                        "y": 29
+                      },
+                      {
+                        "x": 198,
+                        "y": 179.5
+                      },
+                      {
+                        "x": 66,
+                        "y": 179.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 227.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 229,
+                        "y": 160
+                      },
+                      {
+                        "x": 36,
+                        "y": 160
+                      }
+                    ],
+                    [
+                      {
+                        "x": 25.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 237.5,
+                        "y": 57
+                      },
+                      {
+                        "x": 238,
+                        "y": 151
+                      },
+                      {
+                        "x": 26,
+                        "y": 151
+                      }
+                    ],
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 76.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 131
+                      },
+                      {
+                        "x": 16,
+                        "y": 132.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green Blob (2).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 219,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 218,
+                        "y": 169.5
+                      },
+                      {
+                        "x": 46.5,
+                        "y": 169.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 107.5,
+                        "y": 10
+                      },
+                      {
+                        "x": 156,
+                        "y": 10
+                      },
+                      {
+                        "x": 157,
+                        "y": 198.5
+                      },
+                      {
+                        "x": 107.5,
+                        "y": 199
+                      }
+                    ],
+                    [
+                      {
+                        "x": 76,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 187,
+                        "y": 19
+                      },
+                      {
+                        "x": 188,
+                        "y": 188.5
+                      },
+                      {
+                        "x": 76.5,
+                        "y": 189.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 66.5,
+                        "y": 28.5
+                      },
+                      {
+                        "x": 198,
+                        "y": 29
+                      },
+                      {
+                        "x": 198,
+                        "y": 179.5
+                      },
+                      {
+                        "x": 66,
+                        "y": 179.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 227.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 229,
+                        "y": 160
+                      },
+                      {
+                        "x": 36,
+                        "y": 160
+                      }
+                    ],
+                    [
+                      {
+                        "x": 25.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 237.5,
+                        "y": 57
+                      },
+                      {
+                        "x": 238,
+                        "y": 151
+                      },
+                      {
+                        "x": 26,
+                        "y": 151
+                      }
+                    ],
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 76.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 131
+                      },
+                      {
+                        "x": 16,
+                        "y": 132.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green Blob (3).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 219,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 218,
+                        "y": 169.5
+                      },
+                      {
+                        "x": 46.5,
+                        "y": 169.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 107.5,
+                        "y": 10
+                      },
+                      {
+                        "x": 156,
+                        "y": 10
+                      },
+                      {
+                        "x": 157,
+                        "y": 198.5
+                      },
+                      {
+                        "x": 107.5,
+                        "y": 199
+                      }
+                    ],
+                    [
+                      {
+                        "x": 76,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 187,
+                        "y": 19
+                      },
+                      {
+                        "x": 188,
+                        "y": 188.5
+                      },
+                      {
+                        "x": 76.5,
+                        "y": 189.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 66.5,
+                        "y": 28.5
+                      },
+                      {
+                        "x": 198,
+                        "y": 29
+                      },
+                      {
+                        "x": 198,
+                        "y": 179.5
+                      },
+                      {
+                        "x": 66,
+                        "y": 179.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 227.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 229,
+                        "y": 160
+                      },
+                      {
+                        "x": 36,
+                        "y": 160
+                      }
+                    ],
+                    [
+                      {
+                        "x": 25.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 237.5,
+                        "y": 57
+                      },
+                      {
+                        "x": 238,
+                        "y": 151
+                      },
+                      {
+                        "x": 26,
+                        "y": 151
+                      }
+                    ],
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 76.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 131
+                      },
+                      {
+                        "x": 16,
+                        "y": 132.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Blob Blob (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 219,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 218,
+                        "y": 169.5
+                      },
+                      {
+                        "x": 46.5,
+                        "y": 169.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 107.5,
+                        "y": 10
+                      },
+                      {
+                        "x": 156,
+                        "y": 10
+                      },
+                      {
+                        "x": 157,
+                        "y": 198.5
+                      },
+                      {
+                        "x": 107.5,
+                        "y": 199
+                      }
+                    ],
+                    [
+                      {
+                        "x": 76,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 187,
+                        "y": 19
+                      },
+                      {
+                        "x": 188,
+                        "y": 188.5
+                      },
+                      {
+                        "x": 76.5,
+                        "y": 189.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 66.5,
+                        "y": 28.5
+                      },
+                      {
+                        "x": 198,
+                        "y": 29
+                      },
+                      {
+                        "x": 198,
+                        "y": 179.5
+                      },
+                      {
+                        "x": 66,
+                        "y": 179.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 227.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 229,
+                        "y": 160
+                      },
+                      {
+                        "x": 36,
+                        "y": 160
+                      }
+                    ],
+                    [
+                      {
+                        "x": 25.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 237.5,
+                        "y": 57
+                      },
+                      {
+                        "x": 238,
+                        "y": 151
+                      },
+                      {
+                        "x": 26,
+                        "y": 151
+                      }
+                    ],
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 76.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 131
+                      },
+                      {
+                        "x": 16,
+                        "y": 132.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Blue Blob (2).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 219,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 218,
+                        "y": 169.5
+                      },
+                      {
+                        "x": 46.5,
+                        "y": 169.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 107.5,
+                        "y": 10
+                      },
+                      {
+                        "x": 156,
+                        "y": 10
+                      },
+                      {
+                        "x": 157,
+                        "y": 198.5
+                      },
+                      {
+                        "x": 107.5,
+                        "y": 199
+                      }
+                    ],
+                    [
+                      {
+                        "x": 76,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 187,
+                        "y": 19
+                      },
+                      {
+                        "x": 188,
+                        "y": 188.5
+                      },
+                      {
+                        "x": 76.5,
+                        "y": 189.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 66.5,
+                        "y": 28.5
+                      },
+                      {
+                        "x": 198,
+                        "y": 29
+                      },
+                      {
+                        "x": 198,
+                        "y": 179.5
+                      },
+                      {
+                        "x": 66,
+                        "y": 179.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 227.5,
+                        "y": 47.5
+                      },
+                      {
+                        "x": 229,
+                        "y": 160
+                      },
+                      {
+                        "x": 36,
+                        "y": 160
+                      }
+                    ],
+                    [
+                      {
+                        "x": 25.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 237.5,
+                        "y": 57
+                      },
+                      {
+                        "x": 238,
+                        "y": 151
+                      },
+                      {
+                        "x": 26,
+                        "y": 151
+                      }
+                    ],
+                    [
+                      {
+                        "x": 15.5,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 76.5
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 131
+                      },
+                      {
+                        "x": 16,
+                        "y": 132.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Blue Blob (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
