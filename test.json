@@ -1,7 +1,7 @@
 {
   "firstLayout": "Gameplay",
   "gdVersion": {
-    "build": 269,
+    "build": 272,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -7707,7 +7707,7 @@
           "persistentUuid": "f54f9b10-2b6a-425c-9f7b-006ac8a34643",
           "width": 131,
           "x": 1070,
-          "y": 280,
+          "y": 281,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -12069,16 +12069,6 @@
               "parameters": [
                 "",
                 "\"Reasoning Prompt Layer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "isPaused",
-                "=",
-                "0"
               ]
             }
           ]
