@@ -7233,6 +7233,11 @@
           "name": "replayRound",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "timeToDraw",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -7723,8 +7728,8 @@
           "name": "reasoningPromptText",
           "persistentUuid": "57c11aed-a254-4a21-b85e-0413606e8092",
           "width": 286,
-          "x": 995,
-          "y": 156,
+          "x": 994,
+          "y": 146,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
@@ -9412,7 +9417,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Why did you group this way?",
+          "string": "How will you group these blobs?",
           "font": "",
           "textAlignment": "center",
           "characterSize": 20,
@@ -9435,7 +9440,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Why did you group this way?",
+            "text": "How will you group these blobs?",
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
@@ -9729,7 +9734,7 @@
               },
               "parameters": [
                 "reasoningTime",
-                "False",
+                "True",
                 ""
               ]
             },
@@ -10700,6 +10705,347 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Player reasoning prompt",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "reasoningTime",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "reasoningPromptText",
+                "Text",
+                "=",
+                "\"How will you group the Blobs?\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Reasoning Prompt Layer\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "colorButton",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "playerChoice",
+                    "=",
+                    "\"color\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "playerChoice",
+                        "=",
+                        "logicChoice"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "averageHarmonyScore",
+                        "+",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "reasoningTime",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Score_Points",
+                        "Text",
+                        "=",
+                        "ToString(trunc(Variable(averageHarmonyScore))) + \"%\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "playerChoice",
+                        "!=",
+                        "logicChoice"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "reasoningTime",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "timeToDraw",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "sizeButton",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "playerChoice",
+                    "=",
+                    "\"size\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "playerChoice",
+                        "=",
+                        "logicChoice"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "averageHarmonyScore",
+                        "+",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "reasoningTime",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Score_Points",
+                        "Text",
+                        "=",
+                        "ToString(trunc(Variable(averageHarmonyScore))) + \"%\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "playerChoice",
+                        "!=",
+                        "logicChoice"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "reasoningTime",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "timeToDraw",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "reasoningTime",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Reasoning Prompt Layer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Blob",
+                "\"deleteCircle\"",
+                ">",
+                "0.4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "finalizedCircle",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "Circle Drawing",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10738,6 +11084,16 @@
                 "",
                 "!=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "timeToDraw",
+                "True",
+                ""
               ]
             },
             {
@@ -11211,47 +11567,6 @@
                     "=",
                     "max(pinkCount, blueCount) / previewBlobsCounted"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "maxTrait",
-                    "=",
-                    "max(Variable(sizeScore), Variable(colorScore))"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "minTrait",
-                    "=",
-                    "min(Variable(sizeScore), Variable(colorScore))"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "liveHarmonyScore",
-                    "=",
-                    "(Variable(maxTrait) * 75) + (Variable(minTrait) * 25)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "groupText",
-                    "Text",
-                    "=",
-                    "\"Blobs: \" + ToString(Variable(previewBlobsCounted)) + \" | Points: \" + ToString(Variable(previewHarmonyPoints)) + \" | Max: \" + ToString(Variable(previewMaxPoints)) + \" | Score: \" + ToString(trunc(Variable(liveHarmonyScore))) + \"%\""
-                  ]
                 }
               ],
               "events": [
@@ -11305,6 +11620,82 @@
                         "logicChoice",
                         "=",
                         "\"size\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "playerChoice",
+                        "=",
+                        "\"size\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "liveHarmonyScore",
+                        "=",
+                        "max(smallCount, max(mediumCount, largeCount))\n \n/ \n\n(previewBlobsCounted)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "groupText",
+                        "Text",
+                        "=",
+                        "\"Blobs: \" + ToString(Variable(previewBlobsCounted)) + \" | Points: \" + ToString(Variable(previewHarmonyPoints)) + \" | Max: \" + ToString(Variable(previewMaxPoints)) + \" | Score: \" + ToString(trunc(Variable(liveHarmonyScore))) + \"%\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "playerChoice",
+                        "=",
+                        "\"color\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "liveHarmonyScore",
+                        "=",
+                        "max(pinkCount,blueCount)\n \n/ \n\n(previewBlobsCounted)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "groupText",
+                        "Text",
+                        "=",
+                        "\"Blobs: \" + ToString(Variable(previewBlobsCounted)) + \" | Points: \" + ToString(Variable(previewHarmonyPoints)) + \" | Max: \" + ToString(Variable(previewMaxPoints)) + \" | Score: \" + ToString(trunc(Variable(liveHarmonyScore))) + \"%\""
                       ]
                     }
                   ]
@@ -11745,335 +12136,6 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Reasoning Prompt"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "reasoningTime",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "isPaused",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeTimeScale"
-              },
-              "parameters": [
-                "",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "reasoningPromptText",
-                "Text",
-                "=",
-                "\"How did you group the Blobs?\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"Reasoning Prompt Layer\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-                  },
-                  "parameters": [
-                    "colorButton",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "playerChoice",
-                    "=",
-                    "\"color\""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "playerChoice",
-                        "=",
-                        "logicChoice"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "averageHarmonyScore",
-                        "+",
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "reasoningTime",
-                        "False",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "Score_Points",
-                        "Text",
-                        "=",
-                        "ToString(trunc(Variable(averageHarmonyScore))) + \"%\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "playerChoice",
-                        "!=",
-                        "logicChoice"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "reasoningTime",
-                        "False",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-                  },
-                  "parameters": [
-                    "sizeButton",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "playerChoice",
-                    "=",
-                    "\"size\""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "playerChoice",
-                        "=",
-                        "logicChoice"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "averageHarmonyScore",
-                        "+",
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "reasoningTime",
-                        "False",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "Score_Points",
-                        "Text",
-                        "=",
-                        "ToString(trunc(Variable(averageHarmonyScore))) + \"%\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "playerChoice",
-                        "!=",
-                        "logicChoice"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "reasoningTime",
-                        "False",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Blob",
-                "\"deleteCircle\"",
-                ">",
-                "0.4"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "finalizedCircle",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "reasoningTime",
-                "False",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"Reasoning Prompt Layer\""
-              ]
-            }
-          ]
-        },
-        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -12151,6 +12213,73 @@
                   "parameters": [
                     "totalBlobsInCircle",
                     ">=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Blob",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "finalizedCircle",
+                        "finalizedCircle.Variable(radius)",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "currentCircleId",
+                        "=",
+                        "finalizedCircle.Variable(id)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "\"destroyCountdown\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "totalBlobsInCircle",
+                    "<=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "uncountedBlobs",
+                    "<",
                     "3"
                   ]
                 }
