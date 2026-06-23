@@ -10107,6 +10107,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -10216,6 +10217,7 @@
           "comment": "sizing"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -10712,6 +10714,7 @@
           "parameters": []
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -10776,83 +10779,18 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "playerChoice",
-                        "=",
-                        "logicChoice"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "averageHarmonyScore",
-                        "+",
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "reasoningTime",
-                        "False",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "Score_Points",
-                        "Text",
-                        "=",
-                        "ToString(trunc(Variable(averageHarmonyScore))) + \"%\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "playerChoice",
-                        "!=",
-                        "logicChoice"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "reasoningTime",
-                        "False",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "reasoningTime",
+                        "False",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "SetBooleanVariable"
@@ -10895,83 +10833,18 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "playerChoice",
-                        "=",
-                        "logicChoice"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "averageHarmonyScore",
-                        "+",
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "reasoningTime",
-                        "False",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "Score_Points",
-                        "Text",
-                        "=",
-                        "ToString(trunc(Variable(averageHarmonyScore))) + \"%\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "playerChoice",
-                        "!=",
-                        "logicChoice"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "reasoningTime",
-                        "False",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "reasoningTime",
+                        "False",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "SetBooleanVariable"
@@ -11200,6 +11073,16 @@
           "actions": [
             {
               "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "calculateHarmonyScore",
+                "True",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "PrimitiveDrawing::Drawer::ClearShapes"
               },
               "parameters": [
@@ -11352,6 +11235,7 @@
           ],
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Blob",
               "conditions": [
@@ -11726,6 +11610,17 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "groupText",
+                    "Text",
+                    "=",
+                    "\"Blobs: \" + ToString(Variable(previewBlobsCounted)) + \" | Points: \" + ToString(Variable(previewHarmonyPoints)) + \" | Max: \" + ToString(Variable(previewMaxPoints)) + \" | Score: \" + ToString(trunc(Variable(liveHarmonyScore))) + \"%\""
+                  ]
                 }
               ]
             },
@@ -11962,6 +11857,16 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "liveHarmonyScore",
+                "=",
+                "0"
+              ]
             }
           ],
           "events": [
@@ -12132,8 +12037,18 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "colorB": 228,
@@ -12147,6 +12062,7 @@
           "parameters": []
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "finalizedCircle",
           "conditions": [],
@@ -12330,6 +12246,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -12404,6 +12321,7 @@
           "parameters": []
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -12583,6 +12501,7 @@
           "comment": "round-ending instances"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
