@@ -1,5 +1,5 @@
 {
-  "firstLayout": "Gameplay",
+  "firstLayout": "Start Scene",
   "gdVersion": {
     "build": 272,
     "major": 5,
@@ -502,6 +502,246 @@
         "name": "Start button2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Purple Blob (3)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Blob (3)2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Purple Blob (3)3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Purple Blob (3)3.png\",\"extension\":\".png\"}",
+        "name": "Purple Blob (3)3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/purpleBlob.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "purpleBlob",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Purple Blob (3)4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Blob (3)4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Blob.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Blob",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/greenBlob3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "greenBlob",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/orangeBlob3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "orangeBlob",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "destinyhackett05@gmail.com-26fdf097.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "destinyhackett05@gmail.com-26fdf097.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Pink Blob (3)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pink Blob (3)2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Blobbie Home Screen2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blobbie Home Screen2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Small Light Grey Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Light Grey Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/95c8aec49aac6657a1b1870edcbafe98def8da6ced9ba38486ad54b16b11bd2e_Small Light Grey Button_Hovered.png",
+          "name": "Small Light Grey Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Small Light Grey Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Light Grey Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/80613a75f24d5c563b76fe4775c6bd66e8f5050eeaae279a556e41de62a1649d_Small Light Grey Button_Idle.png",
+          "name": "Small Light Grey Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Small Light Grey Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Light Grey Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/9bd7fdd350ae7a52dbe99d2ff6e0f6226656c6057aafe3c6e034cb6ef6616f4d_Small Light Grey Button_Pressed.png",
+          "name": "Small Light Grey Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Small White Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small White Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/53d2ba892cb6a366c69deba9b229331f6cb7eedb22b53788773ade95c3ed0cba_Small White Button_Hovered.png",
+          "name": "Small White Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Small White Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small White Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/0bba1ddd8c0b82a28c80d42bd025e5888c75948b28b7840a1ebd8fd7f5814844_Small White Button_Idle.png",
+          "name": "Small White Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Small White Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small White Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/4fd1b137e9c779a3f6bffeaf55f4bb5d8c27fc90f413597600b0c059cb9ababc_Small White Button_Pressed.png",
+          "name": "Small White Button_Pressed.png"
+        }
+      },
+      {
+        "file": "Levels Screen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Levels Screen.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Levels Screen2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Levels Screen2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite8",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -567,13 +807,13 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.0265,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Purple_Blob_-removebg-preview",
+                  "image": "Purple Blob (3)4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -589,128 +829,276 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 45.5,
-                        "y": 38.5
+                        "x": 68.5,
+                        "y": 28
                       },
                       {
-                        "x": 219,
-                        "y": 38.5
-                      },
-                      {
-                        "x": 218,
-                        "y": 169.5
-                      },
-                      {
-                        "x": 46.5,
-                        "y": 169.5
-                      }
-                    ],
-                    [
-                      {
-                        "x": 107.5,
-                        "y": 10
-                      },
-                      {
-                        "x": 156,
-                        "y": 10
-                      },
-                      {
-                        "x": 157,
-                        "y": 198.5
-                      },
-                      {
-                        "x": 107.5,
-                        "y": 199
-                      }
-                    ],
-                    [
-                      {
-                        "x": 76,
-                        "y": 19.5
-                      },
-                      {
-                        "x": 187,
-                        "y": 19
-                      },
-                      {
-                        "x": 188,
-                        "y": 188.5
-                      },
-                      {
-                        "x": 76.5,
-                        "y": 189.5
-                      }
-                    ],
-                    [
-                      {
-                        "x": 66.5,
-                        "y": 28.5
-                      },
-                      {
-                        "x": 198,
+                        "x": 223,
                         "y": 29
                       },
                       {
-                        "x": 198,
-                        "y": 179.5
+                        "x": 226.5,
+                        "y": 212
                       },
                       {
-                        "x": 66,
-                        "y": 179.5
+                        "x": 65.5,
+                        "y": 211
                       }
                     ],
                     [
                       {
-                        "x": 35.5,
-                        "y": 47.5
-                      },
-                      {
-                        "x": 227.5,
-                        "y": 47.5
+                        "x": 61.5,
+                        "y": 37
                       },
                       {
                         "x": 229,
-                        "y": 160
+                        "y": 38
                       },
                       {
-                        "x": 36,
-                        "y": 160
+                        "x": 233,
+                        "y": 210
+                      },
+                      {
+                        "x": 59,
+                        "y": 208
                       }
                     ],
                     [
                       {
-                        "x": 25.5,
-                        "y": 56
+                        "x": 56.5,
+                        "y": 45
                       },
                       {
-                        "x": 237.5,
-                        "y": 57
+                        "x": 235,
+                        "y": 45
                       },
                       {
-                        "x": 238,
-                        "y": 151
+                        "x": 245,
+                        "y": 206
                       },
                       {
-                        "x": 26,
-                        "y": 151
+                        "x": 41.5,
+                        "y": 206
                       }
                     ],
                     [
                       {
-                        "x": 15.5,
-                        "y": 75.5
+                        "x": 50.5,
+                        "y": 52.5
                       },
                       {
-                        "x": 248.5,
-                        "y": 76.5
+                        "x": 240,
+                        "y": 52.5
                       },
                       {
-                        "x": 248.5,
+                        "x": 257.5,
+                        "y": 201.5
+                      },
+                      {
+                        "x": 34,
+                        "y": 202
+                      }
+                    ],
+                    [
+                      {
+                        "x": 34,
+                        "y": 93
+                      },
+                      {
+                        "x": 46,
+                        "y": 60.5
+                      },
+                      {
+                        "x": 244.5,
+                        "y": 60.5
+                      },
+                      {
+                        "x": 267,
+                        "y": 195
+                      },
+                      {
+                        "x": 25,
+                        "y": 197.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 41.5,
+                        "y": 67.5
+                      },
+                      {
+                        "x": 250.5,
+                        "y": 71.5
+                      },
+                      {
+                        "x": 258.5,
+                        "y": 125
+                      },
+                      {
+                        "x": 32,
+                        "y": 126.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 28,
                         "y": 131
                       },
                       {
-                        "x": 16,
-                        "y": 132.5
+                        "x": 260,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 271.5,
+                        "y": 188
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 191.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 23,
+                        "y": 136.5
+                      },
+                      {
+                        "x": 267,
+                        "y": 136
+                      },
+                      {
+                        "x": 276.5,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 155.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 10,
+                        "y": 161.5
+                      },
+                      {
+                        "x": 277.5,
+                        "y": 157.5
+                      },
+                      {
+                        "x": 273.5,
+                        "y": 182.5
+                      },
+                      {
+                        "x": 14.5,
+                        "y": 187
+                      }
+                    ],
+                    [
+                      {
+                        "x": 104.83438873291016,
+                        "y": 26.89220428466797
+                      },
+                      {
+                        "x": 105,
+                        "y": 10
+                      },
+                      {
+                        "x": 184,
+                        "y": 10
+                      },
+                      {
+                        "x": 186,
+                        "y": 213.5
+                      },
+                      {
+                        "x": 103,
+                        "y": 214
+                      }
+                    ],
+                    [
+                      {
+                        "x": 95.5,
+                        "y": 14.5
+                      },
+                      {
+                        "x": 195.5,
+                        "y": 13.5
+                      },
+                      {
+                        "x": 200.5,
+                        "y": 210.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 210.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 195.5,
+                        "y": 16
+                      },
+                      {
+                        "x": 219.5,
+                        "y": 28
+                      },
+                      {
+                        "x": 196.5,
+                        "y": 28.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 105,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 102.5,
+                        "y": 27
+                      },
+                      {
+                        "x": 70,
+                        "y": 29
+                      }
+                    ],
+                    [
+                      {
+                        "x": 123,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 173,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 189,
+                        "y": 12.5
+                      },
+                      {
+                        "x": 93.5,
+                        "y": 14.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 114.5,
+                        "y": 16
+                      },
+                      {
+                        "x": 175,
+                        "y": 16.5
+                      },
+                      {
+                        "x": 182,
+                        "y": 215.5
+                      },
+                      {
+                        "x": 149,
+                        "y": 221
+                      },
+                      {
+                        "x": 113.5,
+                        "y": 216.5
                       }
                     ]
                   ]
@@ -725,11 +1113,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Blue_Blob_-removebg-preview.png",
+                  "image": "Blob",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -745,128 +1134,1190 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 45.5,
-                        "y": 38.5
+                        "x": 68.5,
+                        "y": 28
                       },
                       {
-                        "x": 219,
-                        "y": 38.5
-                      },
-                      {
-                        "x": 218,
-                        "y": 169.5
-                      },
-                      {
-                        "x": 46.5,
-                        "y": 169.5
-                      }
-                    ],
-                    [
-                      {
-                        "x": 107.5,
-                        "y": 10
-                      },
-                      {
-                        "x": 156,
-                        "y": 10
-                      },
-                      {
-                        "x": 157,
-                        "y": 198.5
-                      },
-                      {
-                        "x": 107.5,
-                        "y": 199
-                      }
-                    ],
-                    [
-                      {
-                        "x": 76,
-                        "y": 19.5
-                      },
-                      {
-                        "x": 187,
-                        "y": 19
-                      },
-                      {
-                        "x": 188,
-                        "y": 188.5
-                      },
-                      {
-                        "x": 76.5,
-                        "y": 189.5
-                      }
-                    ],
-                    [
-                      {
-                        "x": 66.5,
-                        "y": 28.5
-                      },
-                      {
-                        "x": 198,
+                        "x": 223,
                         "y": 29
                       },
                       {
-                        "x": 198,
-                        "y": 179.5
+                        "x": 226.5,
+                        "y": 212
                       },
                       {
-                        "x": 66,
-                        "y": 179.5
+                        "x": 65.5,
+                        "y": 211
                       }
                     ],
                     [
                       {
-                        "x": 35.5,
-                        "y": 47.5
-                      },
-                      {
-                        "x": 227.5,
-                        "y": 47.5
+                        "x": 61.5,
+                        "y": 37
                       },
                       {
                         "x": 229,
-                        "y": 160
+                        "y": 38
                       },
                       {
-                        "x": 36,
-                        "y": 160
+                        "x": 233,
+                        "y": 210
+                      },
+                      {
+                        "x": 59,
+                        "y": 208
                       }
                     ],
                     [
                       {
-                        "x": 25.5,
-                        "y": 56
+                        "x": 56.5,
+                        "y": 45
                       },
                       {
-                        "x": 237.5,
-                        "y": 57
+                        "x": 235,
+                        "y": 45
                       },
                       {
-                        "x": 238,
-                        "y": 151
+                        "x": 245,
+                        "y": 206
                       },
                       {
-                        "x": 26,
-                        "y": 151
+                        "x": 41.5,
+                        "y": 206
                       }
                     ],
                     [
                       {
-                        "x": 15.5,
-                        "y": 75.5
+                        "x": 50.5,
+                        "y": 52.5
                       },
                       {
-                        "x": 248.5,
-                        "y": 76.5
+                        "x": 240,
+                        "y": 52.5
                       },
                       {
-                        "x": 248.5,
+                        "x": 257.5,
+                        "y": 201.5
+                      },
+                      {
+                        "x": 34,
+                        "y": 202
+                      }
+                    ],
+                    [
+                      {
+                        "x": 34,
+                        "y": 93
+                      },
+                      {
+                        "x": 46,
+                        "y": 60.5
+                      },
+                      {
+                        "x": 244.5,
+                        "y": 60.5
+                      },
+                      {
+                        "x": 267,
+                        "y": 195
+                      },
+                      {
+                        "x": 25,
+                        "y": 197.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 41.5,
+                        "y": 67.5
+                      },
+                      {
+                        "x": 250.5,
+                        "y": 71.5
+                      },
+                      {
+                        "x": 258.5,
+                        "y": 125
+                      },
+                      {
+                        "x": 32,
+                        "y": 126.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 28,
                         "y": 131
                       },
                       {
-                        "x": 16,
-                        "y": 132.5
+                        "x": 260,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 271.5,
+                        "y": 188
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 191.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 23,
+                        "y": 136.5
+                      },
+                      {
+                        "x": 267,
+                        "y": 136
+                      },
+                      {
+                        "x": 276.5,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 155.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 10,
+                        "y": 161.5
+                      },
+                      {
+                        "x": 277.5,
+                        "y": 157.5
+                      },
+                      {
+                        "x": 273.5,
+                        "y": 182.5
+                      },
+                      {
+                        "x": 14.5,
+                        "y": 187
+                      }
+                    ],
+                    [
+                      {
+                        "x": 104.83438873291016,
+                        "y": 26.89220428466797
+                      },
+                      {
+                        "x": 105,
+                        "y": 10
+                      },
+                      {
+                        "x": 184,
+                        "y": 10
+                      },
+                      {
+                        "x": 186,
+                        "y": 213.5
+                      },
+                      {
+                        "x": 103,
+                        "y": 214
+                      }
+                    ],
+                    [
+                      {
+                        "x": 95.5,
+                        "y": 14.5
+                      },
+                      {
+                        "x": 195.5,
+                        "y": 13.5
+                      },
+                      {
+                        "x": 200.5,
+                        "y": 210.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 210.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 195.5,
+                        "y": 16
+                      },
+                      {
+                        "x": 219.5,
+                        "y": 28
+                      },
+                      {
+                        "x": 196.5,
+                        "y": 28.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 105,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 102.5,
+                        "y": 27
+                      },
+                      {
+                        "x": 70,
+                        "y": 29
+                      }
+                    ],
+                    [
+                      {
+                        "x": 123,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 173,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 189,
+                        "y": 12.5
+                      },
+                      {
+                        "x": 93.5,
+                        "y": 14.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 114.5,
+                        "y": 16
+                      },
+                      {
+                        "x": 175,
+                        "y": 16.5
+                      },
+                      {
+                        "x": 182,
+                        "y": 215.5
+                      },
+                      {
+                        "x": 149,
+                        "y": 221
+                      },
+                      {
+                        "x": 113.5,
+                        "y": 216.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "greenBlob",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "greenBlob",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 68.5,
+                        "y": 28
+                      },
+                      {
+                        "x": 223,
+                        "y": 29
+                      },
+                      {
+                        "x": 226.5,
+                        "y": 212
+                      },
+                      {
+                        "x": 65.5,
+                        "y": 211
+                      }
+                    ],
+                    [
+                      {
+                        "x": 61.5,
+                        "y": 37
+                      },
+                      {
+                        "x": 229,
+                        "y": 38
+                      },
+                      {
+                        "x": 233,
+                        "y": 210
+                      },
+                      {
+                        "x": 59,
+                        "y": 208
+                      }
+                    ],
+                    [
+                      {
+                        "x": 56.5,
+                        "y": 45
+                      },
+                      {
+                        "x": 235,
+                        "y": 45
+                      },
+                      {
+                        "x": 245,
+                        "y": 206
+                      },
+                      {
+                        "x": 41.5,
+                        "y": 206
+                      }
+                    ],
+                    [
+                      {
+                        "x": 50.5,
+                        "y": 52.5
+                      },
+                      {
+                        "x": 240,
+                        "y": 52.5
+                      },
+                      {
+                        "x": 257.5,
+                        "y": 201.5
+                      },
+                      {
+                        "x": 34,
+                        "y": 202
+                      }
+                    ],
+                    [
+                      {
+                        "x": 34,
+                        "y": 93
+                      },
+                      {
+                        "x": 46,
+                        "y": 60.5
+                      },
+                      {
+                        "x": 244.5,
+                        "y": 60.5
+                      },
+                      {
+                        "x": 267,
+                        "y": 195
+                      },
+                      {
+                        "x": 25,
+                        "y": 197.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 41.5,
+                        "y": 67.5
+                      },
+                      {
+                        "x": 250.5,
+                        "y": 71.5
+                      },
+                      {
+                        "x": 258.5,
+                        "y": 125
+                      },
+                      {
+                        "x": 32,
+                        "y": 126.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 28,
+                        "y": 131
+                      },
+                      {
+                        "x": 260,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 271.5,
+                        "y": 188
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 191.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 23,
+                        "y": 136.5
+                      },
+                      {
+                        "x": 267,
+                        "y": 136
+                      },
+                      {
+                        "x": 276.5,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 155.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 10,
+                        "y": 161.5
+                      },
+                      {
+                        "x": 277.5,
+                        "y": 157.5
+                      },
+                      {
+                        "x": 273.5,
+                        "y": 182.5
+                      },
+                      {
+                        "x": 14.5,
+                        "y": 187
+                      }
+                    ],
+                    [
+                      {
+                        "x": 104.83438873291016,
+                        "y": 26.89220428466797
+                      },
+                      {
+                        "x": 105,
+                        "y": 10
+                      },
+                      {
+                        "x": 184,
+                        "y": 10
+                      },
+                      {
+                        "x": 186,
+                        "y": 213.5
+                      },
+                      {
+                        "x": 103,
+                        "y": 214
+                      }
+                    ],
+                    [
+                      {
+                        "x": 95.5,
+                        "y": 14.5
+                      },
+                      {
+                        "x": 195.5,
+                        "y": 13.5
+                      },
+                      {
+                        "x": 200.5,
+                        "y": 210.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 210.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 195.5,
+                        "y": 16
+                      },
+                      {
+                        "x": 219.5,
+                        "y": 28
+                      },
+                      {
+                        "x": 196.5,
+                        "y": 28.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 105,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 102.5,
+                        "y": 27
+                      },
+                      {
+                        "x": 70,
+                        "y": 29
+                      }
+                    ],
+                    [
+                      {
+                        "x": 123,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 173,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 189,
+                        "y": 12.5
+                      },
+                      {
+                        "x": 93.5,
+                        "y": 14.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 114.5,
+                        "y": 16
+                      },
+                      {
+                        "x": 175,
+                        "y": 16.5
+                      },
+                      {
+                        "x": 182,
+                        "y": 215.5
+                      },
+                      {
+                        "x": 149,
+                        "y": 221
+                      },
+                      {
+                        "x": 113.5,
+                        "y": 216.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "orangeBlob",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "orangeBlob",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 68.5,
+                        "y": 28
+                      },
+                      {
+                        "x": 223,
+                        "y": 29
+                      },
+                      {
+                        "x": 226.5,
+                        "y": 212
+                      },
+                      {
+                        "x": 65.5,
+                        "y": 211
+                      }
+                    ],
+                    [
+                      {
+                        "x": 61.5,
+                        "y": 37
+                      },
+                      {
+                        "x": 229,
+                        "y": 38
+                      },
+                      {
+                        "x": 233,
+                        "y": 210
+                      },
+                      {
+                        "x": 59,
+                        "y": 208
+                      }
+                    ],
+                    [
+                      {
+                        "x": 56.5,
+                        "y": 45
+                      },
+                      {
+                        "x": 235,
+                        "y": 45
+                      },
+                      {
+                        "x": 245,
+                        "y": 206
+                      },
+                      {
+                        "x": 41.5,
+                        "y": 206
+                      }
+                    ],
+                    [
+                      {
+                        "x": 50.5,
+                        "y": 52.5
+                      },
+                      {
+                        "x": 240,
+                        "y": 52.5
+                      },
+                      {
+                        "x": 257.5,
+                        "y": 201.5
+                      },
+                      {
+                        "x": 34,
+                        "y": 202
+                      }
+                    ],
+                    [
+                      {
+                        "x": 34,
+                        "y": 93
+                      },
+                      {
+                        "x": 46,
+                        "y": 60.5
+                      },
+                      {
+                        "x": 244.5,
+                        "y": 60.5
+                      },
+                      {
+                        "x": 267,
+                        "y": 195
+                      },
+                      {
+                        "x": 25,
+                        "y": 197.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 41.5,
+                        "y": 67.5
+                      },
+                      {
+                        "x": 250.5,
+                        "y": 71.5
+                      },
+                      {
+                        "x": 258.5,
+                        "y": 125
+                      },
+                      {
+                        "x": 32,
+                        "y": 126.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 28,
+                        "y": 131
+                      },
+                      {
+                        "x": 260,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 271.5,
+                        "y": 188
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 191.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 23,
+                        "y": 136.5
+                      },
+                      {
+                        "x": 267,
+                        "y": 136
+                      },
+                      {
+                        "x": 276.5,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 155.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 10,
+                        "y": 161.5
+                      },
+                      {
+                        "x": 277.5,
+                        "y": 157.5
+                      },
+                      {
+                        "x": 273.5,
+                        "y": 182.5
+                      },
+                      {
+                        "x": 14.5,
+                        "y": 187
+                      }
+                    ],
+                    [
+                      {
+                        "x": 104.83438873291016,
+                        "y": 26.89220428466797
+                      },
+                      {
+                        "x": 105,
+                        "y": 10
+                      },
+                      {
+                        "x": 184,
+                        "y": 10
+                      },
+                      {
+                        "x": 186,
+                        "y": 213.5
+                      },
+                      {
+                        "x": 103,
+                        "y": 214
+                      }
+                    ],
+                    [
+                      {
+                        "x": 95.5,
+                        "y": 14.5
+                      },
+                      {
+                        "x": 195.5,
+                        "y": 13.5
+                      },
+                      {
+                        "x": 200.5,
+                        "y": 210.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 210.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 195.5,
+                        "y": 16
+                      },
+                      {
+                        "x": 219.5,
+                        "y": 28
+                      },
+                      {
+                        "x": 196.5,
+                        "y": 28.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 105,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 102.5,
+                        "y": 27
+                      },
+                      {
+                        "x": 70,
+                        "y": 29
+                      }
+                    ],
+                    [
+                      {
+                        "x": 123,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 173,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 189,
+                        "y": 12.5
+                      },
+                      {
+                        "x": 93.5,
+                        "y": 14.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 114.5,
+                        "y": 16
+                      },
+                      {
+                        "x": 175,
+                        "y": 16.5
+                      },
+                      {
+                        "x": 182,
+                        "y": 215.5
+                      },
+                      {
+                        "x": 149,
+                        "y": 221
+                      },
+                      {
+                        "x": 113.5,
+                        "y": 216.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pinkBlob",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pink Blob (3)2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 68.5,
+                        "y": 28
+                      },
+                      {
+                        "x": 223,
+                        "y": 29
+                      },
+                      {
+                        "x": 226.5,
+                        "y": 212
+                      },
+                      {
+                        "x": 65.5,
+                        "y": 211
+                      }
+                    ],
+                    [
+                      {
+                        "x": 61.5,
+                        "y": 37
+                      },
+                      {
+                        "x": 229,
+                        "y": 38
+                      },
+                      {
+                        "x": 233,
+                        "y": 210
+                      },
+                      {
+                        "x": 59,
+                        "y": 208
+                      }
+                    ],
+                    [
+                      {
+                        "x": 56.5,
+                        "y": 45
+                      },
+                      {
+                        "x": 235,
+                        "y": 45
+                      },
+                      {
+                        "x": 245,
+                        "y": 206
+                      },
+                      {
+                        "x": 41.5,
+                        "y": 206
+                      }
+                    ],
+                    [
+                      {
+                        "x": 50.5,
+                        "y": 52.5
+                      },
+                      {
+                        "x": 240,
+                        "y": 52.5
+                      },
+                      {
+                        "x": 257.5,
+                        "y": 201.5
+                      },
+                      {
+                        "x": 34,
+                        "y": 202
+                      }
+                    ],
+                    [
+                      {
+                        "x": 34,
+                        "y": 93
+                      },
+                      {
+                        "x": 46,
+                        "y": 60.5
+                      },
+                      {
+                        "x": 244.5,
+                        "y": 60.5
+                      },
+                      {
+                        "x": 267,
+                        "y": 195
+                      },
+                      {
+                        "x": 25,
+                        "y": 197.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 41.5,
+                        "y": 67.5
+                      },
+                      {
+                        "x": 250.5,
+                        "y": 71.5
+                      },
+                      {
+                        "x": 258.5,
+                        "y": 125
+                      },
+                      {
+                        "x": 32,
+                        "y": 126.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 28,
+                        "y": 131
+                      },
+                      {
+                        "x": 260,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 271.5,
+                        "y": 188
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 191.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 23,
+                        "y": 136.5
+                      },
+                      {
+                        "x": 267,
+                        "y": 136
+                      },
+                      {
+                        "x": 276.5,
+                        "y": 154.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 155.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 10,
+                        "y": 161.5
+                      },
+                      {
+                        "x": 277.5,
+                        "y": 157.5
+                      },
+                      {
+                        "x": 273.5,
+                        "y": 182.5
+                      },
+                      {
+                        "x": 14.5,
+                        "y": 187
+                      }
+                    ],
+                    [
+                      {
+                        "x": 104.83438873291016,
+                        "y": 26.89220428466797
+                      },
+                      {
+                        "x": 105,
+                        "y": 10
+                      },
+                      {
+                        "x": 184,
+                        "y": 10
+                      },
+                      {
+                        "x": 186,
+                        "y": 213.5
+                      },
+                      {
+                        "x": 103,
+                        "y": 214
+                      }
+                    ],
+                    [
+                      {
+                        "x": 95.5,
+                        "y": 14.5
+                      },
+                      {
+                        "x": 195.5,
+                        "y": 13.5
+                      },
+                      {
+                        "x": 200.5,
+                        "y": 210.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 210.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 195.5,
+                        "y": 16
+                      },
+                      {
+                        "x": 219.5,
+                        "y": 28
+                      },
+                      {
+                        "x": 196.5,
+                        "y": 28.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 105,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 102.5,
+                        "y": 27
+                      },
+                      {
+                        "x": 70,
+                        "y": 29
+                      }
+                    ],
+                    [
+                      {
+                        "x": 123,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 173,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 189,
+                        "y": 12.5
+                      },
+                      {
+                        "x": 93.5,
+                        "y": 14.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 114.5,
+                        "y": 16
+                      },
+                      {
+                        "x": 175,
+                        "y": 16.5
+                      },
+                      {
+                        "x": 182,
+                        "y": 215.5
+                      },
+                      {
+                        "x": 149,
+                        "y": 221
+                      },
+                      {
+                        "x": 113.5,
+                        "y": 216.5
                       }
                     ]
                   ]
@@ -1863,6 +3314,23 @@
           "x": 1130,
           "y": 152,
           "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 164,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Blob",
+          "persistentUuid": "0fc9d1b3-982b-488e-8246-e658b98dc426",
+          "width": 186,
+          "x": 545,
+          "y": 387,
+          "zOrder": 53,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7238,6 +8706,21 @@
           "name": "timeToDraw",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "purpleCount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "greenCount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "orangeCount",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -7748,6 +9231,38 @@
           "x": 442,
           "y": 470,
           "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Preview_Blobs",
+          "persistentUuid": "a13d7b9c-9f1e-4d3b-903d-332ba54586a9",
+          "width": 0,
+          "x": 824,
+          "y": 420,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Harmony_",
+          "persistentUuid": "025c83f6-14a9-4903-a326-26ccfc09d103",
+          "width": 0,
+          "x": 817,
+          "y": 544,
+          "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9462,6 +10977,138 @@
             "LabelText": "Click to Replay Round",
             "PressedLabelOffsetY": 2
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Preview_Blobs",
+          "persistentUuid": "8607b466-9fcb-4308-8329-6abe7cae08dd",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Harmony_",
+          "persistentUuid": "8258e743-5561-40b3-9356-466e2fd9858f",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText2",
+          "persistentUuid": "d49b7488-99c3-45aa-98fb-6d4199878cb8",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -9585,6 +11232,15 @@
           },
           {
             "objectName": "replayRoundButton"
+          },
+          {
+            "objectName": "Preview_Blobs"
+          },
+          {
+            "objectName": "Harmony_"
+          },
+          {
+            "objectName": "NewText2"
           }
         ]
       },
@@ -10128,7 +11784,7 @@
                 "Blob",
                 "colorId",
                 "=",
-                "RandomInRange(0,2)"
+                "RandomInRange(0,4)"
               ]
             },
             {
@@ -10714,7 +12370,6 @@
           "parameters": []
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -10800,6 +12455,16 @@
                         "True",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "calculateHarmonyScore",
+                        "True",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -10851,6 +12516,16 @@
                       },
                       "parameters": [
                         "timeToDraw",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "calculateHarmonyScore",
                         "True",
                         ""
                       ]
@@ -11073,16 +12748,6 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "calculateHarmonyScore",
-                "True",
-                "0"
-              ]
-            },
-            {
-              "type": {
                 "value": "PrimitiveDrawing::Drawer::ClearShapes"
               },
               "parameters": [
@@ -11197,7 +12862,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "pinkCount",
+                "purpleCount",
                 "=",
                 "0"
               ]
@@ -11208,6 +12873,36 @@
               },
               "parameters": [
                 "blueCount",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "greenCount",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "orangeCount",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "pinkCount",
                 "=",
                 "0"
               ]
@@ -11235,7 +12930,6 @@
           ],
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Blob",
               "conditions": [
@@ -11369,7 +13063,7 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "pinkCount",
+                        "purpleCount",
                         "+",
                         "1"
                       ]
@@ -11398,6 +13092,90 @@
                       },
                       "parameters": [
                         "blueCount",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "colorId",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "greenCount",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "colorId",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "orangeCount",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "colorId",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "pinkCount",
                         "+",
                         "1"
                       ]
@@ -11449,7 +13227,7 @@
                   "parameters": [
                     "colorScore",
                     "=",
-                    "max(pinkCount, blueCount) / previewBlobsCounted"
+                    "max(purpleCount, max(blueCount, max(pinkCount, max(orangeCount, greenCount)))) / previewBlobsCounted"
                   ]
                 }
               ],
@@ -11459,12 +13237,22 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                        "value": "IsCursorOnObject"
                       },
                       "parameters": [
-                        "colorScore",
-                        ">=",
-                        "sizeScore"
+                        "colorButton",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
                       ]
                     }
                   ],
@@ -11474,9 +13262,46 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "logicChoice",
+                        "playerChoice",
                         "=",
                         "\"color\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "IsCursorOnObject"
+                      },
+                      "parameters": [
+                        "sizeButton",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "playerChoice",
+                        "=",
+                        "\"size\""
                       ]
                     }
                   ]
@@ -11504,6 +13329,33 @@
                         "logicChoice",
                         "=",
                         "\"size\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "colorScore",
+                        ">=",
+                        "sizeScore"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "logicChoice",
+                        "=",
+                        "\"color\""
                       ]
                     }
                   ]
@@ -11541,7 +13393,7 @@
                         "groupText",
                         "Text",
                         "=",
-                        "\"Blobs: \" + ToString(Variable(previewBlobsCounted)) + \" | Points: \" + ToString(Variable(previewHarmonyPoints)) + \" | Max: \" + ToString(Variable(previewMaxPoints)) + \" | Score: \" + ToString(trunc(Variable(liveHarmonyScore))) + \"%\""
+                        "\"Blobs: \" + ToString(Variable(previewBlobsCounted)) + \" | Score: \" + ToString(trunc(Variable(liveHarmonyScore))) + \"%\""
                       ]
                     }
                   ]
@@ -11568,7 +13420,7 @@
                       "parameters": [
                         "liveHarmonyScore",
                         "=",
-                        "max(pinkCount,blueCount)\n \n/ \n\n(previewBlobsCounted)"
+                        "max(purpleCount, max(blueCount, max(pinkCount, max(orangeCount, greenCount)))) / previewBlobsCounted"
                       ]
                     },
                     {
@@ -11579,7 +13431,29 @@
                         "groupText",
                         "Text",
                         "=",
-                        "\"Blobs: \" + ToString(Variable(previewBlobsCounted)) + \" | Points: \" + ToString(Variable(previewHarmonyPoints)) + \" | Max: \" + ToString(Variable(previewMaxPoints)) + \" | Score: \" + ToString(trunc(Variable(liveHarmonyScore))) + \"%\""
+                        "\"Blobs: \" + ToString(Variable(previewBlobsCounted))  + \" | Score: \" + ToString(trunc(Variable(liveHarmonyScore))) + \"%\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Preview_Blobs",
+                        "Text",
+                        "=",
+                        "\"Num: \" + ToString(Variable(previewBlobsCounted))"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Harmony_",
+                        "Text",
+                        "=",
+                        "\"HARMONY: \" + ToString(Variable(liveHarmonyScore))"
                       ]
                     }
                   ]
@@ -11601,16 +13475,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "liveHarmonyScore",
-                    "=",
-                    "0"
-                  ]
-                },
                 {
                   "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
@@ -11843,27 +13707,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "totalHarmonyScore",
-                "=",
-                "totalHarmonyScore + liveHarmonyScore"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
                 "totalBlobsInCircle",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "liveHarmonyScore",
                 "=",
                 "0"
               ]
@@ -11875,13 +13719,29 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "calculateHarmonyScore",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "NumberVariable"
                   },
                   "parameters": [
                     "previewBlobsCounted",
-                    ">",
+                    ">=",
                     "2"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -11900,9 +13760,19 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
+                    "totalHarmonyScore",
+                    "=",
+                    "totalHarmonyScore + liveHarmonyScore"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
                     "averageHarmonyScore",
                     "=",
-                    "totalHarmonyScore\n/\ncompletedCircles"
+                    "Variable(totalHarmonyScore)\n/\nVariable(completedCircles)"
                   ]
                 },
                 {
@@ -11913,7 +13783,7 @@
                     "Score_Points",
                     "Text",
                     "=",
-                    "ToString(trunc(Variable(averageHarmonyScore))) + \"%\""
+                    "ToString(trunc(Variable(averageHarmonyScore) * 100 )) + \"%\""
                   ]
                 },
                 {
@@ -11946,109 +13816,37 @@
                     "True",
                     ""
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "previewBlobsCounted",
-                    "<=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "uncountedBlobs",
-                    "<",
-                    "3"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "completedCircles",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "averageHarmonyScore",
-                    "=",
-                    "totalHarmonyScore\n/\ncompletedCircles"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Score_Points",
-                    "Text",
-                    "=",
-                    "ToString(trunc(Variable(averageHarmonyScore))) + \"%\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "uncountedBlobs",
-                    "=",
-                    "Count(Blob) - previewBlobsCounted"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "blobsLeftNumberText",
-                    "Text",
-                    "=",
-                    "uncountedBlobs"
-                  ]
                 },
                 {
                   "type": {
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "reasoningTime",
-                    "True",
+                    "calculateHarmonyScore",
+                    "False",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "liveHarmonyScore",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "colorB": 228,
@@ -12062,7 +13860,6 @@
           "parameters": []
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "finalizedCircle",
           "conditions": [],
@@ -12321,7 +14118,6 @@
           "parameters": []
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -12348,6 +14144,17 @@
             },
             {
               "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "finalScoreText",
+                "Text",
+                "=",
+                "ToString(trunc(Variable(averageHarmonyScore) * 100 )) + \"%\""
+              ]
+            },
+            {
+              "type": {
                 "value": "ChangeTimeScale"
               },
               "parameters": [
@@ -12362,17 +14169,6 @@
               "parameters": [
                 "",
                 "\"End Round Layer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "finalScoreText",
-                "Text",
-                "=",
-                "ToString(trunc(averageHarmonyScore)) + \"%\""
               ]
             }
           ],
@@ -12501,78 +14297,34 @@
           "comment": "round-ending instances"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "uncountedBlobs",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "parameters": [],
+              "subInstructions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-                      },
-                      "parameters": [
-                        "colorButton",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-                      },
-                      "parameters": [
-                        "sizeButton",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "isRoundOver",
-                    "True",
-                    ""
+                    "uncountedBlobs",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "remainingTime",
+                    "<=",
+                    "0"
                   ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "remainingTime",
-                "<=",
-                "0"
               ]
             }
           ],
@@ -13057,8 +14809,8 @@
     {
       "b": 255,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Every_32Level_32Frame",
-      "name": "Every Level Frame",
+      "mangledName": "Start_32Scene",
+      "name": "Start Scene",
       "r": 247,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -13076,19 +14828,988 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.6455105703311477,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "isJumping",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "startScreenBackground",
+          "persistentUuid": "5ca0b931-c2e1-451d-8969-ec50a2ee1b5c",
+          "width": 0,
+          "x": -17,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 116,
+          "keepRatio": true,
+          "layer": "",
+          "name": "startGameButton",
+          "persistentUuid": "b632cb94-c6f8-4136-8967-4ba942883919",
+          "width": 455,
+          "x": 460,
+          "y": 415,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 725,
+          "leftMargin": 0,
+          "name": "startScreenBackground",
+          "rightMargin": 0,
+          "texture": "Blobbie Home Screen2.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 1390,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "53d0c4f44a79a8c1651b3aafa9df6064d459255607d04801535a2ba551e6e963",
+          "name": "startGameButton",
+          "persistentUuid": "05fae43a-b24c-4e80-82b9-e2cd6fa0cf8f",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Small White Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LabelText": "PLAY",
+            "PressedLabelOffsetY": 2
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "startScreenBackground"
+          },
+          {
+            "objectName": "startGameButton"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "isJumping",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "startGameButton",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "isJumping",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "isJumping",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "startGameButton",
+                "-90",
+                "150",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "startGameButton",
+                "\"jumpTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "startGameButton",
+                "\"startTimer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "startGameButton",
+                "\"jumpTimer\"",
+                ">",
+                "0.2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PauseObjectTimer"
+              },
+              "parameters": [
+                "startGameButton",
+                "\"jumpTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "startGameButton",
+                "90",
+                "150",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "isJumping",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"startTimer\"",
+                    ">",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"startTimer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Levels Menu Scene\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Levels_32Menu_32Scene",
+      "name": "Levels Menu Scene",
+      "r": 247,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.9934433498259572,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewPanelSprite",
+          "persistentUuid": "ba1f649f-0a22-4440-be5d-0835fc29b64c",
+          "width": 0,
+          "x": -2,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 92,
+          "keepRatio": true,
+          "layer": "",
+          "name": "level1ClickSpace",
+          "persistentUuid": "46c338f3-551b-4a48-b010-0d3dc32fcc5c",
+          "width": 128,
+          "x": 238,
+          "y": 222,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 97,
+          "keepRatio": true,
+          "layer": "",
+          "name": "level2ClickSpace",
+          "persistentUuid": "0b421c46-aad2-47fe-978b-38a7e787b1d3",
+          "width": 128,
+          "x": 443,
+          "y": 220,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 97,
+          "keepRatio": true,
+          "layer": "",
+          "name": "level3ClickSpace",
+          "persistentUuid": "d2337a23-b471-4e34-9706-6018481b5529",
+          "width": 120,
+          "x": 640,
+          "y": 219,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "keepRatio": true,
+          "layer": "",
+          "name": "level4ClickSpace",
+          "persistentUuid": "d25dcaac-0aa0-4e35-8d24-fb5d4a1797bc",
+          "width": 128,
+          "x": 836,
+          "y": 219,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 101,
+          "keepRatio": true,
+          "layer": "",
+          "name": "level5ClickSpace",
+          "persistentUuid": "db732fad-d2d3-4bb2-b1b5-46f72140debb",
+          "width": 126,
+          "x": 1027,
+          "y": 216,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 99,
+          "keepRatio": true,
+          "layer": "",
+          "name": "level6ClickSpace",
+          "persistentUuid": "acc1eab1-35dd-42bb-9cd1-9fc3ae5988ae",
+          "width": 128,
+          "x": 233,
+          "y": 371,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 101,
+          "keepRatio": true,
+          "layer": "",
+          "name": "level7ClickSpace",
+          "persistentUuid": "b7f14932-cb1f-4b00-b0e1-38382af534a1",
+          "width": 126,
+          "x": 437,
+          "y": 371,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 101,
+          "keepRatio": true,
+          "layer": "",
+          "name": "level8ClickSpace",
+          "persistentUuid": "0ae094ab-36f7-4d75-b3ea-ab3cc16d446c",
+          "width": 127,
+          "x": 631,
+          "y": 370,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 67,
+          "keepRatio": true,
+          "layer": "",
+          "name": "homeClickSpace",
+          "persistentUuid": "854d7451-b59c-47a4-b077-bc24f82ef97c",
+          "width": 416,
+          "x": 504,
+          "y": 533,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 725,
+          "leftMargin": 0,
+          "name": "NewPanelSprite",
+          "rightMargin": 0,
+          "texture": "Levels Screen2.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 1380,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "level1ClickSpace",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "atlasImage": "New image",
+            "rowCount": 4,
+            "columnCount": 4,
+            "tileSize": 8,
+            "tilesWithHitBox": ""
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "level2ClickSpace",
+          "texture": "NewTiledSprite",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "level3ClickSpace",
+          "texture": "NewTiledSprite2",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "level4ClickSpace",
+          "texture": "NewTiledSprite3",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "level5ClickSpace",
+          "texture": "NewTiledSprite4",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "level6ClickSpace",
+          "texture": "NewTiledSprite5",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "level7ClickSpace",
+          "texture": "NewTiledSprite6",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "level8ClickSpace",
+          "texture": "NewTiledSprite7",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "homeClickSpace",
+          "texture": "NewTiledSprite8",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewPanelSprite"
+          },
+          {
+            "objectName": "level7ClickSpace"
+          },
+          {
+            "objectName": "level8ClickSpace"
+          },
+          {
+            "objectName": "level6ClickSpace"
+          },
+          {
+            "objectName": "level1ClickSpace"
+          },
+          {
+            "objectName": "level2ClickSpace"
+          },
+          {
+            "objectName": "level3ClickSpace"
+          },
+          {
+            "objectName": "level4ClickSpace"
+          },
+          {
+            "objectName": "level5ClickSpace"
+          },
+          {
+            "objectName": "homeClickSpace"
+          }
+        ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "homeClickSpace",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Start Scene\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "level1ClickSpace",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 1\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "level2ClickSpace",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "level3ClickSpace",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "level4ClickSpace",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "level5ClickSpace",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "level6ClickSpace",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "level7ClickSpace",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "level8ClickSpace",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": []
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -17826,6 +20547,664 @@
                   "width": 64,
                   "x": 5,
                   "y": 14,
+                  "zOrder": 2,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                }
+              ],
+              "editionSettings": []
+            },
+            {
+              "areaMaxX": 128,
+              "areaMaxY": 48,
+              "areaMaxZ": 64,
+              "areaMinX": 0,
+              "areaMinY": 0,
+              "areaMinZ": 0,
+              "assetStoreAssetId": "0afc2350902b780376c88111a4f3b03e4273d1ffe8e77239be4647e55ef35abd",
+              "assetStoreOriginalName": "Small Light Grey Button",
+              "name": "Small Light Grey Button",
+              "objects": [
+                {
+                  "assetStoreId": "",
+                  "bold": false,
+                  "italic": false,
+                  "name": "Label",
+                  "smoothed": true,
+                  "type": "TextObject::Text",
+                  "underlined": false,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 4,
+                      "topEdgeAnchor": 4,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "TextStyleState",
+                      "type": "PanelSpriteButton::TextStyleState",
+                      "ShouldEnableOutlineOnHover": false,
+                      "HoverColor": "",
+                      "ShouldEnableShadowOnHover": false,
+                      "HoverFontSize": 0,
+                      "IsHovered": false,
+                      "IdleFontSize": 0,
+                      "IdleColor": ""
+                    }
+                  ],
+                  "string": "Text",
+                  "font": "",
+                  "textAlignment": "center",
+                  "characterSize": 20,
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "content": {
+                    "bold": false,
+                    "isOutlineEnabled": false,
+                    "isShadowEnabled": false,
+                    "italic": false,
+                    "outlineColor": "255;255;255",
+                    "outlineThickness": 2,
+                    "shadowAngle": 90,
+                    "shadowBlurRadius": 2,
+                    "shadowColor": "0;0;0",
+                    "shadowDistance": 4,
+                    "shadowOpacity": 127,
+                    "smoothed": true,
+                    "underlined": false,
+                    "text": "Text",
+                    "font": "",
+                    "textAlignment": "center",
+                    "verticalTextAlignment": "center",
+                    "characterSize": 20,
+                    "lineHeight": 0,
+                    "color": "0;0;0"
+                  }
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 5,
+                  "height": 32,
+                  "leftMargin": 3,
+                  "name": "Idle",
+                  "rightMargin": 3,
+                  "texture": "assets\\Small Light Grey Button_Idle.png",
+                  "tiled": false,
+                  "topMargin": 3,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 32,
+                  "variables": [
+                    {
+                      "folded": true,
+                      "name": "State",
+                      "type": "string",
+                      "value": "Idle"
+                    }
+                  ],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "ButtonFSM",
+                      "type": "PanelSpriteButton::ButtonFSM",
+                      "ShouldCheckHovering": true
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 5,
+                  "height": 32,
+                  "leftMargin": 3,
+                  "name": "Hovered",
+                  "rightMargin": 3,
+                  "texture": "assets\\Small Light Grey Button_Hovered.png",
+                  "tiled": false,
+                  "topMargin": 3,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 32,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "Tween",
+                      "type": "Tween::TweenBehavior"
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 3,
+                  "height": 32,
+                  "leftMargin": 3,
+                  "name": "Pressed",
+                  "rightMargin": 3,
+                  "texture": "assets\\Small Light Grey Button_Pressed.png",
+                  "tiled": false,
+                  "topMargin": 3,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 32,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "name": "BitmapLabel",
+                  "type": "BitmapText::BitmapTextObject",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 4,
+                      "topEdgeAnchor": 4,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "BitmapTextStyleState",
+                      "type": "PanelSpriteButton::BitmapTextStyleState",
+                      "HoverColor": "",
+                      "HoverPrefix": "",
+                      "HoverSuffix": "",
+                      "IsHovered": false,
+                      "IdleText": "",
+                      "IdleColor": ""
+                    }
+                  ],
+                  "content": {
+                    "text": "Button",
+                    "opacity": 255,
+                    "scale": 1,
+                    "fontSize": 20,
+                    "tint": "109;84;58",
+                    "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+                    "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png",
+                    "align": "center",
+                    "verticalTextAlignment": "center"
+                  }
+                }
+              ],
+              "objectsFolderStructure": {
+                "folderName": "__ROOT",
+                "children": [
+                  {
+                    "objectName": "Label"
+                  },
+                  {
+                    "objectName": "BitmapLabel"
+                  },
+                  {
+                    "objectName": "Idle"
+                  },
+                  {
+                    "objectName": "Hovered"
+                  },
+                  {
+                    "objectName": "Pressed"
+                  }
+                ]
+              },
+              "objectsGroups": [
+                {
+                  "name": "Background",
+                  "objects": [
+                    {
+                      "name": "Idle"
+                    },
+                    {
+                      "name": "Hovered"
+                    },
+                    {
+                      "name": "Pressed"
+                    }
+                  ]
+                },
+                {
+                  "name": "Labels",
+                  "objects": [
+                    {
+                      "name": "Label"
+                    },
+                    {
+                      "name": "BitmapLabel"
+                    }
+                  ]
+                }
+              ],
+              "layers": [
+                {
+                  "ambientLightColorB": 200,
+                  "ambientLightColorG": 200,
+                  "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
+                  "camera3DFarPlaneDistance": 10000,
+                  "camera3DFieldOfView": 45,
+                  "camera3DNearPlaneDistance": 3,
+                  "cameraType": "",
+                  "followBaseLayerCamera": false,
+                  "isLightingLayer": false,
+                  "isLocked": false,
+                  "name": "",
+                  "renderingType": "",
+                  "visibility": true,
+                  "cameras": [
+                    {
+                      "defaultSize": true,
+                      "defaultViewport": true,
+                      "height": 0,
+                      "viewportBottom": 1,
+                      "viewportLeft": 0,
+                      "viewportRight": 1,
+                      "viewportTop": 0,
+                      "width": 0
+                    }
+                  ],
+                  "effects": []
+                }
+              ],
+              "instances": [
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 48,
+                  "layer": "",
+                  "name": "Idle",
+                  "persistentUuid": "24882334-eec8-403e-8bf1-70fc928a46e6",
+                  "width": 128,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 1,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 48,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "BitmapLabel",
+                  "persistentUuid": "c3c3200d-dec4-4ac4-9dc5-4715d8989830",
+                  "width": 128,
+                  "x": 5,
+                  "y": 26,
+                  "zOrder": 2,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                }
+              ],
+              "editionSettings": []
+            },
+            {
+              "areaMaxX": 128,
+              "areaMaxY": 48,
+              "areaMaxZ": 64,
+              "areaMinX": 0,
+              "areaMinY": 0,
+              "areaMinZ": 0,
+              "assetStoreAssetId": "53d0c4f44a79a8c1651b3aafa9df6064d459255607d04801535a2ba551e6e963",
+              "assetStoreOriginalName": "Small White Button",
+              "name": "Small White Button",
+              "objects": [
+                {
+                  "assetStoreId": "",
+                  "bold": false,
+                  "italic": false,
+                  "name": "Label",
+                  "smoothed": true,
+                  "type": "TextObject::Text",
+                  "underlined": false,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 4,
+                      "topEdgeAnchor": 4,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "TextStyleState",
+                      "type": "PanelSpriteButton::TextStyleState",
+                      "ShouldEnableOutlineOnHover": false,
+                      "HoverColor": "",
+                      "ShouldEnableShadowOnHover": false,
+                      "HoverFontSize": 0,
+                      "IsHovered": false,
+                      "IdleFontSize": 0,
+                      "IdleColor": ""
+                    }
+                  ],
+                  "string": "Text",
+                  "font": "",
+                  "textAlignment": "center",
+                  "characterSize": 20,
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "content": {
+                    "bold": false,
+                    "isOutlineEnabled": false,
+                    "isShadowEnabled": false,
+                    "italic": false,
+                    "outlineColor": "255;255;255",
+                    "outlineThickness": 2,
+                    "shadowAngle": 90,
+                    "shadowBlurRadius": 2,
+                    "shadowColor": "0;0;0",
+                    "shadowDistance": 4,
+                    "shadowOpacity": 127,
+                    "smoothed": true,
+                    "underlined": false,
+                    "text": "Text",
+                    "font": "",
+                    "textAlignment": "center",
+                    "verticalTextAlignment": "center",
+                    "characterSize": 20,
+                    "lineHeight": 0,
+                    "color": "0;0;0"
+                  }
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 5,
+                  "height": 32,
+                  "leftMargin": 3,
+                  "name": "Idle",
+                  "rightMargin": 3,
+                  "texture": "assets\\Small White Button_Idle.png",
+                  "tiled": true,
+                  "topMargin": 3,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 32,
+                  "variables": [
+                    {
+                      "folded": true,
+                      "name": "State",
+                      "type": "string",
+                      "value": "Idle"
+                    }
+                  ],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "ButtonFSM",
+                      "type": "PanelSpriteButton::ButtonFSM",
+                      "ShouldCheckHovering": true
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 5,
+                  "height": 32,
+                  "leftMargin": 3,
+                  "name": "Hovered",
+                  "rightMargin": 3,
+                  "texture": "assets\\Small White Button_Hovered.png",
+                  "tiled": true,
+                  "topMargin": 3,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 32,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "Tween",
+                      "type": "Tween::TweenBehavior"
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 3,
+                  "height": 32,
+                  "leftMargin": 3,
+                  "name": "Pressed",
+                  "rightMargin": 3,
+                  "texture": "assets\\Small White Button_Pressed.png",
+                  "tiled": true,
+                  "topMargin": 3,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 32,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "name": "BitmapLabel",
+                  "type": "BitmapText::BitmapTextObject",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 4,
+                      "topEdgeAnchor": 4,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "BitmapTextStyleState",
+                      "type": "PanelSpriteButton::BitmapTextStyleState",
+                      "HoverColor": "",
+                      "HoverPrefix": "",
+                      "HoverSuffix": "",
+                      "IsHovered": false,
+                      "IdleText": "",
+                      "IdleColor": ""
+                    }
+                  ],
+                  "content": {
+                    "text": "Button",
+                    "opacity": 255,
+                    "scale": 1,
+                    "fontSize": 20,
+                    "tint": "109;84;58",
+                    "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+                    "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png",
+                    "align": "center",
+                    "verticalTextAlignment": "center"
+                  }
+                }
+              ],
+              "objectsFolderStructure": {
+                "folderName": "__ROOT",
+                "children": [
+                  {
+                    "objectName": "Label"
+                  },
+                  {
+                    "objectName": "BitmapLabel"
+                  },
+                  {
+                    "objectName": "Idle"
+                  },
+                  {
+                    "objectName": "Hovered"
+                  },
+                  {
+                    "objectName": "Pressed"
+                  }
+                ]
+              },
+              "objectsGroups": [
+                {
+                  "name": "Background",
+                  "objects": [
+                    {
+                      "name": "Idle"
+                    },
+                    {
+                      "name": "Hovered"
+                    },
+                    {
+                      "name": "Pressed"
+                    }
+                  ]
+                },
+                {
+                  "name": "Labels",
+                  "objects": [
+                    {
+                      "name": "Label"
+                    },
+                    {
+                      "name": "BitmapLabel"
+                    }
+                  ]
+                }
+              ],
+              "layers": [
+                {
+                  "ambientLightColorB": 200,
+                  "ambientLightColorG": 200,
+                  "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
+                  "camera3DFarPlaneDistance": 10000,
+                  "camera3DFieldOfView": 45,
+                  "camera3DNearPlaneDistance": 3,
+                  "cameraType": "",
+                  "followBaseLayerCamera": false,
+                  "isLightingLayer": false,
+                  "isLocked": false,
+                  "name": "",
+                  "renderingType": "",
+                  "visibility": true,
+                  "cameras": [
+                    {
+                      "defaultSize": true,
+                      "defaultViewport": true,
+                      "height": 0,
+                      "viewportBottom": 1,
+                      "viewportLeft": 0,
+                      "viewportRight": 1,
+                      "viewportTop": 0,
+                      "width": 0
+                    }
+                  ],
+                  "effects": []
+                }
+              ],
+              "instances": [
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 48,
+                  "layer": "",
+                  "name": "Idle",
+                  "persistentUuid": "24882334-eec8-403e-8bf1-70fc928a46e6",
+                  "width": 128,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 1,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 48,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "BitmapLabel",
+                  "persistentUuid": "c3c3200d-dec4-4ac4-9dc5-4715d8989830",
+                  "width": 128,
+                  "x": 5,
+                  "y": 26,
                   "zOrder": 2,
                   "numberProperties": [],
                   "stringProperties": [],
