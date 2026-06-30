@@ -8791,6 +8791,11 @@
           "name": "blobsMoving",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "groupingTime",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -11788,7 +11793,7 @@
               },
               "parameters": [
                 "reasoningTime",
-                "True",
+                "False",
                 ""
               ]
             },
@@ -11844,6 +11849,16 @@
             },
             {
               "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "groupingTime",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -11884,6 +11899,78 @@
             "textR": 0
           },
           "comment": "tutorial instructions"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "startButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "startButton",
+                "\"Left\"",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Start Level Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "clickToBeginTutorialText",
+                "Text"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "blobsMoving",
+                "True",
+                ""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -11982,6 +12069,16 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "reasoningTime",
+                "True",
+                ""
+              ]
             }
           ]
         },
@@ -12052,78 +12149,6 @@
                 "Text",
                 "=",
                 "\"Press, hold, then drag & release your mouse to group blobs. \""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "startButton",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "startButton",
-                "\"Left\"",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"Start Level Layer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeTimeScale"
-              },
-              "parameters": [
-                "",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "clickToBeginTutorialText",
-                "Text"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "blobsMoving",
-                "True",
-                ""
               ]
             }
           ]
@@ -13133,7 +13158,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "blobsMoving",
+                "groupingTime",
                 "False",
                 ""
               ]
@@ -13199,16 +13224,6 @@
                         "True",
                         ""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "blobsMoving",
-                        "True",
-                        ""
-                      ]
                     }
                   ]
                 }
@@ -13270,16 +13285,6 @@
                       },
                       "parameters": [
                         "calculateHarmonyScore",
-                        "True",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "blobsMoving",
                         "True",
                         ""
                       ]
@@ -14465,16 +14470,6 @@
                 "=",
                 "0"
               ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "blobsMoving",
-                "True",
-                ""
-              ]
             }
           ],
           "events": [
@@ -14608,16 +14603,6 @@
                   "parameters": [
                     "",
                     "\"reasoningTimer\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "blobsMoving",
-                    "False",
-                    ""
                   ]
                 }
               ]
@@ -14772,16 +14757,6 @@
                   "parameters": [
                     "",
                     "\"reasoningTimer\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "blobsMoving",
-                    "False",
-                    ""
                   ]
                 }
               ]
