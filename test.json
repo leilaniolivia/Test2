@@ -13200,16 +13200,6 @@
                         "value": "SetBooleanVariable"
                       },
                       "parameters": [
-                        "reasoningTime",
-                        "False",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
                         "timeToDraw",
                         "True",
                         ""
@@ -13221,6 +13211,26 @@
                       },
                       "parameters": [
                         "calculateHarmonyScore",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "reasoningTime",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "groupingTime",
                         "True",
                         ""
                       ]
@@ -13264,16 +13274,6 @@
                         "value": "SetBooleanVariable"
                       },
                       "parameters": [
-                        "reasoningTime",
-                        "False",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
                         "timeToDraw",
                         "True",
                         ""
@@ -13285,6 +13285,26 @@
                       },
                       "parameters": [
                         "calculateHarmonyScore",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "reasoningTime",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "groupingTime",
                         "True",
                         ""
                       ]
