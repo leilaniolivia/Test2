@@ -2539,7 +2539,27 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "ButtonObjectEffects",
+          "type": "ButtonStates::ButtonObjectEffects",
+          "ButtonFSM": "ButtonFSM",
+          "Effect": "Effect",
+          "IdleEffect": "",
+          "FocusedEffect": "",
+          "PressedEffect": ""
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -8584,6 +8604,10 @@
           "type": "ButtonStates::ButtonFSM"
         },
         {
+          "name": "ButtonObjectEffects",
+          "type": "ButtonStates::ButtonObjectEffects"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -8998,11 +9022,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Hint",
+          "name": "liveHarmonyScoreText",
           "persistentUuid": "f8c4841d-34f1-485b-acf3-93760e3cabb6",
           "width": 0,
-          "x": 1066,
-          "y": 446,
+          "x": 1125,
+          "y": 458,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -9317,8 +9341,8 @@
           "name": "reasoningPromptText",
           "persistentUuid": "57c11aed-a254-4a21-b85e-0413606e8092",
           "width": 286,
-          "x": 994,
-          "y": 146,
+          "x": 995,
+          "y": 142,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
@@ -10117,14 +10141,14 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "Hint",
+          "name": "liveHarmonyScoreText",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Group 3 or more\nmatching blobs!",
+          "string": "-- %",
           "font": "",
           "textAlignment": "left",
           "characterSize": 20,
@@ -10147,7 +10171,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Group 3 or more\nmatching blobs!",
+            "text": "-- %",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -11581,7 +11605,7 @@
             "objectName": "yourScoreText"
           },
           {
-            "objectName": "Hint"
+            "objectName": "liveHarmonyScoreText"
           },
           {
             "objectName": "countdownText"
@@ -13490,6 +13514,11 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -13562,6 +13591,13 @@
                 "1"
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
           ]
         },
         {
@@ -13590,139 +13626,134 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "previewBlobsCounted",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "slowCount",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "fastCount",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "smallCount",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "mediumCount",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "largeCount",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "purpleCount",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "blueCount",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "greenCount",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "orangeCount",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "pinkCount",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "maxTrait",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "minTrait",
-                "=",
-                "0"
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "slowCount",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "fastCount",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "smallCount",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "mediumCount",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "largeCount",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "greenCount",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "purpleCount",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "blueCount",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "pinkCount",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "orangeCount",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "maxTrait",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "minTrait",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -15043,6 +15074,10 @@
           "type": "ButtonStates::ButtonFSM"
         },
         {
+          "name": "ButtonObjectEffects",
+          "type": "ButtonStates::ButtonObjectEffects"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -15435,6 +15470,14 @@
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "ButtonObjectEffects",
+          "type": "ButtonStates::ButtonObjectEffects"
         },
         {
           "name": "Effect",
@@ -16147,6 +16190,14 @@
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "ButtonObjectEffects",
+          "type": "ButtonStates::ButtonObjectEffects"
         },
         {
           "name": "Effect",
