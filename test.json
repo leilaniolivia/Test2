@@ -1,7 +1,7 @@
 {
   "firstLayout": "Start Scene",
   "gdVersion": {
-    "build": 272,
+    "build": 273,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -9399,38 +9399,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Preview_Blobs",
-          "persistentUuid": "a13d7b9c-9f1e-4d3b-903d-332ba54586a9",
-          "width": 0,
-          "x": 1298,
-          "y": 719,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Harmony_",
-          "persistentUuid": "025c83f6-14a9-4903-a326-26ccfc09d103",
-          "width": 0,
-          "x": 1254,
-          "y": 736,
-          "zOrder": 55,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 99,
@@ -9475,6 +9443,38 @@
           "x": 1022,
           "y": 539,
           "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Tutorial Text Layer",
+          "name": "blobsLeftNumberText",
+          "persistentUuid": "a2aea9fa-f9f2-4db8-89ba-a7e383068a23",
+          "width": 0,
+          "x": 852,
+          "y": 507,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Tutorial Text Layer",
+          "name": "blobsLeftNumberText",
+          "persistentUuid": "421c976d-e334-40a1-b73f-c30b9adc658d",
+          "width": 0,
+          "x": 1187,
+          "y": 690,
+          "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12155,6 +12155,16 @@
                 "True",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "groupCount",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -12300,7 +12310,7 @@
                 "",
                 "\"tutorialText1Timer\"",
                 ">",
-                "18"
+                "2"
               ]
             },
             {
@@ -12363,7 +12373,7 @@
                 "",
                 "\"tutorialText1Timer\"",
                 ">",
-                "18"
+                "2"
               ]
             },
             {
@@ -12741,7 +12751,6 @@
           "parameters": []
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -12807,6 +12816,161 @@
             "textR": 0
           },
           "comment": "blob creation"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "brownian movement"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "isPaused",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ClearForces"
+              },
+              "parameters": [
+                "Blob"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Blob",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Blob",
+                    "isBlobFrozen",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "Blob",
+                    "Blob.Variable(direction)",
+                    "Blob.Variable(speed)",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "isPaused",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ClearForces"
+              },
+              "parameters": [
+                "Blob"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "random direction"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Blob",
+                "\"wanderSlow\"",
+                ">",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Blob",
+                "speed",
+                "=",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Blob",
+                "direction",
+                "=",
+                "RandomInRange(0,360)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Blob",
+                "\"wanderSlow\""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -13078,108 +13242,11 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "brownian movement"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ClearForces"
-                  },
-                  "parameters": [
-                    "Blob"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceAL"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "Blob.Variable(direction)",
-                    "Blob.Variable(speed)",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "random direction"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "\"wanderSlow\"",
-                    ">",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "speed",
-                    "=",
-                    "10"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "direction",
-                    "=",
-                    "RandomInRange(0,360)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "\"wanderSlow\""
-                  ]
-                }
-              ]
             }
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -13235,6 +13302,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -13290,6 +13358,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -13316,6 +13385,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -13986,22 +14056,76 @@
             },
             {
               "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Blob",
+                "isBlobFrozen",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
             }
           ],
-          "actions": [
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "SetBooleanVariable"
+                "value": "BooleanVariable"
               },
               "parameters": [
-                "isFrozen",
+                "clickTime",
                 "True",
                 ""
               ]
             },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Blob",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Blob",
+                "isBlobFrozen",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "SetNumberVariable"
@@ -14040,6 +14164,17 @@
                 "previewBlobsCounted",
                 "+",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Blob",
+                "isBlobFrozen",
+                "True",
+                ""
               ]
             }
           ],
@@ -14611,6 +14746,16 @@
                     "True",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "groupCount",
+                    "+",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -14677,6 +14822,16 @@
                     "reasoningTime",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "groupCount",
+                    "+",
+                    "1"
                   ]
                 }
               ]
@@ -14861,7 +15016,17 @@
                       "parameters": [
                         "averageHarmonyScore",
                         "=",
-                        "averageHarmonyScore + totalHarmonyScore"
+                        "totalHarmonyScore"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "averageHarmonyScore",
+                        "/",
+                        "groupCount"
                       ]
                     }
                   ]
@@ -14908,7 +15073,17 @@
                       "parameters": [
                         "averageHarmonyScore",
                         "=",
-                        "averageHarmonyScore + totalHarmonyScore"
+                        "totalHarmonyScore"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "averageHarmonyScore",
+                        "/",
+                        "groupCount"
                       ]
                     }
                   ]
@@ -15054,6 +15229,57 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "uncountedBlobs",
+                "-",
+                "blobsCounted"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "blobsLeftNumberText",
+                "Text",
+                "=",
+                "uncountedBlobs"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "blobsCounted",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "calculateLiveHarmonyScore",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "previewBlobsCounted",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -15109,7 +15335,7 @@
                 "Score_Points",
                 "Text",
                 "=",
-                "ToString(liveHarmonyScore * 100 )+  \" %\""
+                "ToString(averageHarmonyScore* 100 )+  \" %\""
               ]
             }
           ]
@@ -16807,6 +17033,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "speedButton",
+          "persistentUuid": "9e62702e-8ce9-4d8b-9bf3-25bb55b25c51",
+          "width": 0,
+          "x": 1072,
+          "y": 357,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -20243,6 +20485,17 @@
                   "parameters": [
                     "Blob",
                     "\"wanderFast\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Blob",
+                    "speed",
+                    "=",
+                    "RandomInRange(0,1)"
                   ]
                 }
               ],
