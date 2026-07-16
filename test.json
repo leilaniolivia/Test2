@@ -1,7 +1,7 @@
 {
   "firstLayout": "Start Scene",
   "gdVersion": {
-    "build": 273,
+    "build": 269,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -850,6 +850,22 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/3ac4ccfca394be1b0e90c245ed85246d69ad1324d0cc398d74b9a944f9e14605_Right-Arrow.png",
           "name": "Right-Arrow.png"
         }
+      },
+      {
+        "file": "Hackett, Destiny Game HomeScreen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hackett, Destiny Game HomeScreen.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "HomeScreen button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HomeScreen button.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -9147,22 +9163,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "blobsLeftNumberText",
-          "persistentUuid": "95aea072-48be-4ffb-afa8-0eab28cde85c",
-          "width": 0,
-          "x": 1180,
-          "y": 673,
-          "zOrder": 33,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 52,
@@ -9443,38 +9443,6 @@
           "x": 1022,
           "y": 539,
           "zOrder": 59,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Tutorial Text Layer",
-          "name": "blobsLeftNumberText",
-          "persistentUuid": "a2aea9fa-f9f2-4db8-89ba-a7e383068a23",
-          "width": 0,
-          "x": 852,
-          "y": 507,
-          "zOrder": 60,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Tutorial Text Layer",
-          "name": "blobsLeftNumberText",
-          "persistentUuid": "421c976d-e334-40a1-b73f-c30b9adc658d",
-          "width": 0,
-          "x": 1187,
-          "y": 690,
-          "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15310,21 +15278,10 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Harmony_",
-                "Text",
-                "=",
-                "\"HARMONY: \" + ToString(Variable(liveHarmonyScore))"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
                 "liveHarmonyScoreText",
                 "Text",
                 "=",
-                "ToString(liveHarmonyScore * 100 ) + \" %\""
+                "ToString(trunc(liveHarmonyScore * 100 )) + \" %\""
               ]
             },
             {
@@ -15335,7 +15292,7 @@
                 "Score_Points",
                 "Text",
                 "=",
-                "ToString(averageHarmonyScore* 100 )+  \" %\""
+                "ToString(trunc(averageHarmonyScore* 100) )+  \" %\""
               ]
             }
           ]
@@ -23611,16 +23568,33 @@
         {
           "angle": 0,
           "customSize": true,
+          "depth": 1,
+          "height": 722,
+          "keepRatio": true,
+          "layer": "",
+          "name": "startScreenBackground2",
+          "persistentUuid": "a5829dcc-2e14-46b5-bea8-341c5478e7f8",
+          "width": 1390,
+          "x": -19,
+          "y": -2,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
           "depth": 64,
-          "height": 116,
+          "height": 101,
           "keepRatio": true,
           "layer": "",
           "name": "startGameButton",
-          "persistentUuid": "b632cb94-c6f8-4136-8967-4ba942883919",
-          "width": 455,
-          "x": 460,
-          "y": 415,
-          "zOrder": 2,
+          "persistentUuid": "67ef486a-174d-4eeb-80c4-e6958401f3d7",
+          "width": 324,
+          "x": 506,
+          "y": 423,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23656,6 +23630,38 @@
             "LabelText": "PLAY",
             "PressedLabelOffsetY": 2
           }
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "startScreenBackground2",
+          "rightMargin": 0,
+          "texture": "Hackett, Destiny Game HomeScreen.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "startGame_Button",
+          "rightMargin": 0,
+          "texture": "HomeScreen button.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -23665,7 +23671,13 @@
             "objectName": "startScreenBackground"
           },
           {
+            "objectName": "startScreenBackground2"
+          },
+          {
             "objectName": "startGameButton"
+          },
+          {
+            "objectName": "startGame_Button"
           }
         ]
       },
