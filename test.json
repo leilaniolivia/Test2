@@ -866,6 +866,95 @@
         "name": "HomeScreen button.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Silkscreen-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NotoSansArabicUI-Black.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "58f64bcc48842f9a938582fee628aa6f6b2c229db5f8e4c82a09b3ab0b7ceed5_NotoSansArabicUI-Black.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Score counters/Kenney/58f64bcc48842f9a938582fee628aa6f6b2c229db5f8e4c82a09b3ab0b7ceed5_NotoSansArabicUI-Black.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NotoSansKR-Bold.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "2a386a33f204fa5d07da0da4bb45590ddeca669235b77471fca2e5405f749c9a_NotoSansKR-Bold.otf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Korean/2a386a33f204fa5d07da0da4bb45590ddeca669235b77471fca2e5405f749c9a_NotoSansKR-Bold.otf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "Groupie_Logo-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Groupie_Logo-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Groupie_Logo-removebg-preview.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Groupie_Logo-removebg-preview.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Groupie Logo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Groupie Logo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Groupie Logo2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Groupie Logo2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Groupie Logo3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Groupie Logo3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Groupie Logo3.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Groupie Logo3.png2.png\"}",
+        "name": "Groupie Logo3.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Groupie Logo4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Groupie Logo4.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -899,12 +988,12 @@
           "value": 0
         },
         {
-          "name": "currentCircleId",
-          "type": "number",
-          "value": 0
+          "name": "isBlobFrozen",
+          "type": "boolean",
+          "value": false
         },
         {
-          "name": "isBlobFrozen",
+          "name": "justSelected",
           "type": "boolean",
           "value": false
         }
@@ -8683,7 +8772,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.841642812537312,
+        "zoomFactor": 0.6897782140104511,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -8924,6 +9013,11 @@
           "name": "recalculateLiveHarmonyScore",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "scorePointsY",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -8947,31 +9041,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "GameLogo",
-          "persistentUuid": "8c6670e8-293f-45af-8b56-00e21dfc7a01",
-          "width": 0,
-          "x": 44,
-          "y": 51,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
           "keepRatio": true,
           "layer": "",
           "name": "TimeText",
           "persistentUuid": "a546db8a-9d47-46c5-a743-85e3f81a72d8",
-          "width": 0,
-          "x": 447,
-          "y": 40,
+          "width": 98,
+          "x": 416,
+          "y": 23,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -8979,15 +9058,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 29,
           "keepRatio": true,
           "layer": "",
           "name": "countdownText",
           "persistentUuid": "d88e7863-9144-4117-8b3e-024dd80fb8a9",
-          "width": 0,
-          "x": 459,
-          "y": 65,
+          "width": 68,
+          "x": 432,
+          "y": 57,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -8995,15 +9075,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 27,
           "keepRatio": true,
           "layer": "",
           "name": "ScoreText",
           "persistentUuid": "c01aefd3-9766-4902-be5a-87f5534bc050",
-          "width": 0,
-          "x": 596,
-          "y": 37,
+          "width": 110,
+          "x": 608,
+          "y": 23,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -9011,15 +9092,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 21,
           "keepRatio": true,
           "layer": "",
           "name": "Score_Points",
           "persistentUuid": "3f40a693-17e7-49d8-a776-643bd4d5c435",
-          "width": 0,
-          "x": 656,
-          "y": 63,
+          "width": 30,
+          "x": 650,
+          "y": 56,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -9027,15 +9109,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
           "keepRatio": true,
           "layer": "",
           "name": "RoundText",
           "persistentUuid": "175d2220-c0f5-4843-98a9-043af7e61598",
-          "width": 0,
-          "x": 828,
-          "y": 42,
+          "width": 119,
+          "x": 799,
+          "y": 23,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -9050,8 +9133,8 @@
           "name": "RoundNumbers",
           "persistentUuid": "3142bd3b-41d7-4708-91bd-c5210d7c503b",
           "width": 0,
-          "x": 837,
-          "y": 68,
+          "x": 826,
+          "y": 52,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -9083,25 +9166,9 @@
           "name": "liveHarmonyScoreText",
           "persistentUuid": "f8c4841d-34f1-485b-acf3-93760e3cabb6",
           "width": 0,
-          "x": 1125,
-          "y": 458,
+          "x": 1114,
+          "y": 454,
           "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BestStreakText",
-          "persistentUuid": "068885ce-07e5-4efd-a119-164156198999",
-          "width": 0,
-          "x": 997,
-          "y": 644,
-          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9115,9 +9182,9 @@
           "layer": "",
           "name": "blobsLeftText",
           "persistentUuid": "3e719bba-6bd7-4f1c-a7aa-54120b5d3b0b",
-          "width": 109,
-          "x": 1149,
-          "y": 645,
+          "width": 127,
+          "x": 1134,
+          "y": 642,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -9132,8 +9199,8 @@
           "name": "PromptText",
           "persistentUuid": "d63d2079-189d-4349-8928-e2d37d010973",
           "width": 0,
-          "x": 225,
-          "y": 645,
+          "x": 192,
+          "y": 648,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -9148,25 +9215,9 @@
           "name": "AdviceText",
           "persistentUuid": "a2e6f295-420e-431c-a32a-8b093005ac69",
           "width": 0,
-          "x": 380,
-          "y": 696,
+          "x": 312,
+          "y": 688,
           "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BestStreakNumbes",
-          "persistentUuid": "12b6381d-bd46-4d0d-8e54-be17f6768d3f",
-          "width": 0,
-          "x": 1040,
-          "y": 670,
-          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9383,8 +9434,8 @@
           "name": "reasoningPromptText",
           "persistentUuid": "57c11aed-a254-4a21-b85e-0413606e8092",
           "width": 286,
-          "x": 995,
-          "y": 142,
+          "x": 996,
+          "y": 138,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
@@ -9433,8 +9484,8 @@
           "name": "clickToBeginTutorialText",
           "persistentUuid": "080cfeb4-b58a-4956-b69f-dd1f2dfee12b",
           "width": 0,
-          "x": 407,
-          "y": 479,
+          "x": 349,
+          "y": 477,
           "zOrder": 57,
           "numberProperties": [],
           "stringProperties": [],
@@ -9453,6 +9504,39 @@
           "x": 1022,
           "y": 539,
           "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Plus 5 Text Layer",
+          "name": "plusFiveText",
+          "persistentUuid": "45149e01-911d-4bd3-b92e-c889150038cf",
+          "width": 0,
+          "x": 694,
+          "y": 81,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 122,
+          "keepRatio": true,
+          "layer": "",
+          "name": "logo",
+          "persistentUuid": "07b615a1-cbff-4c29-a60f-81a1da15c61b",
+          "width": 319,
+          "x": 32,
+          "y": 22,
+          "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9532,35 +9616,35 @@
           "effects": [],
           "behaviors": [],
           "string": "Time",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 94,
+            "g": 59,
+            "r": 41
           },
           "content": {
             "bold": false,
-            "isOutlineEnabled": false,
+            "isOutlineEnabled": true,
             "isShadowEnabled": false,
             "italic": false,
-            "outlineColor": "255;255;255",
+            "outlineColor": "243;243;243",
             "outlineThickness": 2,
             "shadowAngle": 90,
             "shadowBlurRadius": 2,
             "shadowColor": "0;0;0",
             "shadowDistance": 4,
-            "shadowOpacity": 127,
+            "shadowOpacity": 255,
             "smoothed": true,
             "underlined": false,
             "text": "Time",
-            "font": "",
-            "textAlignment": "left",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+            "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 30,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "41;59;94"
           }
         },
         {
@@ -9576,13 +9660,13 @@
           "effects": [],
           "behaviors": [],
           "string": "60\n",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 94,
+            "g": 59,
+            "r": 41
           },
           "content": {
             "bold": false,
@@ -9599,12 +9683,12 @@
             "smoothed": true,
             "underlined": false,
             "text": "60\n",
-            "font": "",
-            "textAlignment": "left",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+            "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 30,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "41;59;94"
           }
         },
         {
@@ -9619,18 +9703,18 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Harmony Score\n",
-          "font": "",
+          "string": "Score\n",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 30,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 94,
+            "g": 59,
+            "r": 41
           },
           "content": {
             "bold": false,
-            "isOutlineEnabled": false,
+            "isOutlineEnabled": true,
             "isShadowEnabled": false,
             "italic": false,
             "outlineColor": "255;255;255",
@@ -9642,13 +9726,13 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Harmony Score\n",
-            "font": "",
+            "text": "Score\n",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 30,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "41;59;94"
           }
         },
         {
@@ -9669,13 +9753,13 @@
             }
           ],
           "string": "0",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 94,
+            "g": 59,
+            "r": 41
           },
           "content": {
             "bold": false,
@@ -9692,12 +9776,12 @@
             "smoothed": true,
             "underlined": false,
             "text": "0",
-            "font": "",
-            "textAlignment": "left",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+            "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 30,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "41;59;94"
           }
         },
         {
@@ -9713,17 +9797,17 @@
           "effects": [],
           "behaviors": [],
           "string": "Round",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 94,
+            "g": 59,
+            "r": 41
           },
           "content": {
             "bold": false,
-            "isOutlineEnabled": false,
+            "isOutlineEnabled": true,
             "isShadowEnabled": false,
             "italic": false,
             "outlineColor": "255;255;255",
@@ -9736,12 +9820,12 @@
             "smoothed": true,
             "underlined": false,
             "text": "Round",
-            "font": "",
-            "textAlignment": "left",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+            "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 30,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "41;59;94"
           }
         },
         {
@@ -9757,13 +9841,13 @@
           "effects": [],
           "behaviors": [],
           "string": "1/10",
-          "font": "",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 30,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 94,
+            "g": 59,
+            "r": 41
           },
           "content": {
             "bold": false,
@@ -9780,12 +9864,12 @@
             "smoothed": true,
             "underlined": false,
             "text": "1/10",
-            "font": "",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 30,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "41;59;94"
           }
         },
         {
@@ -9805,16 +9889,16 @@
           "textAlignment": "left",
           "characterSize": 20,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 94,
+            "g": 59,
+            "r": 41
           },
           "content": {
             "bold": false,
             "isOutlineEnabled": true,
             "isShadowEnabled": false,
             "italic": false,
-            "outlineColor": "255;255;255",
+            "outlineColor": "243;243;243",
             "outlineThickness": 3,
             "shadowAngle": 90,
             "shadowBlurRadius": 0,
@@ -9829,7 +9913,7 @@
             "verticalTextAlignment": "top",
             "characterSize": 20,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "41;59;94"
           }
         },
         {
@@ -10147,13 +10231,13 @@
           "effects": [],
           "behaviors": [],
           "string": "-- %",
-          "font": "",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 20,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 94,
+            "g": 59,
+            "r": 41
           },
           "content": {
             "bold": false,
@@ -10170,12 +10254,12 @@
             "smoothed": true,
             "underlined": false,
             "text": "-- %",
-            "font": "",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 20,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "41;59;94"
           }
         },
         {
@@ -10276,17 +10360,17 @@
           "effects": [],
           "behaviors": [],
           "string": "Blobs Left:",
-          "font": "",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 18,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 94,
+            "g": 59,
+            "r": 41
           },
           "content": {
             "bold": false,
-            "isOutlineEnabled": false,
+            "isOutlineEnabled": true,
             "isShadowEnabled": false,
             "italic": false,
             "outlineColor": "255;255;255",
@@ -10299,17 +10383,17 @@
             "smoothed": true,
             "underlined": false,
             "text": "Blobs Left:",
-            "font": "",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 18,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "41;59;94"
           }
         },
         {
           "assetStoreId": "",
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "PromptText",
           "smoothed": true,
@@ -10318,21 +10402,21 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Drag a ring to group matching blobs!",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 40,
+          "string": "Click on Blobs to group & collect them",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 28,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 94,
+            "g": 59,
+            "r": 41
           },
           "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
+            "bold": true,
+            "isOutlineEnabled": true,
             "isShadowEnabled": false,
             "italic": false,
-            "outlineColor": "255;255;255",
+            "outlineColor": "243;243;243",
             "outlineThickness": 2,
             "shadowAngle": 90,
             "shadowBlurRadius": 2,
@@ -10341,13 +10425,13 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Drag a ring to group matching blobs!",
-            "font": "",
-            "textAlignment": "left",
+            "text": "Click on Blobs to group & collect them",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+            "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 40,
+            "characterSize": 28,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "41;59;94"
           }
         },
         {
@@ -10362,13 +10446,13 @@
           "effects": [],
           "behaviors": [],
           "string": "Make smart groups, beat the clock!",
-          "font": "",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 20,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 243,
+            "g": 243,
+            "r": 243
           },
           "content": {
             "bold": false,
@@ -10385,12 +10469,12 @@
             "smoothed": true,
             "underlined": false,
             "text": "Make smart groups, beat the clock!",
-            "font": "",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 20,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "243;243;243"
           }
         },
         {
@@ -11128,13 +11212,13 @@
           "effects": [],
           "behaviors": [],
           "string": "How will you group these blobs?",
-          "font": "",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 20,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 94,
+            "g": 59,
+            "r": 41
           },
           "content": {
             "bold": false,
@@ -11151,12 +11235,12 @@
             "smoothed": true,
             "underlined": false,
             "text": "How will you group these blobs?",
-            "font": "",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
             "characterSize": 20,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "41;59;94"
           }
         },
         {
@@ -11370,13 +11454,13 @@
           "effects": [],
           "behaviors": [],
           "string": "Click to begin the tutorial",
-          "font": "",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 20,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 243,
+            "g": 243,
+            "r": 243
           },
           "content": {
             "bold": false,
@@ -11393,12 +11477,12 @@
             "smoothed": true,
             "underlined": false,
             "text": "Click to begin the tutorial",
-            "font": "",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 20,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "243;243;243"
           }
         },
         {
@@ -11704,6 +11788,70 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "plusFiveText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "+ 5%",
+          "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 16,
+          "color": {
+            "b": 79,
+            "g": 206,
+            "r": 144
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "+ 5%",
+            "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "144;206;79"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "logo",
+          "rightMargin": 0,
+          "texture": "Groupie Logo4.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -11857,6 +12005,12 @@
           },
           {
             "objectName": "tutorial_text_3"
+          },
+          {
+            "objectName": "plusFiveText"
+          },
+          {
+            "objectName": "logo"
           }
         ]
       },
@@ -12082,6 +12236,15 @@
             },
             {
               "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Plus 5 Text Layer\""
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -12293,7 +12456,7 @@
                 "",
                 "\"tutorialText1Timer\"",
                 ">",
-                "2"
+                "0.5"
               ]
             },
             {
@@ -12356,7 +12519,7 @@
                 "",
                 "\"tutorialText1Timer\"",
                 ">",
-                "2"
+                "0.5"
               ]
             },
             {
@@ -14005,7 +14168,6 @@
           "comment": "trait count"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -14031,7 +14193,18 @@
             },
             {
               "type": {
-                "value": "MouseButtonFromTextPressed"
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Blob",
+                "isBlobFrozen",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
               },
               "parameters": [
                 "",
@@ -14043,17 +14216,6 @@
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Blob",
-                "isBlobFrozen",
-                "False",
-                ""
-              ]
             }
           ],
           "actions": [
@@ -14106,6 +14268,26 @@
                 "isBlobFrozen",
                 "True",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Blob",
+                "justSelected",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Blob",
+                "\"resetSelection\""
               ]
             }
           ],
@@ -14568,7 +14750,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -14594,7 +14775,7 @@
             },
             {
               "type": {
-                "value": "MouseButtonFromTextPressed"
+                "value": "MouseButtonFromTextReleased"
               },
               "parameters": [
                 "",
@@ -15131,6 +15312,45 @@
           ]
         },
         {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Blob",
+                "\"resetSelection\"",
+                ">",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Blob",
+                "justSelected",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "RemoveObjectTimer"
+              },
+              "parameters": [
+                "Blob",
+                "\"resetSelection\""
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -15251,6 +15471,36 @@
                     "1"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Blob",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "isBlobFrozen",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Blob",
+                        ""
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -15272,8 +15522,8 @@
                   },
                   "parameters": [
                     "blobsCounted",
-                    ">",
-                    "2"
+                    "<",
+                    "5"
                   ]
                 }
               ],
@@ -15336,6 +15586,36 @@
                     "groupCount",
                     "+",
                     "1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Blob",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "isBlobFrozen",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Blob",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -15471,9 +15751,28 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
+                        "scorePointsY",
+                        "=",
+                        "Score_Points.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
                         "averageHarmonyScore",
                         "+",
                         "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Plus 5 Text Layer\""
                       ]
                     }
                   ],
@@ -15497,30 +15796,47 @@
                             "Score_Points",
                             "Tween",
                             "\"JumpUp\"",
-                            "",
+                            "Score_Points.X()",
                             "Score_Points.Y() - 100",
                             "\"easeOutQuad\"",
                             "0.2",
                             ""
                           ]
                         }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
+                      ],
+                      "events": [
                         {
-                          "type": {
-                            "value": "Tween::HasFinished"
-                          },
-                          "parameters": [
-                            "Score_Points",
-                            "Tween",
-                            "\"JumpUp\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Tween::HasFinished"
+                              },
+                              "parameters": [
+                                "Score_Points",
+                                "Tween",
+                                "\"JumpUp\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "Score_Points",
+                                "Tween",
+                                "\"BounceDown\"",
+                                "scorePointsY+ 100",
+                                "\"easeOutBounce\"",
+                                "0.5",
+                                "no"
+                              ]
+                            }
                           ]
                         }
-                      ],
-                      "actions": []
+                      ]
                     }
                   ]
                 },
@@ -15891,7 +16207,6 @@
           "parameters": []
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -16323,7 +16638,7 @@
           "isLocked": false,
           "name": "MenuLayer",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -16646,6 +16961,60 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Tutorial Text Layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Plus 5 Text Layer",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
