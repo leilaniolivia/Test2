@@ -1,7 +1,7 @@
 {
   "firstLayout": "Start Scene",
   "gdVersion": {
-    "build": 273,
+    "build": 269,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -9323,6 +9323,11 @@
           "name": "scorePointsY",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "scorePointJumpFinished",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -14840,7 +14845,6 @@
           ],
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -16324,37 +16328,7 @@
                       ]
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "scorePointsY",
-                        "=",
-                        "Score_Points.Y()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "averageHarmonyScore",
-                        "+",
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ShowLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Plus 5 Text Layer\""
-                      ]
-                    }
-                  ],
+                  "actions": [],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -16369,50 +16343,115 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "scorePointsY",
+                            "=",
+                            "Score_Points.Y()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "averageHarmonyScore",
+                            "+",
+                            "5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ShowLayer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Plus 5 Text Layer\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                           },
                           "parameters": [
                             "Score_Points",
                             "Tween",
                             "\"JumpUp\"",
-                            "Score_Points.X()",
-                            "Score_Points.Y() - 100",
+                            "scorePointsY - 15\n",
                             "\"easeOutQuad\"",
-                            "0.2",
+                            "1",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "scorePointJumpFinished",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Score_Points",
+                            "\"scoreJump\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "scorePointJumpFinished",
+                            "True",
                             ""
                           ]
                         }
                       ],
-                      "events": [
+                      "actions": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "Tween::HasFinished"
-                              },
-                              "parameters": [
-                                "Score_Points",
-                                "Tween",
-                                "\"JumpUp\""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                              },
-                              "parameters": [
-                                "Score_Points",
-                                "Tween",
-                                "\"BounceDown\"",
-                                "scorePointsY+ 100",
-                                "\"easeOutBounce\"",
-                                "0.5",
-                                "no"
-                              ]
-                            }
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "Score_Points",
+                            "Tween",
+                            "\"BounceDown\"",
+                            "scorePointsY",
+                            "\"easeOutBounce\"",
+                            "1",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "logicChoice",
+                            "=",
+                            "\" \""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "scorePointJumpFinished",
+                            "False",
+                            ""
                           ]
                         }
                       ]
@@ -16533,6 +16572,42 @@
                     }
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Score_Points",
+                "\"scoreJump\"",
+                ">",
+                "1.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Plus 5 Text Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "RemoveObjectTimer"
+              },
+              "parameters": [
+                "Score_Points",
+                "\"scoreJump\""
               ]
             }
           ]
