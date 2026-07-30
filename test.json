@@ -1083,6 +1083,142 @@
         "name": "Endings_Levels_Screen__2_-removebg-preview.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "../../../../Downloads/ChatGPT Image Jul 29, 2026, 05_23_29 AM.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../../Downloads/ChatGPT Image Jul 29, 2026, 05_23_29 AM.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Next_Round_Button-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Next_Round_Button-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Color Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Color Button.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Color Button2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Color Button2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Color Button3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Color Button3.png\",\"extension\":\".png\"}",
+        "name": "Color Button3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Size_Button-removebg-preview (1).png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Size_Button-removebg-preview (1).png\",\"extension\":\".png\"}",
+        "name": "Size_Button-removebg-preview (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Speed Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Speed Button.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Speed Button.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Speed Button",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Color Button4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Color Button4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Size Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Size Button.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Color Button5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Color Button5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Replay_Button-removebg-preview.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Replay_Button-removebg-preview.png\",\"extension\":\".png\"}",
+        "name": "Replay_Button-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "End_Group_Button-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "End_Group_Button-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "End_Group_Button-removebg-preview (1).png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"End_Group_Button-removebg-preview (1).png\",\"extension\":\".png\"}",
+        "name": "End_Group_Button-removebg-preview (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Start_Button-removebg-preview (1).png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Start_Button-removebg-preview (1).png\",\"extension\":\".png\"}",
+        "name": "Start_Button-removebg-preview (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Next_Round_Button__1_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Next_Round_Button__1_-removebg-preview.png\",\"extension\":\".png\"}",
+        "name": "Next_Round_Button__1_-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Next_Round_Button__1_-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Next_Round_Button__1_-removebg-preview2.png\",\"extension\":\".png\"}",
+        "name": "Next_Round_Button__1_-removebg-preview2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -2979,7 +3115,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "noiseBlob",
       "persistentUuid": "a07bb110-af4c-429c-89e6-f1dd71ba581c",
@@ -3008,6 +3144,11 @@
         },
         {
           "name": "isBlobFrozen",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "justSelected",
           "type": "boolean",
           "value": false
         }
@@ -3042,20 +3183,158 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 11,
-                        "y": 42
+                        "x": 84.5,
+                        "y": 120.5
                       },
                       {
-                        "x": 438,
-                        "y": 42
+                        "x": 366,
+                        "y": 115.5
                       },
                       {
-                        "x": 438,
-                        "y": 458
+                        "x": 361,
+                        "y": 443.5
                       },
                       {
-                        "x": 11,
-                        "y": 458
+                        "x": 88.5,
+                        "y": 437
+                      }
+                    ],
+                    [
+                      {
+                        "x": 63.5,
+                        "y": 210
+                      },
+                      {
+                        "x": 430,
+                        "y": 211
+                      },
+                      {
+                        "x": 434,
+                        "y": 259.5
+                      },
+                      {
+                        "x": 59.5,
+                        "y": 258
+                      }
+                    ],
+                    [
+                      {
+                        "x": 62,
+                        "y": 179.5
+                      },
+                      {
+                        "x": 419,
+                        "y": 200.5
+                      },
+                      {
+                        "x": 423.5,
+                        "y": 266
+                      },
+                      {
+                        "x": 48.5,
+                        "y": 271.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 131.5,
+                        "y": 103
+                      },
+                      {
+                        "x": 340.5,
+                        "y": 85
+                      },
+                      {
+                        "x": 362,
+                        "y": 111
+                      },
+                      {
+                        "x": 127,
+                        "y": 116.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 167.5,
+                        "y": 66
+                      },
+                      {
+                        "x": 247.5,
+                        "y": 53
+                      },
+                      {
+                        "x": 301,
+                        "y": 435
+                      },
+                      {
+                        "x": 167.5,
+                        "y": 431
+                      }
+                    ],
+                    [
+                      {
+                        "x": 29,
+                        "y": 363
+                      },
+                      {
+                        "x": 14,
+                        "y": 259
+                      },
+                      {
+                        "x": 411.5,
+                        "y": 274
+                      },
+                      {
+                        "x": 434,
+                        "y": 346
+                      },
+                      {
+                        "x": 409,
+                        "y": 375
+                      },
+                      {
+                        "x": 379,
+                        "y": 390
+                      },
+                      {
+                        "x": 39,
+                        "y": 392.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 39.5,
+                        "y": 252.5
+                      },
+                      {
+                        "x": 400.5,
+                        "y": 199.5
+                      },
+                      {
+                        "x": 406,
+                        "y": 370
+                      },
+                      {
+                        "x": 35.5,
+                        "y": 382
+                      }
+                    ],
+                    [
+                      {
+                        "x": 73,
+                        "y": 139.5
+                      },
+                      {
+                        "x": 351.5,
+                        "y": 139
+                      },
+                      {
+                        "x": 354,
+                        "y": 182
+                      },
+                      {
+                        "x": 63,
+                        "y": 171.5
                       }
                     ]
                   ]
@@ -3091,20 +3370,244 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 11,
-                        "y": 42
+                        "x": 84.5,
+                        "y": 120.5
                       },
                       {
-                        "x": 438,
-                        "y": 42
+                        "x": 366,
+                        "y": 115.5
                       },
                       {
-                        "x": 438,
-                        "y": 458
+                        "x": 361,
+                        "y": 443.5
                       },
                       {
-                        "x": 11,
-                        "y": 458
+                        "x": 88.5,
+                        "y": 437
+                      }
+                    ],
+                    [
+                      {
+                        "x": 63.5,
+                        "y": 210
+                      },
+                      {
+                        "x": 430,
+                        "y": 211
+                      },
+                      {
+                        "x": 434,
+                        "y": 259.5
+                      },
+                      {
+                        "x": 59.5,
+                        "y": 258
+                      }
+                    ],
+                    [
+                      {
+                        "x": 62,
+                        "y": 179.5
+                      },
+                      {
+                        "x": 419,
+                        "y": 200.5
+                      },
+                      {
+                        "x": 423.5,
+                        "y": 266
+                      },
+                      {
+                        "x": 48.5,
+                        "y": 271.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 131.5,
+                        "y": 103
+                      },
+                      {
+                        "x": 362,
+                        "y": 111
+                      },
+                      {
+                        "x": 127,
+                        "y": 116.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 167.5,
+                        "y": 66
+                      },
+                      {
+                        "x": 247,
+                        "y": 89
+                      },
+                      {
+                        "x": 301,
+                        "y": 435
+                      },
+                      {
+                        "x": 167.5,
+                        "y": 431
+                      }
+                    ],
+                    [
+                      {
+                        "x": 55,
+                        "y": 345
+                      },
+                      {
+                        "x": 25,
+                        "y": 257
+                      },
+                      {
+                        "x": 411.5,
+                        "y": 274
+                      },
+                      {
+                        "x": 434,
+                        "y": 346
+                      },
+                      {
+                        "x": 409,
+                        "y": 375
+                      },
+                      {
+                        "x": 379,
+                        "y": 390
+                      },
+                      {
+                        "x": 79.5,
+                        "y": 391.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 39.5,
+                        "y": 252.5
+                      },
+                      {
+                        "x": 400.5,
+                        "y": 199.5
+                      },
+                      {
+                        "x": 406,
+                        "y": 370
+                      },
+                      {
+                        "x": 66,
+                        "y": 373
+                      }
+                    ],
+                    [
+                      {
+                        "x": 73,
+                        "y": 139.5
+                      },
+                      {
+                        "x": 351.5,
+                        "y": 139
+                      },
+                      {
+                        "x": 354,
+                        "y": 182
+                      },
+                      {
+                        "x": 63,
+                        "y": 171.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 51,
+                        "y": 331
+                      },
+                      {
+                        "x": 403.5,
+                        "y": 330
+                      },
+                      {
+                        "x": 379,
+                        "y": 427
+                      },
+                      {
+                        "x": 75,
+                        "y": 426
+                      }
+                    ],
+                    [
+                      {
+                        "x": 94,
+                        "y": 105
+                      },
+                      {
+                        "x": 377,
+                        "y": 105
+                      },
+                      {
+                        "x": 392.5,
+                        "y": 137
+                      },
+                      {
+                        "x": 72.5,
+                        "y": 127
+                      }
+                    ],
+                    [
+                      {
+                        "x": 167.5,
+                        "y": 115.5
+                      },
+                      {
+                        "x": 391,
+                        "y": 135.5
+                      },
+                      {
+                        "x": 409,
+                        "y": 196.5
+                      },
+                      {
+                        "x": 170,
+                        "y": 184.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 179,
+                        "y": 48.5
+                      },
+                      {
+                        "x": 205,
+                        "y": 58
+                      },
+                      {
+                        "x": 239.5,
+                        "y": 101
+                      },
+                      {
+                        "x": 145,
+                        "y": 99.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 203,
+                        "y": 89
+                      },
+                      {
+                        "x": 284.5,
+                        "y": 89
+                      },
+                      {
+                        "x": 300.5,
+                        "y": 435
+                      },
+                      {
+                        "x": 205,
+                        "y": 443.5
                       }
                     ]
                   ]
@@ -3140,20 +3643,244 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 11,
-                        "y": 42
+                        "x": 84.5,
+                        "y": 120.5
                       },
                       {
-                        "x": 438,
-                        "y": 42
+                        "x": 362.5,
+                        "y": 128.5
                       },
                       {
-                        "x": 438,
-                        "y": 458
+                        "x": 361,
+                        "y": 443.5
                       },
                       {
-                        "x": 11,
-                        "y": 458
+                        "x": 88.5,
+                        "y": 437
+                      }
+                    ],
+                    [
+                      {
+                        "x": 63.5,
+                        "y": 210
+                      },
+                      {
+                        "x": 430,
+                        "y": 211
+                      },
+                      {
+                        "x": 434,
+                        "y": 259.5
+                      },
+                      {
+                        "x": 59.5,
+                        "y": 258
+                      }
+                    ],
+                    [
+                      {
+                        "x": 62,
+                        "y": 179.5
+                      },
+                      {
+                        "x": 419,
+                        "y": 200.5
+                      },
+                      {
+                        "x": 423.5,
+                        "y": 266
+                      },
+                      {
+                        "x": 48.5,
+                        "y": 271.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 131.5,
+                        "y": 103
+                      },
+                      {
+                        "x": 331.5,
+                        "y": 94
+                      },
+                      {
+                        "x": 349,
+                        "y": 124.5
+                      },
+                      {
+                        "x": 127,
+                        "y": 116.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 167.5,
+                        "y": 66
+                      },
+                      {
+                        "x": 247.5,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 301,
+                        "y": 435
+                      },
+                      {
+                        "x": 167.5,
+                        "y": 431
+                      }
+                    ],
+                    [
+                      {
+                        "x": 29,
+                        "y": 363
+                      },
+                      {
+                        "x": 46,
+                        "y": 203
+                      },
+                      {
+                        "x": 411.5,
+                        "y": 274
+                      },
+                      {
+                        "x": 419.5,
+                        "y": 349
+                      },
+                      {
+                        "x": 409,
+                        "y": 375
+                      },
+                      {
+                        "x": 379,
+                        "y": 390
+                      },
+                      {
+                        "x": 39,
+                        "y": 392.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 39.5,
+                        "y": 252.5
+                      },
+                      {
+                        "x": 400.5,
+                        "y": 199.5
+                      },
+                      {
+                        "x": 406,
+                        "y": 370
+                      },
+                      {
+                        "x": 35.5,
+                        "y": 382
+                      }
+                    ],
+                    [
+                      {
+                        "x": 73,
+                        "y": 139.5
+                      },
+                      {
+                        "x": 351.5,
+                        "y": 139
+                      },
+                      {
+                        "x": 354,
+                        "y": 182
+                      },
+                      {
+                        "x": 208.5,
+                        "y": 176.75
+                      }
+                    ],
+                    [
+                      {
+                        "x": 81,
+                        "y": 121
+                      },
+                      {
+                        "x": 378,
+                        "y": 129
+                      },
+                      {
+                        "x": 404,
+                        "y": 387.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 398
+                      }
+                    ],
+                    [
+                      {
+                        "x": 166.5,
+                        "y": 49
+                      },
+                      {
+                        "x": 216,
+                        "y": 51.5
+                      },
+                      {
+                        "x": 250.5,
+                        "y": 448.5
+                      },
+                      {
+                        "x": 141,
+                        "y": 449
+                      }
+                    ],
+                    [
+                      {
+                        "x": 163.5,
+                        "y": 49
+                      },
+                      {
+                        "x": 166.5,
+                        "y": 119
+                      },
+                      {
+                        "x": 114.5,
+                        "y": 117
+                      }
+                    ],
+                    [
+                      {
+                        "x": 329,
+                        "y": 397
+                      },
+                      {
+                        "x": 390.5,
+                        "y": 321
+                      },
+                      {
+                        "x": 394,
+                        "y": 404.5
+                      },
+                      {
+                        "x": 374,
+                        "y": 431
+                      }
+                    ],
+                    [
+                      {
+                        "x": 59.5,
+                        "y": 324.5
+                      },
+                      {
+                        "x": 413,
+                        "y": 337
+                      },
+                      {
+                        "x": 391.5,
+                        "y": 415.5
+                      },
+                      {
+                        "x": 58.5,
+                        "y": 419.5
                       }
                     ]
                   ]
@@ -3189,20 +3916,176 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 11,
-                        "y": 42
+                        "x": 84.5,
+                        "y": 120.5
                       },
                       {
-                        "x": 438,
-                        "y": 42
+                        "x": 366,
+                        "y": 115.5
                       },
                       {
-                        "x": 438,
-                        "y": 458
+                        "x": 358,
+                        "y": 429
                       },
                       {
-                        "x": 11,
-                        "y": 458
+                        "x": 323.5,
+                        "y": 443.5
+                      },
+                      {
+                        "x": 88.5,
+                        "y": 437
+                      }
+                    ],
+                    [
+                      {
+                        "x": 63.5,
+                        "y": 210
+                      },
+                      {
+                        "x": 404.5,
+                        "y": 219
+                      },
+                      {
+                        "x": 411.5,
+                        "y": 247
+                      },
+                      {
+                        "x": 59.5,
+                        "y": 258
+                      }
+                    ],
+                    [
+                      {
+                        "x": 62,
+                        "y": 179.5
+                      },
+                      {
+                        "x": 384.5,
+                        "y": 159
+                      },
+                      {
+                        "x": 423.5,
+                        "y": 266
+                      },
+                      {
+                        "x": 48.5,
+                        "y": 271.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 131.5,
+                        "y": 103
+                      },
+                      {
+                        "x": 340.5,
+                        "y": 85
+                      },
+                      {
+                        "x": 362,
+                        "y": 111
+                      },
+                      {
+                        "x": 127,
+                        "y": 116.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 167.5,
+                        "y": 66
+                      },
+                      {
+                        "x": 247.5,
+                        "y": 53
+                      },
+                      {
+                        "x": 301,
+                        "y": 435
+                      },
+                      {
+                        "x": 167.5,
+                        "y": 431
+                      }
+                    ],
+                    [
+                      {
+                        "x": 36.5,
+                        "y": 351.5
+                      },
+                      {
+                        "x": 40.5,
+                        "y": 265
+                      },
+                      {
+                        "x": 411.5,
+                        "y": 274
+                      },
+                      {
+                        "x": 409,
+                        "y": 375
+                      },
+                      {
+                        "x": 379,
+                        "y": 390
+                      },
+                      {
+                        "x": 62,
+                        "y": 391
+                      }
+                    ],
+                    [
+                      {
+                        "x": 39.5,
+                        "y": 252.5
+                      },
+                      {
+                        "x": 400.5,
+                        "y": 199.5
+                      },
+                      {
+                        "x": 406,
+                        "y": 370
+                      },
+                      {
+                        "x": 50,
+                        "y": 370
+                      }
+                    ],
+                    [
+                      {
+                        "x": 73,
+                        "y": 139.5
+                      },
+                      {
+                        "x": 351.5,
+                        "y": 139
+                      },
+                      {
+                        "x": 354,
+                        "y": 182
+                      },
+                      {
+                        "x": 63,
+                        "y": 171.5
+                      }
+                    ],
+                    [
+                      {
+                        "x": 37,
+                        "y": 233
+                      },
+                      {
+                        "x": 319,
+                        "y": 70
+                      },
+                      {
+                        "x": 329,
+                        "y": 437
+                      },
+                      {
+                        "x": 128.5,
+                        "y": 446
                       }
                     ]
                   ]
@@ -3228,6 +4111,545 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "colorButton2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonColorTintTween",
+          "type": "ButtonStates::ButtonColorTintTween",
+          "ButtonFSM": "ButtonFSM",
+          "Tween": "Tween",
+          "IdleColorTint": "255;255;255",
+          "FocusedColorTint": "192;192;192",
+          "PressedColorTint": "64;64;64",
+          "FadeInDuration": 0.1,
+          "FadeOutDuration": 0.2,
+          "FadeInEasing": "easeInOutQuad",
+          "FadeOutEasing": "easeInOutQuad",
+          "PreviousState": "Idle"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Color Button3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Color Button3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 445,
+                    "y": 235
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 151,
+                        "y": 122
+                      },
+                      {
+                        "x": 733,
+                        "y": 122
+                      },
+                      {
+                        "x": 733,
+                        "y": 347
+                      },
+                      {
+                        "x": 151,
+                        "y": 347
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "speedButton2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonColorTintTween",
+          "type": "ButtonStates::ButtonColorTintTween",
+          "ButtonFSM": "ButtonFSM",
+          "Tween": "Tween",
+          "IdleColorTint": "255;255;255",
+          "FocusedColorTint": "192;192;192",
+          "PressedColorTint": "64;64;64",
+          "FadeInDuration": 0.1,
+          "FadeOutDuration": 0.2,
+          "FadeInEasing": "easeInOutQuad",
+          "FadeOutEasing": "easeInOutQuad",
+          "PreviousState": "Idle"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Speed Button",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Speed Button",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 773,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 476,
+                        "y": 399
+                      },
+                      {
+                        "x": 1060,
+                        "y": 399
+                      },
+                      {
+                        "x": 1060,
+                        "y": 624
+                      },
+                      {
+                        "x": 476,
+                        "y": 624
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "sizeButton2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonColorTintTween",
+          "type": "ButtonStates::ButtonColorTintTween",
+          "ButtonFSM": "ButtonFSM",
+          "Tween": "Tween",
+          "IdleColorTint": "255;255;255",
+          "FocusedColorTint": "192;192;192",
+          "PressedColorTint": "64;64;64",
+          "FadeInDuration": 0.1,
+          "FadeOutDuration": 0.2,
+          "FadeInEasing": "easeInOutQuad",
+          "FadeOutEasing": "easeInOutQuad",
+          "PreviousState": "Idle"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Size Button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 104
+                      },
+                      {
+                        "x": 729,
+                        "y": 104
+                      },
+                      {
+                        "x": 729,
+                        "y": 328
+                      },
+                      {
+                        "x": 147,
+                        "y": 328
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "replayButton",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonColorTintTween",
+          "type": "ButtonStates::ButtonColorTintTween",
+          "ButtonFSM": "ButtonFSM",
+          "Tween": "Tween",
+          "IdleColorTint": "255;255;255",
+          "FocusedColorTint": "192;192;192",
+          "PressedColorTint": "64;64;64",
+          "FadeInDuration": 0.1,
+          "FadeOutDuration": 0.2,
+          "FadeInEasing": "easeInOutQuad",
+          "FadeOutEasing": "easeInOutQuad",
+          "PreviousState": "Idle"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Replay_Button-removebg-preview",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Replay_Button-removebg-preview.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 40
+                      },
+                      {
+                        "x": 130,
+                        "y": 40
+                      },
+                      {
+                        "x": 130,
+                        "y": 81
+                      },
+                      {
+                        "x": 39,
+                        "y": 81
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "endGroupButton2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonColorTintTween",
+          "type": "ButtonStates::ButtonColorTintTween",
+          "ButtonFSM": "ButtonFSM",
+          "Tween": "Tween",
+          "IdleColorTint": "255;255;255",
+          "FocusedColorTint": "192;192;192",
+          "PressedColorTint": "64;64;64",
+          "FadeInDuration": 0.1,
+          "FadeOutDuration": 0.2,
+          "FadeInEasing": "easeInOutQuad",
+          "FadeOutEasing": "easeInOutQuad",
+          "PreviousState": "Idle"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "End_Group_Button-removebg-preview (1)",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "End_Group_Button-removebg-preview (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 44,
+                        "y": 35
+                      },
+                      {
+                        "x": 273,
+                        "y": 35
+                      },
+                      {
+                        "x": 273,
+                        "y": 123
+                      },
+                      {
+                        "x": 44,
+                        "y": 123
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "startLevelButton",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonColorTintTween",
+          "type": "ButtonStates::ButtonColorTintTween",
+          "ButtonFSM": "ButtonFSM",
+          "Tween": "Tween",
+          "IdleColorTint": "255;255;255",
+          "FocusedColorTint": "192;192;192",
+          "PressedColorTint": "64;64;64",
+          "FadeInDuration": 0.1,
+          "FadeOutDuration": 0.2,
+          "FadeInEasing": "easeInOutQuad",
+          "FadeOutEasing": "easeInOutQuad",
+          "PreviousState": "Idle"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Start_Button-removebg-preview (1)",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Start_Button-removebg-preview (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 10
+                      },
+                      {
+                        "x": 194,
+                        "y": 10
+                      },
+                      {
+                        "x": 194,
+                        "y": 98
+                      },
+                      {
+                        "x": 13,
+                        "y": 98
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3256,6 +4678,24 @@
       },
       {
         "objectName": "logo"
+      },
+      {
+        "objectName": "colorButton2"
+      },
+      {
+        "objectName": "speedButton2"
+      },
+      {
+        "objectName": "replayButton"
+      },
+      {
+        "objectName": "sizeButton2"
+      },
+      {
+        "objectName": "endGroupButton2"
+      },
+      {
+        "objectName": "startLevelButton"
       }
     ]
   },
@@ -9102,6 +10542,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "ButtonColorTintTween",
+          "type": "ButtonStates::ButtonColorTintTween"
+        },
+        {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM"
         },
@@ -9132,6 +10576,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -9157,7 +10605,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8700232859857308,
+        "zoomFactor": 0.8141881203709929,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -9423,6 +10871,11 @@
           "name": "timePlayed",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "isJumping",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -9538,8 +10991,8 @@
           "name": "RoundNumbers",
           "persistentUuid": "3142bd3b-41d7-4708-91bd-c5210d7c503b",
           "width": 0,
-          "x": 823,
-          "y": 56,
+          "x": 832,
+          "y": 55,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -9698,23 +11151,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 73,
-          "keepRatio": true,
-          "layer": "Start Level Layer",
-          "name": "startButton",
-          "persistentUuid": "2d362324-cc26-4e1f-bf26-f2cbf54c508d",
-          "width": 228,
-          "x": 405,
-          "y": 503,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 50,
           "keepRatio": true,
           "layer": "MenuLayer",
@@ -9781,57 +11217,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 64,
-          "height": 38,
-          "keepRatio": true,
-          "layer": "Next Round Layer",
-          "name": "nextRoundButton",
-          "persistentUuid": "b7a614e7-b1e5-484a-8338-0bec9e2bc248",
-          "width": 160,
-          "x": 425,
-          "y": 536,
-          "zOrder": 75,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 64,
-          "height": 42,
-          "keepRatio": true,
-          "layer": "",
-          "name": "colorButton",
-          "persistentUuid": "b764b9c1-0ba8-4f76-92d3-636055e4d970",
-          "width": 134,
-          "x": 1067,
-          "y": 210,
-          "zOrder": 49,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 64,
-          "height": 45,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sizeButton",
-          "persistentUuid": "f54f9b10-2b6a-425c-9f7b-006ac8a34643",
-          "width": 131,
-          "x": 1070,
-          "y": 281,
-          "zOrder": 50,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 40,
           "keepRatio": true,
@@ -9839,26 +11224,9 @@
           "name": "reasoningPromptText",
           "persistentUuid": "57c11aed-a254-4a21-b85e-0413606e8092",
           "width": 286,
-          "x": 996,
-          "y": 138,
+          "x": 995,
+          "y": 135,
           "zOrder": 52,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 64,
-          "height": 39,
-          "keepRatio": true,
-          "layer": "Replay Layer",
-          "name": "replayRoundButton",
-          "persistentUuid": "17989d0c-aaf9-41d9-9b19-5ecae9bd43ab",
-          "width": 201,
-          "x": 404,
-          "y": 548,
-          "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9898,23 +11266,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 64,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "endGroupButton",
-          "persistentUuid": "6f68bce2-d4cd-4623-b8bd-4aa19c66e247",
-          "width": 240,
-          "x": 1022,
-          "y": 539,
-          "zOrder": 59,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -9922,8 +11273,8 @@
           "name": "plusFiveText",
           "persistentUuid": "45149e01-911d-4bd3-b92e-c889150038cf",
           "width": 0,
-          "x": 694,
-          "y": 81,
+          "x": 642,
+          "y": 76,
           "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
@@ -10033,14 +11384,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 91,
+          "height": 105,
           "keepRatio": true,
           "layer": "Replay Layer",
           "name": "end_round_home_button",
           "persistentUuid": "449ce205-3818-4034-aada-980f35783687",
-          "width": 143,
-          "x": 588,
-          "y": 520,
+          "width": 169,
+          "x": 545,
+          "y": 507,
           "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
@@ -10132,15 +11483,132 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 96,
+          "height": 102,
           "keepRatio": true,
           "layer": "Next Round Layer",
           "name": "end_round_home_button",
           "persistentUuid": "f4fb9dcd-e09a-40a8-9443-918f92863dda",
-          "width": 165,
-          "x": 574,
-          "y": 506,
+          "width": 177,
+          "x": 538,
+          "y": 500,
           "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Next Round Layer",
+          "name": "nextRoundButton",
+          "persistentUuid": "4c9e4cbf-31cd-4598-a976-99407f308d5a",
+          "width": 0,
+          "x": 411,
+          "y": 510,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 141,
+          "keepRatio": true,
+          "layer": "",
+          "name": "colorButton2",
+          "persistentUuid": "db881139-52c8-4402-8a1b-a0d8d44f8165",
+          "width": 435,
+          "x": 1138,
+          "y": 230,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 310,
+          "keepRatio": true,
+          "layer": "",
+          "name": "speedButton2",
+          "persistentUuid": "d692ab6b-21be-4fb0-a3c1-844ff2061a1d",
+          "width": 752,
+          "x": 1138,
+          "y": 385,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 146,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sizeButton2",
+          "persistentUuid": "acf9c6e3-fad4-40ec-b0f9-095403c607d7",
+          "width": 443,
+          "x": 919,
+          "y": 240,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Replay Layer",
+          "name": "replayButton",
+          "persistentUuid": "6b1de2b4-0df2-460b-9f13-a089d0f07741",
+          "width": 0,
+          "x": 437,
+          "y": 501,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 161,
+          "keepRatio": true,
+          "layer": "",
+          "name": "endGroupButton2",
+          "persistentUuid": "98dceffd-46d8-48bf-ba07-3a01c307bf5b",
+          "width": 393,
+          "x": 939,
+          "y": 489,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "startLevelButton",
+          "persistentUuid": "40cc55bd-2e14-4f56-a8f9-72ee98ca8281",
+          "width": 238,
+          "x": 413,
+          "y": 496,
+          "zOrder": 84,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11657,20 +13125,6 @@
         },
         {
           "assetStoreId": "90c9b872a1439405f56d1591e01d6b9fe5dadc4dc1c3afc0bdd98f763b340fa0",
-          "name": "nextRoundButton",
-          "persistentUuid": "5fddb534-26b8-4da9-8453-b655af572c72",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variant": "Small Blue Button",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LabelText": "Next Round",
-            "PressedLabelOffsetY": 2
-          }
-        },
-        {
-          "assetStoreId": "90c9b872a1439405f56d1591e01d6b9fe5dadc4dc1c3afc0bdd98f763b340fa0",
           "name": "colorButton",
           "persistentUuid": "ebffd356-4a4c-4126-a8a1-72c063b38d01",
           "type": "PanelSpriteButton::PanelSpriteButton",
@@ -11805,7 +13259,7 @@
         },
         {
           "assetStoreId": "",
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "reasoningPromptText",
           "persistentUuid": "96e996b4-1ddf-4eec-9c42-cdbeda11f542",
@@ -11820,16 +13274,16 @@
           "textAlignment": "center",
           "characterSize": 20,
           "color": {
-            "b": 94,
-            "g": 59,
-            "r": 41
+            "b": 243,
+            "g": 243,
+            "r": 243
           },
           "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
+            "bold": true,
+            "isOutlineEnabled": true,
             "isShadowEnabled": false,
             "italic": false,
-            "outlineColor": "255;255;255",
+            "outlineColor": "41;59;94",
             "outlineThickness": 2,
             "shadowAngle": 90,
             "shadowBlurRadius": 2,
@@ -11844,7 +13298,7 @@
             "verticalTextAlignment": "top",
             "characterSize": 20,
             "lineHeight": 0,
-            "color": "41;59;94"
+            "color": "243;243;243"
           }
         },
         {
@@ -12427,14 +13881,14 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "+ 5%",
+          "string": "+ 5%\nCorrect Group!\n",
           "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "characterSize": 16,
           "color": {
-            "b": 79,
-            "g": 206,
-            "r": 144
+            "b": 94,
+            "g": 59,
+            "r": 41
           },
           "content": {
             "bold": true,
@@ -12450,13 +13904,13 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "+ 5%",
+            "text": "+ 5%\nCorrect Group!\n",
             "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
-            "textAlignment": "left",
+            "textAlignment": "center",
             "verticalTextAlignment": "top",
             "characterSize": 16,
             "lineHeight": 0,
-            "color": "144;206;79"
+            "color": "41;59;94"
           }
         },
         {
@@ -12930,6 +14384,109 @@
             "lineHeight": 0,
             "color": "41;59;94"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "nextRoundButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Next_Round_Button-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 24
+                          },
+                          {
+                            "x": 144,
+                            "y": 24
+                          },
+                          {
+                            "x": 144,
+                            "y": 65
+                          },
+                          {
+                            "x": 44,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -13043,7 +14600,7 @@
             "objectName": "finalScoreText"
           },
           {
-            "objectName": "nextRoundButton"
+            "objectName": "NewText3"
           },
           {
             "objectName": "colorButton"
@@ -13110,6 +14667,9 @@
           },
           {
             "objectName": "excellentText"
+          },
+          {
+            "objectName": "nextRoundButton"
           }
         ]
       },
@@ -13410,6 +14970,26 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "endGroupButton2",
+                "ButtonColorTintTween",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "startLevelButton",
+                "ButtonColorTintTween",
+                "yes"
+              ]
             }
           ]
         },
@@ -13433,7 +15013,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "startButton",
+                "startLevelButton",
                 "",
                 "",
                 ""
@@ -13482,6 +15062,15 @@
               },
               "parameters": [
                 "clickToBeginTutorialText",
+                "Text"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "startLevelButton",
                 "Text"
               ]
             },
@@ -14091,6 +15680,32 @@
             },
             {
               "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Replay Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Next Round Layer\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -14423,7 +16038,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -14477,9 +16091,107 @@
                     "Blob",
                     "\"wanderFast\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Blob",
+                    "size",
+                    "=",
+                    "RandomInRange(0,2)"
+                  ]
                 }
               ],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "size",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "Scale",
+                        "=",
+                        "0.15"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "size",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "Scale",
+                        "=",
+                        "0.30"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "size",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "Scale",
+                        "=",
+                        "0.45"
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -14524,7 +16236,6 @@
               "comment": "sizing"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -14538,19 +16249,7 @@
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "size",
-                    "=",
-                    "RandomInRange(0,2)"
-                  ]
-                }
-              ],
+              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -15075,6 +16774,16 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "endGroupButton2",
+                "ButtonColorTintTween",
+                "yes"
+              ]
             }
           ],
           "events": [
@@ -15096,9 +16805,9 @@
                   "parameters": [
                     "",
                     "promptPointer",
-                    "1000",
+                    "940\n",
                     "215",
-                    "\"Tutorial Text Layer\""
+                    ""
                   ]
                 },
                 {
@@ -15108,9 +16817,9 @@
                   "parameters": [
                     "",
                     "promptPointer",
-                    "1000",
+                    "940",
                     "285",
-                    "\"Tutorial Text Layer\""
+                    ""
                   ]
                 },
                 {
@@ -15137,16 +16846,43 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                    "value": "LayerVisible"
                   },
                   "parameters": [
-                    "colorButton",
+                    "",
+                    "\"Reasoning Prompt Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "colorButton2",
+                    "",
+                    "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -15177,32 +16913,19 @@
                     "tutorialText2",
                     "Text"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "colorButton2",
+                    "ButtonColorTintTween",
+                    "yes"
+                  ]
                 }
               ],
               "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CompareTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"tutorialText1Timer\"",
-                        ">",
-                        "18"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": []
-                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
@@ -15252,15 +16975,42 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                    "value": "LayerVisible"
                   },
                   "parameters": [
-                    "sizeButton",
+                    "",
+                    "\"Reasoning Prompt Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "sizeButton2",
+                    "",
+                    "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
                   ]
                 }
               ],
@@ -15291,6 +17041,16 @@
                   "parameters": [
                     "tutorialText2",
                     "Text"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "sizeButton2",
+                    "ButtonColorTintTween",
+                    "yes"
                   ]
                 }
               ],
@@ -16647,21 +18407,32 @@
           "conditions": [
             {
               "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-              },
-              "parameters": [
-                "endGroupButton",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "BooleanVariable"
               },
               "parameters": [
                 "clickTime",
                 "True",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "endGroupButton2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
               ]
             }
           ],
@@ -17134,7 +18905,7 @@
                             "\"JumpUp\"",
                             "scorePointsY - 15\n",
                             "\"easeOutQuad\"",
-                            "0.8",
+                            "0.9",
                             "no"
                           ]
                         }
@@ -17271,7 +19042,7 @@
                 "Score_Points",
                 "\"scoreJump\"",
                 ">",
-                "0.8"
+                "0.9"
               ]
             }
           ],
@@ -17304,7 +19075,7 @@
                 "\"BounceDown\"",
                 "scorePointsY",
                 "\"easeOutBounce\"",
-                "0.8",
+                "0.6",
                 "no"
               ]
             },
@@ -17756,7 +19527,6 @@
           ],
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -17779,6 +19549,16 @@
                     "",
                     "\"Next Round Layer\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "nextRoundButton",
+                    "ButtonColorTintTween",
+                    "yes"
+                  ]
                 }
               ],
               "events": [
@@ -17787,12 +19567,38 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                        "value": "IsCursorOnObject"
                       },
                       "parameters": [
                         "nextRoundButton",
-                        "ButtonFSM"
+                        "",
+                        "",
+                        ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Next Round Layer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -17802,7 +19608,7 @@
                       },
                       "parameters": [
                         "",
-                        "",
+                        "\"Level 2\"",
                         ""
                       ]
                     }
@@ -17833,6 +19639,16 @@
                     "",
                     "\"Replay Layer\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "replayButton",
+                    "ButtonColorTintTween",
+                    "yes"
+                  ]
                 }
               ],
               "events": [
@@ -17841,12 +19657,38 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                        "value": "IsCursorOnObject"
                       },
                       "parameters": [
-                        "replayRoundButton",
+                        "replayButton",
+                        "",
+                        "",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Replay Layer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -18001,60 +19843,6 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "MenuLayer",
-          "renderingType": "",
-          "visibility": false,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Start Level Layer",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -18218,7 +20006,7 @@
           "isLocked": false,
           "name": "Reasoning Prompt Layer",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -18272,7 +20060,7 @@
           "isLocked": false,
           "name": "Tutorial Text Layer",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -18429,6 +20217,10 @@
         {
           "name": "AutoTyping",
           "type": "AutoTyping::AutoTyping"
+        },
+        {
+          "name": "ButtonColorTintTween",
+          "type": "ButtonStates::ButtonColorTintTween"
         },
         {
           "name": "ButtonFSM",
@@ -19035,23 +20827,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 73,
-          "keepRatio": true,
-          "layer": "Start Level Layer",
-          "name": "startButton",
-          "persistentUuid": "2d362324-cc26-4e1f-bf26-f2cbf54c508d",
-          "width": 228,
-          "x": 405,
-          "y": 503,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 50,
           "keepRatio": true,
           "layer": "MenuLayer",
@@ -19118,57 +20893,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 64,
-          "height": 38,
-          "keepRatio": true,
-          "layer": "Next Round Layer",
-          "name": "nextRoundButton",
-          "persistentUuid": "b7a614e7-b1e5-484a-8338-0bec9e2bc248",
-          "width": 160,
-          "x": 425,
-          "y": 536,
-          "zOrder": 75,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 64,
-          "height": 42,
-          "keepRatio": true,
-          "layer": "",
-          "name": "colorButton",
-          "persistentUuid": "b764b9c1-0ba8-4f76-92d3-636055e4d970",
-          "width": 134,
-          "x": 1067,
-          "y": 210,
-          "zOrder": 49,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 64,
-          "height": 45,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sizeButton",
-          "persistentUuid": "f54f9b10-2b6a-425c-9f7b-006ac8a34643",
-          "width": 131,
-          "x": 1070,
-          "y": 281,
-          "zOrder": 50,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 40,
           "keepRatio": true,
@@ -19176,26 +20900,9 @@
           "name": "reasoningPromptText",
           "persistentUuid": "57c11aed-a254-4a21-b85e-0413606e8092",
           "width": 286,
-          "x": 996,
-          "y": 138,
+          "x": 995,
+          "y": 135,
           "zOrder": 52,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 64,
-          "height": 39,
-          "keepRatio": true,
-          "layer": "Replay Layer",
-          "name": "replayRoundButton",
-          "persistentUuid": "17989d0c-aaf9-41d9-9b19-5ecae9bd43ab",
-          "width": 201,
-          "x": 404,
-          "y": 548,
-          "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19235,23 +20942,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 64,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "endGroupButton",
-          "persistentUuid": "6f68bce2-d4cd-4623-b8bd-4aa19c66e247",
-          "width": 240,
-          "x": 1022,
-          "y": 539,
-          "zOrder": 59,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -19259,8 +20949,8 @@
           "name": "plusFiveText",
           "persistentUuid": "45149e01-911d-4bd3-b92e-c889150038cf",
           "width": 0,
-          "x": 694,
-          "y": 81,
+          "x": 647,
+          "y": 79,
           "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
@@ -19370,14 +21060,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 91,
+          "height": 104,
           "keepRatio": true,
           "layer": "Replay Layer",
           "name": "end_round_home_button",
           "persistentUuid": "449ce205-3818-4034-aada-980f35783687",
-          "width": 143,
-          "x": 588,
-          "y": 520,
+          "width": 173,
+          "x": 543,
+          "y": 507,
           "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
@@ -19469,15 +21159,100 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 96,
+          "height": 100,
           "keepRatio": true,
           "layer": "Next Round Layer",
           "name": "end_round_home_button",
           "persistentUuid": "f4fb9dcd-e09a-40a8-9443-918f92863dda",
-          "width": 165,
-          "x": 574,
-          "y": 506,
+          "width": 171,
+          "x": 537,
+          "y": 502,
           "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 143,
+          "keepRatio": true,
+          "layer": "",
+          "name": "colorButton2",
+          "persistentUuid": "363af791-a769-4770-b4d8-1f9ee1d715e4",
+          "width": 434,
+          "x": 1139,
+          "y": 229,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 310,
+          "keepRatio": true,
+          "layer": "",
+          "name": "speedButton2",
+          "persistentUuid": "00b1d1a6-ee9b-490d-ac88-15b58dc5a6a5",
+          "width": 750,
+          "x": 1137,
+          "y": 384,
+          "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 141,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sizeButton2",
+          "persistentUuid": "6b49a69d-d44b-4b15-8f69-4580e17c6ea5",
+          "width": 437,
+          "x": 922,
+          "y": 242,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "endGroupButton2",
+          "persistentUuid": "20297ee6-9cfa-4b6f-9686-3ce9f088e25e",
+          "width": 399,
+          "x": 938,
+          "y": 490,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 92,
+          "keepRatio": true,
+          "layer": "",
+          "name": "startLevelButton",
+          "persistentUuid": "40fd7a45-3393-4d5a-abe3-fc587597b6ec",
+          "width": 208,
+          "x": 413,
+          "y": 497,
+          "zOrder": 81,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19487,13 +21262,30 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "speedButton",
-          "persistentUuid": "f064258c-e1e4-4470-bf3c-3e785b03bc69",
+          "layer": "Replay Layer",
+          "name": "replayButton",
+          "persistentUuid": "c7a7b86d-1a54-4fea-bb1c-c91325bc84cc",
           "width": 0,
-          "x": 1068,
-          "y": 361,
-          "zOrder": 77,
+          "x": 430,
+          "y": 502,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "keepRatio": true,
+          "layer": "Next Round Layer",
+          "name": "nextRoundButton2",
+          "persistentUuid": "eb970da0-153d-4fd5-a960-7981901752a0",
+          "width": 157,
+          "x": 430,
+          "y": 477,
+          "zOrder": 83,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21158,7 +22950,7 @@
         },
         {
           "assetStoreId": "",
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "reasoningPromptText",
           "persistentUuid": "96e996b4-1ddf-4eec-9c42-cdbeda11f542",
@@ -21173,16 +22965,16 @@
           "textAlignment": "center",
           "characterSize": 20,
           "color": {
-            "b": 94,
-            "g": 59,
-            "r": 41
+            "b": 243,
+            "g": 243,
+            "r": 243
           },
           "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
+            "bold": true,
+            "isOutlineEnabled": true,
             "isShadowEnabled": false,
             "italic": false,
-            "outlineColor": "255;255;255",
+            "outlineColor": "41;59;94",
             "outlineThickness": 2,
             "shadowAngle": 90,
             "shadowBlurRadius": 2,
@@ -21197,7 +22989,7 @@
             "verticalTextAlignment": "top",
             "characterSize": 20,
             "lineHeight": 0,
-            "color": "41;59;94"
+            "color": "243;243;243"
           }
         },
         {
@@ -21780,14 +23572,14 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "+ 5%",
+          "string": "+ 5% \nCorrect Group!",
           "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "characterSize": 16,
           "color": {
-            "b": 79,
-            "g": 206,
-            "r": 144
+            "b": 94,
+            "g": 59,
+            "r": 41
           },
           "content": {
             "bold": true,
@@ -21803,13 +23595,13 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "+ 5%",
+            "text": "+ 5% \nCorrect Group!",
             "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
-            "textAlignment": "left",
+            "textAlignment": "center",
             "verticalTextAlignment": "top",
             "characterSize": 16,
             "lineHeight": 0,
-            "color": "144;206;79"
+            "color": "41;59;94"
           }
         },
         {
@@ -22283,6 +24075,96 @@
             "lineHeight": 0,
             "color": "41;59;94"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "nextRoundButton2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonColorTintTween",
+              "type": "ButtonStates::ButtonColorTintTween",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleColorTint": "255;255;255",
+              "FocusedColorTint": "192;192;192",
+              "PressedColorTint": "64;64;64",
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Next_Round_Button__1_-removebg-preview",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Next_Round_Button__1_-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 60
+                          },
+                          {
+                            "x": 131,
+                            "y": 60
+                          },
+                          {
+                            "x": 131,
+                            "y": 101
+                          },
+                          {
+                            "x": 31,
+                            "y": 101
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -22298,6 +24180,9 @@
           },
           {
             "objectName": "GameScene_Background"
+          },
+          {
+            "objectName": "nextRoundButton2"
           },
           {
             "objectName": "yourScoreText"
@@ -22763,6 +24648,16 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "startLevelButton",
+                "ButtonColorTintTween",
+                "yes"
+              ]
             }
           ]
         },
@@ -22786,7 +24681,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "startButton",
+                "startLevelButton",
                 "",
                 "",
                 ""
@@ -22885,6 +24780,15 @@
                 "reasoningTime",
                 "True",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "startLevelButton",
+                "Text"
               ]
             }
           ]
@@ -23756,9 +25660,107 @@
                     "=",
                     "RandomInRange(0,1)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Blob",
+                    "size",
+                    "=",
+                    "RandomInRange(0,2)"
+                  ]
                 }
               ],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "size",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "Scale",
+                        "=",
+                        "0.15"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "size",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "Scale",
+                        "=",
+                        "0.30"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "size",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "Scale",
+                        "=",
+                        "0.45"
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -23818,138 +25820,20 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "sizing"
-            },
-            {
-              "folded": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "startGame",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Blob",
-                    "size",
-                    "=",
-                    "RandomInRange(0,2)"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Blob",
-                        "size",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ScalableCapability::ScalableBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "Blob",
-                        "Scale",
-                        "=",
-                        "0.10"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Blob",
-                        "size",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ScalableCapability::ScalableBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "Blob",
-                        "Scale",
-                        "=",
-                        "0.20"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Blob",
-                        "size",
-                        "=",
-                        "2"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ScalableCapability::ScalableBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "Blob",
-                        "Scale",
-                        "=",
-                        "0.35"
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "sizing"
         },
         {
           "disabled": true,
@@ -24404,7 +26288,7 @@
                   "parameters": [
                     "",
                     "promptPointer",
-                    "1000",
+                    "960",
                     "215",
                     "\"Tutorial Text Layer\""
                   ]
@@ -24416,7 +26300,7 @@
                   "parameters": [
                     "",
                     "promptPointer",
-                    "1000",
+                    "960",
                     "285",
                     "\"Tutorial Text Layer\""
                   ]
@@ -24428,7 +26312,7 @@
                   "parameters": [
                     "",
                     "promptPointer",
-                    "1000",
+                    "960",
                     "365",
                     "\"Tutorial Text Layer\""
                   ]
@@ -24461,10 +26345,46 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                    "value": "LayerVisible"
                   },
                   "parameters": [
-                    "colorButton",
+                    "",
+                    "\"Reasoning Prompt Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "colorButton2",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "clickTime",
+                    "False",
                     ""
                   ]
                 }
@@ -24497,6 +26417,16 @@
                     "tutorialText2",
                     "Text"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "colorButton2",
+                    "ButtonColorTintTween",
+                    "yes"
+                  ]
                 }
               ],
               "events": [
@@ -24549,14 +26479,51 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                    "value": "LayerVisible"
                   },
                   "parameters": [
-                    "sizeButton",
+                    "",
+                    "\"Reasoning Prompt Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "sizeButton2",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "clickTime",
+                    "False",
                     ""
                   ]
                 }
@@ -24589,6 +26556,16 @@
                     "tutorialText2",
                     "Text"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "sizeButton2",
+                    "ButtonColorTintTween",
+                    "yes"
+                  ]
                 }
               ],
               "events": [
@@ -24645,10 +26622,46 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                    "value": "LayerVisible"
                   },
                   "parameters": [
-                    "speedButton",
+                    "",
+                    "\"Reasoning Prompt Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "speedButton2",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "clickTime",
+                    "False",
                     ""
                   ]
                 }
@@ -24680,6 +26693,16 @@
                   "parameters": [
                     "tutorialText2",
                     "Text"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "speedButton2",
+                    "ButtonColorTintTween",
+                    "yes"
                   ]
                 }
               ],
@@ -25258,6 +27281,16 @@
                       },
                       "parameters": [
                         "colorScore",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "speedScore",
                         "=",
                         "0"
                       ]
@@ -26156,20 +28189,31 @@
           "conditions": [
             {
               "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-              },
-              "parameters": [
-                "endGroupButton",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "BooleanVariable"
               },
               "parameters": [
                 "clickTime",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "endGroupButton2",
+                "",
+                "",
                 ""
               ]
             }
@@ -26304,16 +28348,6 @@
                     "blobsCounted",
                     ">",
                     "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "blobsCounted",
-                    "<",
-                    "5"
                   ]
                 }
               ],
@@ -26450,6 +28484,16 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
+                    "speedScore",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
                     "sizeScore",
                     "=",
                     "max(smallCount, max(mediumCount, largeCount)) / previewBlobsCounted"
@@ -26464,6 +28508,16 @@
                     "=",
                     "max(purpleCount, max(blueCount, max(pinkCount, max(orangeCount, greenCount)))) / previewBlobsCounted"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "speedScore",
+                    "=",
+                    "max(slowCount, fastCount) / previewBlobsCounted"
+                  ]
                 }
               ],
               "events": [
@@ -26477,7 +28531,7 @@
                       "parameters": [
                         "sizeScore",
                         ">",
-                        "colorScore"
+                        "max(colorScore, speedScore)"
                       ]
                     }
                   ],
@@ -26502,9 +28556,36 @@
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
+                        "speedScore",
+                        ">",
+                        "max(sizeScore, colorScore)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "logicChoice",
+                        "=",
+                        "\"speed\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
                         "colorScore",
                         ">=",
-                        "sizeScore"
+                        "max(sizeScore, speedScore)"
                       ]
                     }
                   ],
@@ -26522,6 +28603,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -26764,6 +28846,63 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "playerChoice",
+                        "=",
+                        "\"speed\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "liveHarmonyScore",
+                        "=",
+                        "speedScore"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "totalHarmonyScore",
+                        "+",
+                        "liveHarmonyScore"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "averageHarmonyScore",
+                        "=",
+                        "totalHarmonyScore"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "averageHarmonyScore",
+                        "/",
+                        "groupCount"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -26780,7 +28919,7 @@
                 "Score_Points",
                 "\"scoreJump\"",
                 ">",
-                "0.8"
+                "2"
               ]
             }
           ],
@@ -27261,11 +29400,20 @@
                 "",
                 "\"End Round Layer\""
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "end_round_home_button",
+                "ButtonFSM",
+                "yes"
+              ]
             }
           ],
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -27296,12 +29444,38 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                        "value": "IsCursorOnObject"
                       },
                       "parameters": [
-                        "nextRoundButton",
-                        "ButtonFSM"
+                        "nextRoundButton2",
+                        "",
+                        "",
+                        ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Next Round Layer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -27311,7 +29485,7 @@
                       },
                       "parameters": [
                         "",
-                        "",
+                        "\"Level 3\"",
                         ""
                       ]
                     }
@@ -27342,6 +29516,16 @@
                     "",
                     "\"Replay Layer\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "replayButton",
+                    "ButtonFSM",
+                    "yes"
+                  ]
                 }
               ],
               "events": [
@@ -27350,10 +29534,12 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                        "value": "IsCursorOnObject"
                       },
                       "parameters": [
-                        "replayRoundButton",
+                        "replayButton",
+                        "",
+                        "",
                         ""
                       ]
                     },
@@ -27365,6 +29551,21 @@
                         "",
                         "\"Replay Layer\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -27682,7 +29883,7 @@
           "isLocked": false,
           "name": "Next Round Layer",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -27947,6 +30148,10 @@
         {
           "name": "AutoTyping",
           "type": "AutoTyping::AutoTyping"
+        },
+        {
+          "name": "ButtonColorTintTween",
+          "type": "ButtonStates::ButtonColorTintTween"
         },
         {
           "name": "ButtonFSM",
@@ -28283,6 +30488,11 @@
           "name": "numberOfNoiseBlobs",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "noiseBlobsCounted",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -28558,23 +30768,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 73,
-          "keepRatio": true,
-          "layer": "Start Level Layer",
-          "name": "startButton",
-          "persistentUuid": "2d362324-cc26-4e1f-bf26-f2cbf54c508d",
-          "width": 228,
-          "x": 405,
-          "y": 503,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 50,
           "keepRatio": true,
           "layer": "MenuLayer",
@@ -28641,57 +30834,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 64,
-          "height": 38,
-          "keepRatio": true,
-          "layer": "Next Round Layer",
-          "name": "nextRoundButton",
-          "persistentUuid": "b7a614e7-b1e5-484a-8338-0bec9e2bc248",
-          "width": 160,
-          "x": 425,
-          "y": 536,
-          "zOrder": 75,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 64,
-          "height": 42,
-          "keepRatio": true,
-          "layer": "",
-          "name": "colorButton",
-          "persistentUuid": "b764b9c1-0ba8-4f76-92d3-636055e4d970",
-          "width": 134,
-          "x": 1067,
-          "y": 210,
-          "zOrder": 49,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 64,
-          "height": 45,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sizeButton",
-          "persistentUuid": "f54f9b10-2b6a-425c-9f7b-006ac8a34643",
-          "width": 131,
-          "x": 1070,
-          "y": 281,
-          "zOrder": 50,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 40,
           "keepRatio": true,
@@ -28700,25 +30842,8 @@
           "persistentUuid": "57c11aed-a254-4a21-b85e-0413606e8092",
           "width": 286,
           "x": 996,
-          "y": 138,
+          "y": 134,
           "zOrder": 52,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 64,
-          "height": 39,
-          "keepRatio": true,
-          "layer": "Replay Layer",
-          "name": "replayRoundButton",
-          "persistentUuid": "17989d0c-aaf9-41d9-9b19-5ecae9bd43ab",
-          "width": 201,
-          "x": 404,
-          "y": 548,
-          "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28758,23 +30883,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 64,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "endGroupButton",
-          "persistentUuid": "6f68bce2-d4cd-4623-b8bd-4aa19c66e247",
-          "width": 240,
-          "x": 1022,
-          "y": 539,
-          "zOrder": 59,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -28782,7 +30890,7 @@
           "name": "plusFiveText",
           "persistentUuid": "45149e01-911d-4bd3-b92e-c889150038cf",
           "width": 0,
-          "x": 694,
+          "x": 643,
           "y": 81,
           "zOrder": 60,
           "numberProperties": [],
@@ -28893,14 +31001,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 91,
+          "height": 107,
           "keepRatio": true,
           "layer": "Replay Layer",
           "name": "end_round_home_button",
           "persistentUuid": "449ce205-3818-4034-aada-980f35783687",
-          "width": 143,
-          "x": 588,
-          "y": 520,
+          "width": 166,
+          "x": 542,
+          "y": 504,
           "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
@@ -28992,15 +31100,100 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 96,
+          "height": 101,
           "keepRatio": true,
           "layer": "Next Round Layer",
           "name": "end_round_home_button",
           "persistentUuid": "f4fb9dcd-e09a-40a8-9443-918f92863dda",
-          "width": 165,
-          "x": 574,
-          "y": 506,
+          "width": 171,
+          "x": 543,
+          "y": 502,
           "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 142,
+          "keepRatio": true,
+          "layer": "",
+          "name": "colorButton2",
+          "persistentUuid": "337ac840-9295-43e2-94fd-347bec884524",
+          "width": 435,
+          "x": 1138,
+          "y": 230,
+          "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 139,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sizeButton2",
+          "persistentUuid": "2af700b6-52e7-4633-8c6c-6f0fab49cecf",
+          "width": 435,
+          "x": 924,
+          "y": 242,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 307,
+          "keepRatio": true,
+          "layer": "",
+          "name": "speedButton2",
+          "persistentUuid": "58f16f50-b526-4300-9bfd-e5e7a8a4bb47",
+          "width": 741,
+          "x": 1138,
+          "y": 385,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 166,
+          "keepRatio": true,
+          "layer": "",
+          "name": "endGroupButton2",
+          "persistentUuid": "4c2f7289-847a-4f01-9d87-e02d8cbca43b",
+          "width": 403,
+          "x": 935,
+          "y": 487,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "startLevelButton",
+          "persistentUuid": "9288aac3-f266-49c2-ad9e-cddbccbff21a",
+          "width": 208,
+          "x": 421,
+          "y": 502,
+          "zOrder": 82,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -29010,13 +31203,30 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "speedButton",
-          "persistentUuid": "f064258c-e1e4-4470-bf3c-3e785b03bc69",
+          "layer": "Replay Layer",
+          "name": "replayButton",
+          "persistentUuid": "510a5faf-f1ab-47dd-81f5-dfd8f3456e20",
           "width": 0,
-          "x": 1068,
-          "y": 361,
-          "zOrder": 77,
+          "x": 421,
+          "y": 500,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 158,
+          "keepRatio": true,
+          "layer": "Next Round Layer",
+          "name": "nextLevelButton",
+          "persistentUuid": "a090781d-9261-45ef-9b16-cbd5bdee0878",
+          "width": 162,
+          "x": 426,
+          "y": 478,
+          "zOrder": 84,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30696,16 +32906,16 @@
           "textAlignment": "center",
           "characterSize": 20,
           "color": {
-            "b": 94,
-            "g": 59,
-            "r": 41
+            "b": 243,
+            "g": 243,
+            "r": 243
           },
           "content": {
             "bold": false,
-            "isOutlineEnabled": false,
+            "isOutlineEnabled": true,
             "isShadowEnabled": false,
             "italic": false,
-            "outlineColor": "255;255;255",
+            "outlineColor": "41;59;94",
             "outlineThickness": 2,
             "shadowAngle": 90,
             "shadowBlurRadius": 2,
@@ -30720,7 +32930,7 @@
             "verticalTextAlignment": "top",
             "characterSize": 20,
             "lineHeight": 0,
-            "color": "41;59;94"
+            "color": "243;243;243"
           }
         },
         {
@@ -31303,14 +33513,14 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "+ 5%",
+          "string": "+ 5%\nCorrect Group!",
           "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "characterSize": 16,
           "color": {
-            "b": 79,
-            "g": 206,
-            "r": 144
+            "b": 94,
+            "g": 59,
+            "r": 41
           },
           "content": {
             "bold": true,
@@ -31326,13 +33536,13 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "+ 5%",
+            "text": "+ 5%\nCorrect Group!",
             "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
-            "textAlignment": "left",
+            "textAlignment": "center",
             "verticalTextAlignment": "top",
             "characterSize": 16,
             "lineHeight": 0,
-            "color": "144;206;79"
+            "color": "41;59;94"
           }
         },
         {
@@ -31598,6 +33808,96 @@
             "lineHeight": 0,
             "color": "41;59;94"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "nextLevelButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonColorTintTween",
+              "type": "ButtonStates::ButtonColorTintTween",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleColorTint": "255;255;255",
+              "FocusedColorTint": "192;192;192",
+              "PressedColorTint": "64;64;64",
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Next_Round_Button__1_-removebg-preview2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Next_Round_Button__1_-removebg-preview2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 60
+                          },
+                          {
+                            "x": 131,
+                            "y": 60
+                          },
+                          {
+                            "x": 131,
+                            "y": 101
+                          },
+                          {
+                            "x": 31,
+                            "y": 101
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -31775,6 +34075,9 @@
           },
           {
             "objectName": "excellentText"
+          },
+          {
+            "objectName": "nextLevelButton"
           }
         ]
       },
@@ -32085,6 +34388,56 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "endGroupButton2",
+                "ButtonColorTintTween",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "startLevelButton",
+                "ButtonColorTintTween",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "replayButton",
+                "ButtonColorTintTween",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "nextLevelButton",
+                "ButtonColorTintTween",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "end_round_home_button",
+                "ButtonColorTintTween",
+                "yes"
+              ]
             }
           ]
         },
@@ -32108,7 +34461,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "startButton",
+                "startLevelButton",
                 "",
                 "",
                 ""
@@ -32226,6 +34579,15 @@
                 "Blob",
                 "\"wanderFast\""
               ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "startLevelButton",
+                "Text"
+              ]
             }
           ]
         },
@@ -32266,7 +34628,7 @@
               "parameters": [
                 "",
                 "tutorial_text_3",
-                "280",
+                "300\n",
                 "570",
                 ""
               ]
@@ -34021,7 +36383,7 @@
               "parameters": [
                 "noiseBlob",
                 ">=",
-                "610 - Blob.Height()"
+                "610 - noiseBlob.Height()"
               ]
             }
           ],
@@ -34031,10 +36393,10 @@
                 "value": "SetNumberObjectVariable"
               },
               "parameters": [
-                "Blob",
+                "noiseBlob",
                 "direction",
                 "=",
-                "- Blob.Variable(direction)"
+                "- noiseBlob.Variable(direction)"
               ]
             },
             {
@@ -34042,9 +36404,9 @@
                 "value": "SetY"
               },
               "parameters": [
-                "Blob",
+                "noiseBlob",
                 "=",
-                "608 - Blob.Height()"
+                "608 - noiseBlob.Height()"
               ]
             }
           ]
@@ -34125,7 +36487,7 @@
                   "parameters": [
                     "",
                     "promptPointer",
-                    "1000",
+                    "960",
                     "215",
                     "\"Tutorial Text Layer\""
                   ]
@@ -34137,7 +36499,7 @@
                   "parameters": [
                     "",
                     "promptPointer",
-                    "1000",
+                    "960",
                     "285",
                     "\"Tutorial Text Layer\""
                   ]
@@ -34149,7 +36511,7 @@
                   "parameters": [
                     "",
                     "promptPointer",
-                    "1000",
+                    "960",
                     "365",
                     "\"Tutorial Text Layer\""
                   ]
@@ -34178,14 +36540,51 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                    "value": "LayerVisible"
                   },
                   "parameters": [
-                    "colorButton",
+                    "",
+                    "\"Reasoning Prompt Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "colorButton2",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "clickTime",
+                    "False",
                     ""
                   ]
                 }
@@ -34217,6 +36616,16 @@
                   "parameters": [
                     "tutorialText2",
                     "Text"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "colorButton2",
+                    "ButtonColorTintTween",
+                    "yes"
                   ]
                 }
               ],
@@ -34270,14 +36679,51 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                    "value": "LayerVisible"
                   },
                   "parameters": [
-                    "sizeButton",
+                    "",
+                    "\"Reasoning Prompt Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "sizeButton2",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "clickTime",
+                    "False",
                     ""
                   ]
                 }
@@ -34362,14 +36808,51 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                    "value": "LayerVisible"
                   },
                   "parameters": [
-                    "speedButton",
+                    "",
+                    "\"Reasoning Prompt Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "speedButton2",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "clickTime",
+                    "False",
                     ""
                   ]
                 }
@@ -34502,6 +36985,965 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "selecting and freezing blobs NOISE BLOBS"
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "clickTime",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "noiseBlob",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "noiseBlob",
+                "isBlobFrozen",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "noiseBlob",
+                "justSelected",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "blobsCounted",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "countTraits",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "previewBlobsCounted",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "calculateLiveHarmonyScore",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "noiseBlob",
+                "isBlobFrozen",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "noiseBlob",
+                "justSelected",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "noiseBlob",
+                "\"resetSelection\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "noiseBlobsCounted",
+                "+",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "countTraits",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "calculateLiveHarmonyScore",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "sizeScore",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "speedScore",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "colorScore",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "sizeScore",
+                        "=",
+                        "(max(smallCount, max(mediumCount, largeCount)) / previewBlobsCounted ) - 5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "colorScore",
+                        "=",
+                        "(max(purpleCount, max(blueCount, max(pinkCount, max(orangeCount, greenCount)))) / previewBlobsCounted ) - 5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "speedScore",
+                        "=",
+                        "(max(fastCount, slowCount) / previewBlobsCounted) - 5"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "uncountedBlobs",
+                            "<",
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "blobsCounted",
+                            "<=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "playerChoice",
+                                "=",
+                                "\"size\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "liveHarmonyScore",
+                                "=",
+                                "sizeScore"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "playerChoice",
+                                "=",
+                                "\"color\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "liveHarmonyScore",
+                                "=",
+                                "sizeScore"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "playerChoice",
+                                "=",
+                                "\"speed\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "liveHarmonyScore",
+                                "=",
+                                "speedScore"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "blobsCounted",
+                            ">",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "playerChoice",
+                                "=",
+                                "\"size\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "liveHarmonyScore",
+                                "=",
+                                "sizeScore"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "playerChoice",
+                                "=",
+                                "\"color\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "liveHarmonyScore",
+                                "=",
+                                "colorScore"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "playerChoice",
+                                "=",
+                                "\"speed\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "liveHarmonyScore",
+                                "=",
+                                "speedScore"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "noiseBlob",
+                "\"resetSelection\"",
+                ">",
+                "0.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "noiseBlob",
+                "justSelected",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "RemoveObjectTimer"
+              },
+              "parameters": [
+                "noiseBlob",
+                "\"resetSelection\""
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "clickTime",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "noiseBlob",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "noiseBlob",
+                "isBlobFrozen",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "noiseBlob",
+                "justSelected",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "blobsCounted",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "countToRemoveTraits",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "previewBlobsCounted",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "recalculateLiveHarmonyScore",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Blob",
+                "isBlobFrozen",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Blob",
+                "justSelected",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Blob",
+                "\"resetSelection\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "noiseBlobsCounted",
+                "-",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "countToRemoveTraits",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "recalculateLiveHarmonyScore",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "sizeScore",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "colorScore",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "speedScore",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "sizeScore",
+                        "=",
+                        "(max(smallCount, max(mediumCount, largeCount)) / previewBlobsCounted) +5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "colorScore",
+                        "=",
+                        "(max(purpleCount, max(blueCount, max(pinkCount, max(orangeCount, greenCount)))) / previewBlobsCounted)+5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "speedScore",
+                        "=",
+                        "(max(slowCount, fastCount) / previewBlobsCounted) + 5"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "uncountedBlobs",
+                            "<",
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "blobsCounted",
+                            "<=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "playerChoice",
+                                "=",
+                                "\"size\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "liveHarmonyScore",
+                                "=",
+                                "sizeScore"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "playerChoice",
+                                "=",
+                                "\"speed\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "liveHarmonyScore",
+                                "=",
+                                "speedScore"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "playerChoice",
+                                "=",
+                                "\"color\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "liveHarmonyScore",
+                                "=",
+                                "sizeScore"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "blobsCounted",
+                            ">",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "playerChoice",
+                                "=",
+                                "\"size\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "liveHarmonyScore",
+                                "=",
+                                "sizeScore"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "playerChoice",
+                                "=",
+                                "\"speed\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "liveHarmonyScore",
+                                "=",
+                                "speedScore"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "playerChoice",
+                                "=",
+                                "\"color\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "liveHarmonyScore",
+                                "=",
+                                "colorScore"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "selecting and freezing blobs"
         },
         {
@@ -34517,6 +37959,7 @@
           "comment": "trait count"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -35268,6 +38711,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -35877,11 +39321,11 @@
           "conditions": [
             {
               "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "endGroupButton",
-                ""
+                "\"Left\""
               ]
             },
             {
@@ -35891,6 +39335,17 @@
               "parameters": [
                 "clickTime",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "endGroupButton2",
+                "",
+                "",
                 ""
               ]
             }
@@ -36011,6 +39466,34 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "noiseBlob",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "isBlobFrozen",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "noiseBlob",
+                        ""
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -36034,7 +39517,7 @@
                   "parameters": [
                     "blobsCounted",
                     "<",
-                    "5"
+                    "6"
                   ]
                 }
               ],
@@ -36128,6 +39611,34 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "noiseBlob",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Blob",
+                        "isBlobFrozen",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "noiseBlob",
+                        ""
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -36161,6 +39672,16 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
+                    "speedScore",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
                     "colorScore",
                     "=",
                     "0"
@@ -36185,6 +39706,16 @@
                     "=",
                     "max(purpleCount, max(blueCount, max(pinkCount, max(orangeCount, greenCount)))) / previewBlobsCounted"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "speedScore",
+                    "=",
+                    "max(slowCount, fastCount) / previewBlobsCounted"
+                  ]
                 }
               ],
               "events": [
@@ -36196,36 +39727,9 @@
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
-                        "sizeScore",
-                        ">",
-                        "colorScore"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "logicChoice",
-                        "=",
-                        "\"size\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
                         "colorScore",
                         ">=",
-                        "sizeScore"
+                        "max(sizeScore, speedScore)"
                       ]
                     }
                   ],
@@ -36238,6 +39742,60 @@
                         "logicChoice",
                         "=",
                         "\"color\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "speedScore",
+                        ">",
+                        "max(sizeScore, colorScore)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "logicChoice",
+                        "=",
+                        "\"speed\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "sizeScore",
+                        ">",
+                        "max(colorScore, speedScore)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "logicChoice",
+                        "=",
+                        "\"size\""
                       ]
                     }
                   ]
@@ -36485,6 +40043,63 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "playerChoice",
+                        "=",
+                        "\"speed\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "liveHarmonyScore",
+                        "=",
+                        "speedScore"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "totalHarmonyScore",
+                        "+",
+                        "liveHarmonyScore"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "averageHarmonyScore",
+                        "=",
+                        "totalHarmonyScore"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "averageHarmonyScore",
+                        "/",
+                        "groupCount"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -36501,7 +40116,7 @@
                 "Score_Points",
                 "\"scoreJump\"",
                 ">",
-                "0.8"
+                "1"
               ]
             }
           ],
@@ -36744,6 +40359,16 @@
                 "resetTraits",
                 "False",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "noiseBlobsCounted",
+                "=",
+                "0"
               ]
             }
           ]
@@ -37403,7 +41028,7 @@
           "isLocked": false,
           "name": "Next Round Layer",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -37668,6 +41293,10 @@
         {
           "name": "AutoTyping",
           "type": "AutoTyping::AutoTyping"
+        },
+        {
+          "name": "ButtonColorTintTween",
+          "type": "ButtonStates::ButtonColorTintTween"
         },
         {
           "name": "ButtonFSM",
@@ -38149,6 +41778,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "ButtonColorTintTween",
+          "type": "ButtonStates::ButtonColorTintTween"
+        },
+        {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM"
         },
@@ -38179,6 +41812,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -38931,6 +42568,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "ButtonColorTintTween",
+          "type": "ButtonStates::ButtonColorTintTween"
+        },
+        {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM"
         },
@@ -38961,6 +42602,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     }
